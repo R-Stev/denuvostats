@@ -25,6 +25,7 @@
       show-if-above
       bordered
       :class="$q.dark.isActive?'bg-dark text-white':''"
+      width=200
     >
       <q-list>
         <q-item-label
@@ -53,10 +54,10 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'What is Denuvo',
+    caption: '',
+    icon: 'question_mark',
+    link: '/whatis'
   },
   {
     title: 'Publishers',

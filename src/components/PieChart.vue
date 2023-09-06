@@ -2,7 +2,7 @@
   <div>
     <q-card :class="$q.dark.isActive?'bg-dark':''">
       <q-card-section class="text-h6">
-        Pie Chart
+        {{ publisherName }}
       </q-card-section>
       <q-card-section>
         <ECharts ref="piechart"
@@ -23,6 +23,19 @@ import {useQuasar} from "quasar"
 
 export default {
   name: "PieChart",
+  props: {
+    chartData: Array,
+    publisherName: String,
+    publisherIndex: Number
+  },
+  watch: {
+    chartData: function(newOne){
+      this.options.dataset = newOne;
+    },
+    publisherIndex: function(newOne){
+      this.options.series[0].datasetIndex = newOne
+    }
+  },
   components: {
     ECharts
   },
@@ -32,15 +45,16 @@ export default {
     return {
     $q,
       options: {
-        tooltip: {
-          trigger: 'item',
-          formatter: '{a} <br/>{b}: {c} ({d}%)'
-        },
-        legend: {
-          top: 'bottom',
-          bottom: '5%',
-          left: 'center'
-        },
+        // tooltip: {
+        //   trigger: 'item',
+        //   formatter: '{a} <br/>{b}: {c} ({d}%)'
+        // },
+        // legend: {
+        //   top: 'bottom',
+        //   bottom: '5%',
+        //   left: 'center'
+        // },
+        dataset: this.chartData,
         series: [
           {
             name: 'Access source',
@@ -54,19 +68,14 @@ export default {
               borderWidth: 2
             },
             label: {
-              show: false,
-              position: 'center'
+            //   show: false,
+            //   position: 'center',
+              formatter: '{b} months: {@number} ({d}%)'
             },
-            labelLine: {
-              show: false
-            },
-            data: [
-              {value: 1048, name: 'Search Engine'},
-              {value: 735, name: 'Direct access'},
-              {value: 580, name: 'Email marketing'},
-              {value: 484, name: 'Affiliate Advertising'},
-              {value: 300, name: 'Video ad'}
-            ]
+            // labelLine: {
+            //   show: false
+            // },
+            datasetIndex: 0
           }
         ]
       }

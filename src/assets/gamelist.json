@@ -1,0 +1,934 @@
+{
+"lastupdate": "2023-09-01",
+"games": [
+	{
+		"id" : 271,
+		"title" : "2Dark",
+		"developer" : "Gloomywood",
+		"publisher" : "Bigben Interactive",
+		"released" : "2017-03-17",
+		"removed" : "2017-04-19",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 272,
+		"title" : "Abzû",
+		"developer" : "Giant Squid Studios",
+		"publisher" : "505 Games",
+		"released" : "2016-08-02",
+		"removed" : "2020-12-08",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 273,
+		"title" : "Ace Combat 7: Skies Unknown",
+		"developer" : "Project Aces",
+		"publisher" : "Bandai Namco Entertainment",
+		"released" : "2019-01-31",
+		"removed" : "2021-10-19",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 274,
+		"title" : "Adrift",
+		"developer" : "Three One Zero",
+		"publisher" : "505 Games",
+		"released" : "2016-03-28",
+		"removed" : "2017-09-14",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 275,
+		"title" : "Agents of Mayhem",
+		"developer" : "Deep Silver Volition",
+		"publisher" : "Deep Silver",
+		"released" : "2017-08-15",
+		"removed" : "2017-11-10",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 276,
+		"title" : "Balan Wonderworld",
+		"developer" : "Arzest, Balan Company",
+		"publisher" : "Square Enix",
+		"released" : "2021-03-26",
+		"removed" : "2021-09-22",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 277,
+		"title" : "Batman: Arkham Knight",
+		"developer" : "Rocksteady Studios, Warner Bros. Games Montreal",
+		"publisher" : "Warner Bros. Interactive Entertainment",
+		"released" : "2015-06-23",
+		"removed" : "2020-12-03",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 278,
+		"title" : "Borderlands 3",
+		"developer" : "Gearbox Software",
+		"publisher" : "2K Games",
+		"released" : "2019-09-13",
+		"removed" : "2021-01-21",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 279,
+		"title" : "Bravely Default II",
+		"developer" : "Claytechworks, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2021-09-02",
+		"removed" : "2022-02-25",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 280,
+		"title" : "Bulletstorm: Full Clip Edition",
+		"developer" : "People Can Fly",
+		"publisher" : "Gearbox Publishing",
+		"released" : "2017-04-07",
+		"removed" : "2017-12-05",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 281,
+		"title" : "Bus Simulator 18",
+		"developer" : "stillalive studios",
+		"publisher" : "astragon Entertainment",
+		"released" : "2018-06-13",
+		"removed" : "2020-03-19",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 282,
+		"title" : "Bus Simulator 21",
+		"developer" : "stillalive studios",
+		"publisher" : "astragon Entertainment",
+		"released" : "2021-09-07",
+		"removed" : "2023-05-16",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 283,
+		"title" : "Conan Exiles",
+		"developer" : "Funcom",
+		"publisher" : "Funcom",
+		"released" : "2018-05-08",
+		"removed" : "2020-06-16",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 284,
+		"title" : "Conan Unconquered",
+		"developer" : "Petroglyph Games",
+		"publisher" : "Funcom",
+		"released" : "2019-05-29",
+		"removed" : "2019-09-19",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 285,
+		"title" : "Constructor HD",
+		"developer" : "System 3",
+		"publisher" : "System 3",
+		"released" : "2017-05-26",
+		"removed" : "2018-11-23",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 286,
+		"title" : "Crysis Remastered",
+		"developer" : "Crytek, Saber Interactive",
+		"publisher" : "Crytek",
+		"released" : "2020-09-18",
+		"removed" : "2021-10-20",
+		"last_update" : null,
+		"notes" : "Only Epic Games version used Denuvo"
+	},
+	{
+		"id" : 287,
+		"title" : "Death Stranding",
+		"developer" : "Kojima Productions, Guerrilla Games",
+		"publisher" : "505 Games",
+		"released" : "2020-07-14",
+		"removed" : "2020-12-17",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 288,
+		"title" : "Detroit: Become Human",
+		"developer" : "Quantic Dream",
+		"publisher" : "Quantic Dream",
+		"released" : "2019-12-12",
+		"removed" : "2020-06-19",
+		"last_update" : null,
+		"notes" : "Only Epic Games version used Denuvo"
+	},
+	{
+		"id" : 289,
+		"title" : "Devil May Cry 5",
+		"developer" : "Capcom",
+		"publisher" : "Capcom",
+		"released" : "2019-03-08",
+		"removed" : "2020-02-06",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 290,
+		"title" : "Dishonored 2",
+		"developer" : "Arkane Studios",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2016-11-11",
+		"removed" : "2018-12-14",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 291,
+		"title" : "Dishonored: Death of the Outsider",
+		"developer" : "Arkane Studios",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2017-09-15",
+		"removed" : "2018-12-14",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 292,
+		"title" : "Doom (2016)",
+		"developer" : "id Software, Certain Affinity, Escalation Studios, BattleCry Studios",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2016-05-13",
+		"removed" : "2016-12-08",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 293,
+		"title" : "Dragon Quest Builders 2",
+		"developer" : "Square Enix, Omega Force",
+		"publisher" : "Square Enix",
+		"released" : "2019-12-10",
+		"removed" : "2020-06-02",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 294,
+		"title" : "Dragon Quest X Offline",
+		"developer" : "B.B. Studio, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2022-09-15",
+		"removed" : "2023-03-13",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 295,
+		"title" : "Dragon Quest XI S - Definitive Edition",
+		"developer" : "Square Enix, Orca, ArtePiazza",
+		"publisher" : "Square Enix",
+		"released" : "2020-12-04",
+		"removed" : "2021-05-28",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 296,
+		"title" : "Dying Light 2 Stay Human",
+		"developer" : "Techland",
+		"publisher" : "Techland",
+		"released" : "2022-02-04",
+		"removed" : "2023-01-31",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 297,
+		"title" : "F1 2020",
+		"developer" : "Codemasters Birmingham",
+		"publisher" : "Codemasters",
+		"released" : "2020-07-10",
+		"removed" : "2021-09-30",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 298,
+		"title" : "Final Fantasy XII: The Zodiac Age",
+		"developer" : "Virtuos, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2018-02-01",
+		"removed" : "2020-04-24",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 299,
+		"title" : "Fishing Sim World: Pro Tour",
+		"developer" : "Dovetail Games",
+		"publisher" : "Planet Entertainment",
+		"released" : "2018-09-18",
+		"removed" : "2023-01-09",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 300,
+		"title" : "Forspoken",
+		"developer" : "Luminous Productions",
+		"publisher" : "Square Enix",
+		"released" : "2023-01-24",
+		"removed" : "2023-07-25",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 301,
+		"title" : "Heavy Rain",
+		"developer" : "Quantic Dream",
+		"publisher" : "Quantic Dream",
+		"released" : "2019-06-24",
+		"removed" : "2020-06-24",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 302,
+		"title" : "Hitman",
+		"developer" : "IO Interactive, Mi'pu'mi Games",
+		"publisher" : "Square Enix",
+		"released" : "2016-03-11",
+		"removed" : "2017-06-17",
+		"last_update" : null,
+		"notes" : "IO Interactive became independent on 2017-06-16, shortly before Denuvo was removed"
+	},
+	{
+		"id" : 303,
+		"title" : "Hitman 2",
+		"developer" : "IO Interactive, Sumo Digital, Mi'pu'mi Games",
+		"publisher" : "Warner Bros. Interactive Entertainment",
+		"released" : "2018-11-13",
+		"removed" : "2019-01-30",
+		"last_update" : null,
+		"notes" : "IO Interactive self-published the Stadia version"
+	},
+	{
+		"id" : 304,
+		"title" : "Homefront: The Revolution",
+		"developer" : "Deep Silver Dambuster Studios, Crytek UK",
+		"publisher" : "Deep Silver",
+		"released" : "2016-05-17",
+		"removed" : "2017-03-06",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 305,
+		"title" : "Injustice 2",
+		"developer" : "NetherRealm Studios",
+		"publisher" : "Warner Bros. Interactive Entertainment",
+		"released" : "2017-11-14",
+		"removed" : "2021-11-04",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 306,
+		"title" : "Inside",
+		"developer" : "Playdead",
+		"publisher" : "Playdead",
+		"released" : "2016-07-07",
+		"removed" : "2016-11-23",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 307,
+		"title" : "Kaku Ancient Seal \/ 卡库远古封印",
+		"developer" : "BINGOBELL",
+		"publisher" : "BINGOBELL",
+		"released" : "2023-05-04",
+		"removed" : "2023-07-26",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 308,
+		"title" : "King's Bounty II",
+		"developer" : "1C Entertainment",
+		"publisher" : "Prime Matter",
+		"released" : "2021-08-24",
+		"removed" : "2022-02-17",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 309,
+		"title" : "Legend of Mana",
+		"developer" : "M2, Digital Works Entertainment",
+		"publisher" : "Square Enix",
+		"released" : "2021-06-24",
+		"removed" : "2021-12-10",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 310,
+		"title" : "Life Is Strange: Before the Storm",
+		"developer" : "Deck Nine",
+		"publisher" : "Square Enix",
+		"released" : "2017-08-31",
+		"removed" : "2017-10-14",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 311,
+		"title" : "Lone Echo",
+		"developer" : "Ready At Dawn",
+		"publisher" : "Oculus Studios",
+		"released" : "2017-07-20",
+		"removed" : "2018-01-05",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 312,
+		"title" : "Mafia: Definitive Edition",
+		"developer" : "Hangar 13, Climax Studios, Red Kite Games, General Arcade",
+		"publisher" : "2K Games",
+		"released" : "2020-09-25",
+		"removed" : "2021-09-23",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 313,
+		"title" : "Marvel vs. Capcom: Infinite",
+		"developer" : "Capcom",
+		"publisher" : "Capcom",
+		"released" : "2017-09-19",
+		"removed" : "2018-05-15",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 314,
+		"title" : "Marvel's Avengers",
+		"developer" : "Crystal Dynamics, Eidos-Montréal, Nixxes Software, Heavy Iron Studios, NeoBards",
+		"publisher" : "Square Enix",
+		"released" : "2020-09-04",
+		"removed" : "2021-08-31",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 315,
+		"title" : "Mass Effect Legendary Edition",
+		"developer" : "BioWare, Abstraction, Blind Squirrel Games, Lemon Sky Studios",
+		"publisher" : "Electronic Arts",
+		"released" : "2021-05-14",
+		"removed" : "2021-06-07",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 316,
+		"title" : "Mass Effect: Andromeda",
+		"developer" : "BioWare",
+		"publisher" : "Electronic Arts",
+		"released" : "2017-03-21",
+		"removed" : "2017-07-06",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 317,
+		"title" : "Mega Man 11",
+		"developer" : "Capcom",
+		"publisher" : "Capcom",
+		"released" : "2018-10-02",
+		"removed" : "2018-11-19",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 318,
+		"title" : "Metro Exodus",
+		"developer" : "4A Games",
+		"publisher" : "Deep Silver",
+		"released" : "2019-02-15",
+		"removed" : "2020-05-27",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 319,
+		"title" : "Monster Hunter Stories 2: Wings of Ruin",
+		"developer" : "Capcom, Marvelous",
+		"publisher" : "Capcom",
+		"released" : "2021-07-09",
+		"removed" : "2022-07-05",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 320,
+		"title" : "Monster Hunter: World",
+		"developer" : "Capcom",
+		"publisher" : "Capcom",
+		"released" : "2018-08-09",
+		"removed" : "2021-06-02",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 321,
+		"title" : "Moons of Madness",
+		"developer" : "Rock Pocket Games",
+		"publisher" : "Funcom",
+		"released" : "2019-10-22",
+		"removed" : "2020-04-01",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 322,
+		"title" : "Mortal Kombat 11",
+		"developer" : "NetherRealm Studios, Shiver Entertainment",
+		"publisher" : "Warner Bros. Interactive Entertainment",
+		"released" : "2019-04-23",
+		"removed" : "2022-03-22",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 323,
+		"title" : "Moto Racer 4",
+		"developer" : "Artefacts Studio",
+		"publisher" : "Microids",
+		"released" : "2016-11-03",
+		"removed" : "2018-02-20",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 324,
+		"title" : "Mutant Year Zero: Road to Eden",
+		"developer" : "The Bearded Ladies",
+		"publisher" : "Funcom",
+		"released" : "2018-12-04",
+		"removed" : "2019-02-26",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 325,
+		"title" : "Naruto to Boruto: Shinobi Striker",
+		"developer" : "Soleil",
+		"publisher" : "Bandai Namco Entertainment",
+		"released" : "2018-08-31",
+		"removed" : "2023-02-02",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 326,
+		"title" : "New Tales from the Borderlands",
+		"developer" : "Gearbox Software",
+		"publisher" : "2K Games",
+		"released" : "2022-10-21",
+		"removed" : "2023-04-18",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 327,
+		"title" : "NieR Replicant",
+		"developer" : "Toylogic, Square Enix, Cavia",
+		"publisher" : "Square Enix",
+		"released" : "2021-04-23",
+		"removed" : "2021-10-20",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 328,
+		"title" : "NieR: Automata",
+		"developer" : "PlatinumGames, Square Enix, QLOC",
+		"publisher" : "Square Enix",
+		"released" : "2017-03-17",
+		"removed" : "2021-07-15",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 329,
+		"title" : "Octopath Traveler",
+		"developer" : "Acquire, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2019-06-07",
+		"removed" : "2019-11-05",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 330,
+		"title" : "Octopath Traveler II",
+		"developer" : "Acquire, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2023-02-24",
+		"removed" : "2023-08-09",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 331,
+		"title" : "Prey (2017)",
+		"developer" : "Arkane Austin",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2017-05-05",
+		"removed" : "2020-07-23",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 332,
+		"title" : "Prey: Typhon Hunter",
+		"developer" : "Arkane Austin",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2018-12-11",
+		"removed" : "2020-07-16",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 333,
+		"title" : "RAGE 2",
+		"developer" : "Avalanche Studios, id Software",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2019-05-14",
+		"removed" : "2019-05-16",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 334,
+		"title" : "Resident Evil 2 (2019)",
+		"developer" : "Capcom, NeoBards",
+		"publisher" : "Capcom",
+		"released" : "2019-01-25",
+		"removed" : "2019-12-18",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 335,
+		"title" : "Resident Evil 3 (2020)",
+		"developer" : "Capcom, M-Two, K2, Redworks, NeoBards",
+		"publisher" : "Capcom",
+		"released" : "2020-04-03",
+		"removed" : "2020-10-01",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 336,
+		"title" : "Resident Evil 7: Biohazard",
+		"developer" : "Capcom, HexaDrive, NeoBards",
+		"publisher" : "Capcom",
+		"released" : "2017-01-24",
+		"removed" : "2019-01-28",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 337,
+		"title" : "Resident Evil Resistance",
+		"developer" : "NeoBards",
+		"publisher" : "Capcom",
+		"released" : "2020-04-03",
+		"removed" : "2020-10-01",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 338,
+		"title" : "Resident Evil Village",
+		"developer" : "Capcom",
+		"publisher" : "Capcom",
+		"released" : "2021-05-07",
+		"removed" : "2023-04-10",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 339,
+		"title" : "Rime",
+		"developer" : "Tequila Works",
+		"publisher" : "Grey Box, Six Foot",
+		"released" : "2017-05-26",
+		"removed" : "2017-06-02",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 340,
+		"title" : "Rise of the Tomb Raider",
+		"developer" : "Crystal Dynamics",
+		"publisher" : "Square Enix",
+		"released" : "2016-01-28",
+		"removed" : "2021-11-23",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 341,
+		"title" : "Rocksmith 2014",
+		"developer" : "Ubisoft San Francisco",
+		"publisher" : "Ubisoft",
+		"released" : "2013-10-22",
+		"removed" : "2022-09-10",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 342,
+		"title" : "Shadow of the Tomb Raider",
+		"developer" : "Eidos-Montréal, Crystal Dynamics",
+		"publisher" : "Square Enix",
+		"released" : "2018-09-14",
+		"removed" : "2021-10-18",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 343,
+		"title" : "Sniper: Ghost Warrior 3",
+		"developer" : "CI Games",
+		"publisher" : "CI Games",
+		"released" : "2017-04-25",
+		"removed" : "2018-01-26",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 344,
+		"title" : "Sonic Mania",
+		"developer" : "Christian Whitehead, Headcannon, PagodaWest Games, Hyperkinetic Studios",
+		"publisher" : "Sega",
+		"released" : "2017-08-29",
+		"removed" : "2019-03-12",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 345,
+		"title" : "Soulcalibur VI",
+		"developer" : "Project Soul, Dimps",
+		"publisher" : "Bandai Namco Entertainment",
+		"released" : "2018-10-19",
+		"removed" : "2021-11-11",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 346,
+		"title" : "Star Ocean: The Divine Force",
+		"developer" : "tri-Ace",
+		"publisher" : "Square Enix",
+		"released" : "2022-10-27",
+		"removed" : "2023-04-21",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 347,
+		"title" : "Star Wars Jedi: Fallen Order",
+		"developer" : "Respawn Entertainment",
+		"publisher" : "Electronic Arts",
+		"released" : "2019-11-15",
+		"removed" : "2021-11-09",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 349,
+		"title" : "Tekken 7",
+		"developer" : "Bandai Namco Studios, Arika",
+		"publisher" : "Bandai Namco Entertainment",
+		"released" : "2017-06-02",
+		"removed" : "2021-10-26",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 350,
+		"title" : "The DioField Chronicle",
+		"developer" : "Lancarse, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2022-09-22",
+		"removed" : "2023-03-05",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 351,
+		"title" : "The Quarry",
+		"developer" : "Supermassive Games",
+		"publisher" : "2K Games",
+		"released" : "2022-06-10",
+		"removed" : "2023-01-31",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 352,
+		"title" : "The Surge 2",
+		"developer" : "Deck13 Interactive",
+		"publisher" : "Focus Home Interactive",
+		"released" : "2019-09-24",
+		"removed" : "2019-09-24",
+		"last_update" : null,
+		"notes" : "Denuvo Anti-Tamper DRM was used to protect the timed closed beta and was removed afterward."
+	},
+	{
+		"id" : 353,
+		"title" : "Tiny Tina's Wonderlands",
+		"developer" : "Gearbox Software",
+		"publisher" : "2K Games",
+		"released" : "2022-03-25",
+		"removed" : "2023-04-20",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 354,
+		"title" : "Titanfall 2",
+		"developer" : "Respawn Entertainment",
+		"publisher" : "Electronic Arts",
+		"released" : "2016-10-28",
+		"removed" : "2017-03-31",
+		"last_update" : null,
+		"notes" : "Exact day of removal unknown, using the end of the month."
+	},
+	{
+		"id" : 355,
+		"title" : "TransRoad: USA",
+		"developer" : "Deck13 Hamburg",
+		"publisher" : "astragon Entertainment",
+		"released" : "2017-11-09",
+		"removed" : "2018-08-31",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 356,
+		"title" : "Trials of Mana",
+		"developer" : "Xeen",
+		"publisher" : "Square Enix",
+		"released" : "2020-04-24",
+		"removed" : "2020-08-26",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 357,
+		"title" : "Triangle Strategy",
+		"developer" : "Artdink, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2022-10-13",
+		"removed" : "2023-04-06",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 358,
+		"title" : "Two Point Hospital",
+		"developer" : "Two Point Studios, General Arcade",
+		"publisher" : "Sega",
+		"released" : "2018-08-30",
+		"removed" : "2018-09-04",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 359,
+		"title" : "Valkyrie Elysium",
+		"developer" : "Soleil",
+		"publisher" : "Square Enix",
+		"released" : "2022-11-11",
+		"removed" : "2023-03-30",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 360,
+		"title" : "Voice of Cards: The Forsaken Maiden",
+		"developer" : "Alim, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2022-02-17",
+		"removed" : "2023-03-15",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 361,
+		"title" : "Voice of Cards: The Isle Dragon Roars",
+		"developer" : "Alim, Square Enix",
+		"publisher" : "Square Enix",
+		"released" : "2021-10-28",
+		"removed" : "2022-04-28",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 362,
+		"title" : "Wolfenstein: Youngblood",
+		"developer" : "MachineGames, Arkane Studios",
+		"publisher" : "Bethesda Softworks",
+		"released" : "2019-07-25",
+		"removed" : "2022-03-08",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 363,
+		"title" : "Yakuza 0",
+		"developer" : "Ryu Ga Gotoku Studio",
+		"publisher" : "Sega",
+		"released" : "2018-08-01",
+		"removed" : "2019-03-11",
+		"last_update" : null,
+		"notes" : ""
+	},
+	{
+		"id" : 348,
+		"title" : "Syberia 3",
+		"developer" : "Microïds, 3DDUO, Koalabs, Kylotonn",
+		"publisher" : "Microids",
+		"released" : "2017-04-20",
+		"removed" : "2017-04-27",
+		"last_update" : null,
+		"notes" : ""
+	}
+]}

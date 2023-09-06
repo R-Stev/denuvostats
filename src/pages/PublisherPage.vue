@@ -1,22 +1,205 @@
 <template>
-  <q-page class="">
-      <div >
-        <pie-chart></pie-chart>
+  <q-page class="q-pa-md q-col-gutter-md">
+    <div class="row justify-between">
+        <q-select v-model="pubSelector" :options="publisherList" label="Publisher"
+        style="width: 300px" />
+        <div class="self-center">
+          <q-btn-toggle
+            v-model="statusFilter"
+            toggle-color="primary"
+            :options="[
+              {label: 'All', value: 'all'},
+              {label: 'Present', value: 'present'},
+              {label: 'Removed', value: 'removed'}
+            ]"
+          />
+        </div>
+    </div>
+    <div class="row">
+      <!-- <pie-chart></pie-chart> -->
+      <div class="col-12">
+        <pie-chart :chart-data="this.dateBuckets"
+        :publisher-name="this.pubSelector"
+        :publisher-index="this.pubIndex" />
       </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- height should be some value of 48n + 104 -->
+        <q-table class="my-sticky-header-table"
+          title="Details" style="height: 488px"
+          :rows="rawList" :columns="columns" row-key="index"
+          virtual-scroll :rows-per-page-options="[0]"
+        />
+      </div>
+    </div>
   </q-page>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
 import PieChart from "components/PieChart.vue"
-// import BarChart from "components/BarChart.vue"
-
+import gamelist from 'assets/gamelist.json'
 
 export default defineComponent({
   name: 'PublisherPage',
-  components: {
-    PieChart,
-    // BarChart
+  components: {PieChart},
+  data() {
+    return {
+      pubSelector: ref('All publishers'),
+      statusFilter: ref('all'),
+      rawList: [],
+      dateBuckets: [],
+      publisherList: [],
+      columns: [
+        // { name: 'title', required: true, label: 'Title', align: 'left', field: rawList => rawList.title, format: val => `${val}` },
+        { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
+        // { name: 'developer', label: 'Developer', field: 'developer', sortable: true },
+        { name: 'publisher', label: 'Publisher', field: 'publisher', sortable: true },
+        { name: 'released', label: 'Release Date', field: 'released', sortable: true },
+        { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true },
+        // { name: 'lastupdate', label: 'Last Update', field: 'lastupdate', sortable: true },
+        // { name: 'notes', label: 'Notes', field: 'notes'}
+        // { name: 'iron', label: 'Iron (%)', field: 'iron', sortable: true, sort: (a, b) => parseInt(a, 10) - parseInt(b, 10) }
+      ],
+    }
+  },
+  mounted() {
+    this.loadData();
+  },
+  computed: {
+    pubIndex: function () {return this.publisherList.indexOf(this.pubSelector)}
+  },
+  methods: {
+    async loadData() {
+      try {
+        // const response = await fetch('src/assets/gamelist.json');
+        // this.rawList = await response.json();
+        this.rawList = gamelist.games;
+
+        this.publisherList = this.rawList.map(item => item.publisher).filter((value, index, self) => self.indexOf(value) === index).sort(Intl.Collator().compare);
+        this.publisherList.unshift('All publishers');
+        // console.log(this.publisherList);
+        this.makeBuckets();
+      } catch (err) {
+        console.error('Failed to load game JSON data:', err);
+      }
+    },
+    // Prepares the data used by the pie chart
+    makeBuckets(pubSelector, statusFilter) {
+      // for(let i in this.publisherList){
+      //   this.dateBuckets.push({
+      //     publisher: this.publisherList[i],
+      //     under3: 0,
+      //     under6: 0,
+      //     under12: 0,
+      //     under24: 0,
+      //     over24: 0
+      //   })
+      // };
+      for(let i in this.publisherList){
+        this.dateBuckets.push({
+          source: [
+            ['bucket', 'number'],
+            ['0-3', 0],
+            ['4-6', 0],
+            ['7-12', 0],
+            ['13-24', 0],
+            ['25+', 0],
+          ]
+        })
+      };
+      for(let i in this.rawList){
+        var pubIndex = this.publisherList.indexOf(this.rawList[i].publisher)
+        var end;
+        if(this.rawList[i].removed){
+          end = new Date(this.rawList[i].removed);
+        } else {
+          end = new Date(gamelist.lastupdate);
+        }
+        var start = new Date(this.rawList[i].released);
+        var monthNum = Math.floor((end.getTime() - start.getTime()) / 86400000 / 30);
+
+        if(monthNum <= 3){
+          ++this.dateBuckets[0].source[1][1];
+          ++this.dateBuckets[pubIndex].source[1][1];
+        }
+        else if(monthNum <= 6){
+          ++this.dateBuckets[0].source[2][1];
+          ++this.dateBuckets[pubIndex].source[2][1];
+        }
+        else if(monthNum <= 12){
+          ++this.dateBuckets[0].source[3][1];
+          ++this.dateBuckets[pubIndex].source[3][1];
+        }
+        else if(monthNum <= 24){
+          ++this.dateBuckets[0].source[4][1];
+          ++this.dateBuckets[pubIndex].source[4][1];
+        }
+        else if(monthNum > 24){
+          ++this.dateBuckets[0].source[5][1];
+          ++this.dateBuckets[pubIndex].source[5][1];
+        }
+        // console.log(this.rawList[i].title, monthNum);
+      };
+
+      // this.dateBuckets = [
+      //     {
+      //       source: [
+      //         ['Search Engine', 1048],
+      //         ['Direct Access', 735],
+      //         ['Email Marketing', 580],
+      //         ['Affiliate Advertising', 484],
+      //         ['Video ad', 300]
+      //       ]
+      //     },
+      //     {
+      //       source: [
+      //         ['AA', 2],
+      //         ['BB', 3],
+      //         ['CC', 4],
+      //         ['DD', 5]
+      //       ]
+      //     },
+      //     {
+      //       source: [
+      //         ['one', 301],
+      //         ['two', 302],
+      //         ['three', 303]
+      //       ]
+      //     }
+      //   ]
+
+      // console.log(this.dateBuckets);
+    }
   }
 })
 </script>
+
+<style lang="sass">
+.my-sticky-header-table
+  /* height or max-height is important */
+  height: 310px
+
+  .q-table__top,
+  .q-table__bottom,
+  thead tr:first-child th
+    /* bg color is important for th; just specify one */
+    background-color: #00b4ff
+
+  thead tr th
+    position: sticky
+    z-index: 1
+  thead tr:first-child th
+    top: 0
+
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th
+    /* height of all previous header rows */
+    top: 48px
+
+  /* prevent scrolling behind sticky top row on focus */
+  tbody
+    /* height of all previous header rows */
+    scroll-margin-top: 48px
+</style>
