@@ -29,7 +29,7 @@
         <!-- height should be some value of 48n + 104 -->
         <q-table class="my-sticky-header-table"
           title="Details" style="height: 488px"
-          :rows="rawList" :columns="columns" row-key="index"
+          :rows="tableData" :columns="columns" row-key="index"
           virtual-scroll :rows-per-page-options="[0]"
         />
       </div>
@@ -54,6 +54,7 @@ export default defineComponent({
       rawList: [],
       dateBuckets: {},
       publisherList: [],
+      tableData: [],
       columns: [
         // { name: 'title', required: true, label: 'Title', align: 'left', field: rawList => rawList.title, format: val => `${val}` },
         { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
@@ -75,10 +76,12 @@ export default defineComponent({
   },
   watch: {
     pubSelector: function(){
-      this.makeBuckets()
+      this.makeBuckets();
+      this.makeTableData();
     },
     statusFilter: function(){
-      this.makeBuckets()
+      this.makeBuckets();
+      this.makeTableData();
     }
   },
   methods: {
@@ -87,6 +90,7 @@ export default defineComponent({
         // const response = await fetch('src/assets/gamelist.json');
         // this.rawList = await response.json();
         this.rawList = gamelist.games;
+        this.tableData = gamelist.games;
 
         this.publisherList = this.rawList.map(item => item.publisher).filter((value, index, self) => self.indexOf(value) === index).sort(Intl.Collator().compare);
         this.publisherList.unshift('All publishers');
@@ -110,8 +114,8 @@ export default defineComponent({
       };
 
       for(let i in this.rawList){
-        var end;
-        var comparator;
+        let end;
+        let comparator;
         if(this.rawList[i].removed){
           end = new Date(this.rawList[i].removed);
           comparator = 'removed';
@@ -121,8 +125,8 @@ export default defineComponent({
         }
         if(this.pubSelector == 'All publishers' || this.pubSelector == this.rawList[i].publisher){
           if(this.statusFilter == 'all' || this.statusFilter == comparator){
-            var start = new Date(this.rawList[i].released);
-            var monthNum = Math.ceil((end.getTime() - start.getTime()) / 86400000 / 30);
+            let start = new Date(this.rawList[i].released);
+            let monthNum = Math.ceil((end.getTime() - start.getTime()) / 86400000 / 30);
 
             if(monthNum <= 3){
               ++this.dateBuckets.source[1][1];
@@ -143,6 +147,29 @@ export default defineComponent({
         }
       };
       // console.log(this.dateBuckets);
+    },
+    // Prepares the data used by q-table
+    makeTableData(){
+      // console.log(this.pubSelector);
+      if(this.pubSelector == 'All publishers' && this.statusFilter == 'all'){
+        this.tableData = this.rawList;
+      } else {
+        this.tableData = [];
+        let comparator;
+        for(let i in this.rawList){
+          if(this.rawList[i].removed){
+            comparator = 'removed';
+          } else {
+            comparator = 'present';
+          }
+          if(this.pubSelector == 'All publishers' || this.pubSelector == this.rawList[i].publisher){
+            if(this.statusFilter == 'all' || this.statusFilter == comparator){
+              this.tableData.push(this.rawList[i]);
+            }
+          }
+        }
+      }
+      // console.log(this.tableData);
     }
   }
 })
