@@ -25,15 +25,11 @@ export default {
   name: "PieChart",
   props: {
     chartData: Array,
-    publisherName: String,
-    publisherIndex: Number
+    publisherName: String
   },
   watch: {
     chartData: function(newOne){
       this.options.dataset = newOne;
-    },
-    publisherIndex: function(newOne){
-      this.options.series[0].datasetIndex = newOne
     }
   },
   components: {

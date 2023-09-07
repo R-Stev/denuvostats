@@ -4,6 +4,7 @@
         <q-select v-model="pubSelector" :options="publisherList" label="Publisher"
         style="width: 300px" />
         <div class="self-center">
+          Denuvo status:
           <q-btn-toggle
             v-model="statusFilter"
             toggle-color="primary"
@@ -18,7 +19,7 @@
     <div class="row">
       <!-- <pie-chart></pie-chart> -->
       <div class="col-12">
-        <pie-chart :chart-data="this.dateBuckets"
+        <pie-chart :chart-data="[this.dateBuckets]"
         :publisher-name="this.pubSelector"
         :publisher-index="this.pubIndex" />
       </div>
@@ -46,10 +47,12 @@ export default defineComponent({
   components: {PieChart},
   data() {
     return {
-      pubSelector: ref('All publishers'),
-      statusFilter: ref('all'),
+      // pubSelector: ref('All publishers'),
+      // statusFilter: ref('all'),
+      pubSelector: 'All publishers',
+      statusFilter: 'all',
       rawList: [],
-      dateBuckets: [],
+      dateBuckets: {},
       publisherList: [],
       columns: [
         // { name: 'title', required: true, label: 'Title', align: 'left', field: rawList => rawList.title, format: val => `${val}` },
@@ -70,6 +73,14 @@ export default defineComponent({
   computed: {
     pubIndex: function () {return this.publisherList.indexOf(this.pubSelector)}
   },
+  watch: {
+    pubSelector: function(){
+      this.makeBuckets()
+    },
+    statusFilter: function(){
+      this.makeBuckets()
+    }
+  },
   methods: {
     async loadData() {
       try {
@@ -86,90 +97,51 @@ export default defineComponent({
       }
     },
     // Prepares the data used by the pie chart
-    makeBuckets(pubSelector, statusFilter) {
-      // for(let i in this.publisherList){
-      //   this.dateBuckets.push({
-      //     publisher: this.publisherList[i],
-      //     under3: 0,
-      //     under6: 0,
-      //     under12: 0,
-      //     under24: 0,
-      //     over24: 0
-      //   })
-      // };
-      for(let i in this.publisherList){
-        this.dateBuckets.push({
-          source: [
-            ['bucket', 'number'],
-            ['0-3', 0],
-            ['4-6', 0],
-            ['7-12', 0],
-            ['13-24', 0],
-            ['25+', 0],
-          ]
-        })
+    makeBuckets() {
+      this.dateBuckets = {
+        source: [
+          ['bucket', 'number'],
+          ['0-3', 0],
+          ['3-6', 0],
+          ['6-12', 0],
+          ['12-24', 0],
+          ['24+', 0],
+        ]
       };
+
       for(let i in this.rawList){
-        var pubIndex = this.publisherList.indexOf(this.rawList[i].publisher)
         var end;
+        var comparator;
         if(this.rawList[i].removed){
           end = new Date(this.rawList[i].removed);
+          comparator = 'removed';
         } else {
           end = new Date(gamelist.lastupdate);
+          comparator = 'present';
         }
-        var start = new Date(this.rawList[i].released);
-        var monthNum = Math.floor((end.getTime() - start.getTime()) / 86400000 / 30);
+        if(this.pubSelector == 'All publishers' || this.pubSelector == this.rawList[i].publisher){
+          if(this.statusFilter == 'all' || this.statusFilter == comparator){
+            var start = new Date(this.rawList[i].released);
+            var monthNum = Math.ceil((end.getTime() - start.getTime()) / 86400000 / 30);
 
-        if(monthNum <= 3){
-          ++this.dateBuckets[0].source[1][1];
-          ++this.dateBuckets[pubIndex].source[1][1];
+            if(monthNum <= 3){
+              ++this.dateBuckets.source[1][1];
+            }
+            else if(monthNum <= 6){
+              ++this.dateBuckets.source[2][1];
+            }
+            else if(monthNum <= 12){
+              ++this.dateBuckets.source[3][1];
+            }
+            else if(monthNum <= 24){
+              ++this.dateBuckets.source[4][1];
+            }
+            else if(monthNum > 24){
+              ++this.dateBuckets.source[5][1];
+            }
+          }
         }
-        else if(monthNum <= 6){
-          ++this.dateBuckets[0].source[2][1];
-          ++this.dateBuckets[pubIndex].source[2][1];
-        }
-        else if(monthNum <= 12){
-          ++this.dateBuckets[0].source[3][1];
-          ++this.dateBuckets[pubIndex].source[3][1];
-        }
-        else if(monthNum <= 24){
-          ++this.dateBuckets[0].source[4][1];
-          ++this.dateBuckets[pubIndex].source[4][1];
-        }
-        else if(monthNum > 24){
-          ++this.dateBuckets[0].source[5][1];
-          ++this.dateBuckets[pubIndex].source[5][1];
-        }
-        // console.log(this.rawList[i].title, monthNum);
       };
-
-      // this.dateBuckets = [
-      //     {
-      //       source: [
-      //         ['Search Engine', 1048],
-      //         ['Direct Access', 735],
-      //         ['Email Marketing', 580],
-      //         ['Affiliate Advertising', 484],
-      //         ['Video ad', 300]
-      //       ]
-      //     },
-      //     {
-      //       source: [
-      //         ['AA', 2],
-      //         ['BB', 3],
-      //         ['CC', 4],
-      //         ['DD', 5]
-      //       ]
-      //     },
-      //     {
-      //       source: [
-      //         ['one', 301],
-      //         ['two', 302],
-      //         ['three', 303]
-      //       ]
-      //     }
-      //   ]
-
       // console.log(this.dateBuckets);
     }
   }
