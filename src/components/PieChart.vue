@@ -71,6 +71,7 @@ export default {
             // labelLine: {
             //   show: false
             // },
+            stillShowZeroSum: false,
             datasetIndex: 0
           }
         ]

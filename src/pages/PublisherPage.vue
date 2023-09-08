@@ -95,10 +95,31 @@ export default defineComponent({
         this.publisherList = this.rawList.map(item => item.publisher).filter((value, index, self) => self.indexOf(value) === index).sort(Intl.Collator().compare);
         this.publisherList.unshift('All publishers');
         // console.log(this.publisherList);
+        this.makeRemovalProportions()
         this.makeBuckets();
       } catch (err) {
         console.error('Failed to load game JSON data:', err);
       }
+    },
+    makeRemovalProportions() {
+      let counts = [];
+      for(let i in this.publisherList){
+        counts.push({"publisher": this.publisherList[i], "removed": 0, "remain": 0, "percent": 0})
+      }
+      for(let i in this.rawList){
+        let loc = this.publisherList.indexOf(this.rawList[i].publisher)
+        if(this.rawList[i].removed){
+          ++counts[0].removed;
+          ++counts[loc].removed;
+        } else {
+          ++counts[0].remain;
+          ++counts[loc].remain;
+        }
+      }
+      for(let i in counts){
+        counts[i].percent = Math.floor(100 * counts[i].removed / (counts[i].removed + counts[i].remain))
+      }
+      // console.log(counts);
     },
     // Prepares the data used by the pie chart
     makeBuckets() {
