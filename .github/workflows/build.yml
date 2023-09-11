@@ -26,8 +26,5 @@ jobs:
         run: npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
-          BRANCH: gh-pages
+        with:
           FOLDER: dist/spa
