@@ -2,7 +2,10 @@
   <div>
     <q-card :class="$q.dark.isActive?'bg-dark':''">
       <q-card-section class="text-h6">
-        {{ publisherName }}
+        <!-- {{ publisherName }} -->
+        <q-btn icon="download" class="float-right" @click="SaveImage" flat dense>
+          <q-tooltip>Download SVG</q-tooltip>
+        </q-btn>
       </q-card-section>
       <q-card-section>
         <ECharts ref="piechart"
@@ -49,15 +52,31 @@ export default {
   name: "PieChart",
   props: {
     chartData: Array,
-    publisherName: String
+    publisherName: String,
+    denuvoStatus: String
   },
   watch: {
     chartData: function(newOne){
       this.options.dataset = newOne;
+    },
+    publisherName: function(newOne){
+      this.options.title.text = newOne;
     }
   },
   components: {
     ECharts
+  },
+  methods: {
+    SaveImage() {
+      const linkSource = this.$refs.piechart.getDataURL();
+      const downloadLink = document.createElement('a');
+      document.body.appendChild(downloadLink);
+
+      downloadLink.href = linkSource;
+      downloadLink.target = '_self';
+      downloadLink.download = this.publisherName.concat(' ', this.denuvoStatus, ' PieChart.png');
+      downloadLink.click();
+    }
   },
   data() {
     const $q = useQuasar()
@@ -65,6 +84,9 @@ export default {
     return {
     $q,
       options: {
+        title: {
+          text: this.publisherName,
+        },
         // tooltip: {
         //   trigger: 'item',
         //   formatter: '{a} <br/>{b}: {c} ({d}%)'
@@ -74,6 +96,13 @@ export default {
         //   bottom: '5%',
         //   left: 'center'
         // },
+        grid: {
+          left: '0',
+          right: '0',
+          bottom: '10',
+          top: '30',
+          containLabel: true
+        },
         dataset: this.chartData,
         series: [
           {

@@ -25,7 +25,7 @@
       show-if-above
       bordered
       :class="$q.dark.isActive?'bg-dark text-white':''"
-      width=200
+      :width="200"
     >
       <q-list>
         <q-item-label

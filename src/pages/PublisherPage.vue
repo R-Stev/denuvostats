@@ -21,7 +21,10 @@
       <div class="col-12">
         <pie-chart :chart-data="[this.dateBuckets]"
         :publisher-name="this.pubSelector"
-        :publisher-index="this.pubIndex" />
+        :denuvo-status="this.statusFilter" />
+      </div>
+      <div class="col-12">
+        <bar-chart :chart-data="this.percentCounts"/>
       </div>
     </div>
     <div class="row">
@@ -39,12 +42,13 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
+import BarChart from "components/BarChart.vue"
 import PieChart from "components/PieChart.vue"
 import gamelist from 'assets/gamelist.json'
 
 export default defineComponent({
   name: 'PublisherPage',
-  components: {PieChart},
+  components: {BarChart, PieChart},
   data() {
     return {
       // pubSelector: ref('All publishers'),
@@ -55,6 +59,7 @@ export default defineComponent({
       dateBuckets: {},
       publisherList: [],
       tableData: [],
+      percentCounts: [],
       columns: [
         // { name: 'title', required: true, label: 'Title', align: 'left', field: rawList => rawList.title, format: val => `${val}` },
         { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
@@ -84,13 +89,22 @@ export default defineComponent({
       this.makeTableData();
     }
   },
+  
+  /* TODO:
+   add last_update dates to db
+   add the option to choose between released and last_update for the start of date ranges
+   possibly calculate lifetime values to display in the table data
+   add a bar chart of removal % per publisher
+   move the data loading/processing from PublisherPage to on initial load
+   */
+
   methods: {
     async loadData() {
       try {
         // const response = await fetch('src/assets/gamelist.json');
         // this.rawList = await response.json();
-        this.rawList = gamelist.games;
-        this.tableData = gamelist.games;
+        this.rawList = gamelist.games.filter((item) => item.released <= gamelist.lastupdate);
+        this.tableData = this.rawList;
 
         this.publisherList = this.rawList.map(item => item.publisher).filter((value, index, self) => self.indexOf(value) === index).sort(Intl.Collator().compare);
         this.publisherList.unshift('All publishers');
@@ -102,24 +116,24 @@ export default defineComponent({
       }
     },
     makeRemovalProportions() {
-      let counts = [];
       for(let i in this.publisherList){
-        counts.push({"publisher": this.publisherList[i], "removed": 0, "remain": 0, "percent": 0})
+        this.percentCounts.push({"publisher": this.publisherList[i], "removed": 0, "remain": 0, "percent": 0})
       }
       for(let i in this.rawList){
         let loc = this.publisherList.indexOf(this.rawList[i].publisher)
         if(this.rawList[i].removed){
-          ++counts[0].removed;
-          ++counts[loc].removed;
+          ++this.percentCounts[0].removed;
+          ++this.percentCounts[loc].removed;
         } else {
-          ++counts[0].remain;
-          ++counts[loc].remain;
+          ++this.percentCounts[0].remain;
+          ++this.percentCounts[loc].remain;
         }
       }
-      for(let i in counts){
-        counts[i].percent = Math.floor(100 * counts[i].removed / (counts[i].removed + counts[i].remain))
+      for(let i in this.percentCounts){
+        this.percentCounts[i].percent = Math.floor(100 * this.percentCounts[i].removed / (this.percentCounts[i].removed + this.percentCounts[i].remain));
+        this.percentCounts[i].publisher = this.percentCounts[i].publisher.concat(' (', this.percentCounts[i].removed + this.percentCounts[i].remain, ')')
       }
-      // console.log(counts);
+      console.log(this.percentCounts);
     },
     // Prepares the data used by the pie chart
     makeBuckets() {
