@@ -11,7 +11,7 @@
           :option="options"
           class="q-mt-md"
           :resizable="true"
-          autoresize style="height: 800px;"
+          autoresize :style="chartHeight"
         />
       </q-card-section>
     </q-card>
@@ -25,7 +25,8 @@ import {useQuasar} from "quasar";
 export default {
   name: "BarChart",
   props: {
-    chartData: Array
+    chartData: Array,
+    chartHeight: String
   },
   components: {
     ECharts
@@ -51,7 +52,7 @@ export default {
           left: '10',
           right: '20',
           bottom: '10',
-          top: '30',
+          top: '31',
           containLabel: true,
         },
         xAxis: {

@@ -24,7 +24,8 @@
         :denuvo-status="this.statusFilter" />
       </div>
       <div class="col-12">
-        <bar-chart :chart-data="this.percentCounts"/>
+        <bar-chart :chart-data="this.percentCounts"
+        :chart-height="this.barChartHeight"/>
       </div>
     </div>
     <div class="row">
@@ -60,6 +61,7 @@ export default defineComponent({
       publisherList: [],
       tableData: [],
       percentCounts: [],
+      barChartHeight: 'height: 200px;',
       columns: [
         // { name: 'title', required: true, label: 'Title', align: 'left', field: rawList => rawList.title, format: val => `${val}` },
         { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
@@ -133,6 +135,7 @@ export default defineComponent({
         this.percentCounts[i].percent = Math.floor(100 * this.percentCounts[i].removed / (this.percentCounts[i].removed + this.percentCounts[i].remain));
         this.percentCounts[i].publisher = this.percentCounts[i].publisher.concat(' (', this.percentCounts[i].removed + this.percentCounts[i].remain, ')')
       }
+      this.barChartHeight = ('height: ').concat((15 + this.percentCounts.length * 17).toString(), 'px;');
       console.log(this.percentCounts);
     },
     // Prepares the data used by the pie chart
