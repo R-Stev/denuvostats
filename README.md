@@ -1,6 +1,6 @@
 # Denuvo Stats (denuvostats-front)
 
-A Quasar Project
+Makes use of ECharts for displaying various data from a json file.
 
 ## Install the dependencies
 ```bash
