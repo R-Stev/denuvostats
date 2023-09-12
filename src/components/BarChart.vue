@@ -40,10 +40,12 @@ export default {
         title: {
           text: 'Bar Chart',
         },
-        // tooltip: {
-        //   trigger: 'item',
-        //   formatter: '{a} <br/>{b}: {c} ({d}%)'
-        // },
+        tooltip: {
+          trigger: 'item',
+          formatter(params) {
+            return `${params.marker}${params.name}<span style="float: right; margin-left: 20px">${params.data.removed + params.data.remain} titles, ${params.data.percent}% removed</span>`;
+          }
+        },
         dataset: {
           dimensions: ['publisher', 'percent'],
           source: this.chartData,

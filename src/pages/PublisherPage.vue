@@ -17,7 +17,6 @@
         </div>
     </div>
     <div class="row">
-      <!-- <pie-chart></pie-chart> -->
       <div class="col-12">
         <pie-chart :chart-data="[this.dateBuckets]"
         :publisher-name="this.pubSelector"
@@ -96,7 +95,6 @@ export default defineComponent({
    add last_update dates to db
    add the option to choose between released and last_update for the start of date ranges
    possibly calculate lifetime values to display in the table data
-   add a bar chart of removal % per publisher
    move the data loading/processing from PublisherPage to on initial load
    */
 
@@ -133,7 +131,6 @@ export default defineComponent({
       }
       for(let i in this.percentCounts){
         this.percentCounts[i].percent = Math.floor(100 * this.percentCounts[i].removed / (this.percentCounts[i].removed + this.percentCounts[i].remain));
-        this.percentCounts[i].publisher = this.percentCounts[i].publisher.concat(' (', this.percentCounts[i].removed + this.percentCounts[i].remain, ')')
       }
       this.barChartHeight = ('height: ').concat((15 + this.percentCounts.length * 17).toString(), 'px;');
       console.log(this.percentCounts);
