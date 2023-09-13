@@ -119,7 +119,9 @@ export default {
             label: {
             //   show: false,
             //   position: 'center',
-              formatter: '{b} months: {@number} ({d}%)'
+              formatter: '{b} months: {@number} ({d}%)',
+              // color: $q.dark.isActive ? '#ffffff' : '#1d1d1d'
+              color: '#6e7079'
             },
             // labelLine: {
             //   show: false
