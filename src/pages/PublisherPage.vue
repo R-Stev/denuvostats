@@ -23,18 +23,18 @@
         :denuvo-status="this.statusFilter" />
       </div>
       <div class="col-12">
-        <bar-chart :chart-data="this.percentCounts"
-        :chart-height="this.barChartHeight"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
         <!-- height should be some value of 48n + 104 -->
         <q-table class="my-sticky-header-table"
           title="Details" style="height: 488px"
           :rows="tableData" :columns="columns" row-key="index"
           virtual-scroll :rows-per-page-options="[0]"
         />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <bar-chart :chart-data="this.percentCounts"
+        :chart-height="this.barChartHeight"/>
       </div>
     </div>
   </q-page>
@@ -48,7 +48,10 @@ import gamelist from 'assets/gamelist.json'
 
 export default defineComponent({
   name: 'PublisherPage',
-  components: {BarChart, PieChart},
+  components: {
+    BarChart,
+    PieChart
+  },
   data() {
     return {
       // pubSelector: ref('All publishers'),
@@ -93,28 +96,29 @@ export default defineComponent({
   
   /* TODO:
    add last_update dates to db
-   add the option to choose between released and last_update for the start of date ranges
+    add the option to choose between released and last_update for the start of date ranges
    possibly calculate lifetime values to display in the table data
    move the data loading/processing from PublisherPage to on initial load
+    move the bar chart location from PublisherPage to ?
+   possibly adjust the BarChart/PieChart imports - https://vue-echarts.dev/#codegen
    */
 
   methods: {
     async loadData() {
       try {
-        // const response = await fetch('src/assets/gamelist.json');
-        // this.rawList = await response.json();
+        // Filters out any titles that are not yet released
         this.rawList = gamelist.games.filter((item) => item.released <= gamelist.lastupdate);
         this.tableData = this.rawList;
 
         this.publisherList = this.rawList.map(item => item.publisher).filter((value, index, self) => self.indexOf(value) === index).sort(Intl.Collator().compare);
         this.publisherList.unshift('All publishers');
-        // console.log(this.publisherList);
         this.makeRemovalProportions()
         this.makeBuckets();
       } catch (err) {
         console.error('Failed to load game JSON data:', err);
       }
     },
+    // Prepares the data used by the bar chart
     makeRemovalProportions() {
       for(let i in this.publisherList){
         this.percentCounts.push({"publisher": this.publisherList[i], "removed": 0, "remain": 0, "percent": 0})
@@ -133,7 +137,6 @@ export default defineComponent({
         this.percentCounts[i].percent = Math.floor(100 * this.percentCounts[i].removed / (this.percentCounts[i].removed + this.percentCounts[i].remain));
       }
       this.barChartHeight = ('height: ').concat((15 + this.percentCounts.length * 17).toString(), 'px;');
-      console.log(this.percentCounts);
     },
     // Prepares the data used by the pie chart
     makeBuckets() {
@@ -185,18 +188,13 @@ export default defineComponent({
     },
     // Prepares the data used by q-table
     makeTableData(){
-      // console.log(this.pubSelector);
       if(this.pubSelector == 'All publishers' && this.statusFilter == 'all'){
         this.tableData = this.rawList;
       } else {
         this.tableData = [];
         let comparator;
         for(let i in this.rawList){
-          if(this.rawList[i].removed){
-            comparator = 'removed';
-          } else {
-            comparator = 'present';
-          }
+          comparator = this.rawList[i].removed ? 'removed' : 'present'
           if(this.pubSelector == 'All publishers' || this.pubSelector == this.rawList[i].publisher){
             if(this.statusFilter == 'all' || this.statusFilter == comparator){
               this.tableData.push(this.rawList[i]);
@@ -204,7 +202,6 @@ export default defineComponent({
           }
         }
       }
-      // console.log(this.tableData);
     }
   }
 })

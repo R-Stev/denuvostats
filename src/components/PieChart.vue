@@ -61,8 +61,12 @@ export default {
     },
     publisherName: function(newOne){
       this.options.title.text = newOne;
-    }
-  },
+    },
+    // '$q.dark.isActive': function (val) {
+    //   this.options.series[0].label.color = val ? '#e2e2e2' : '#1d1d1d'
+    //   this.options.title.textStyle.color = val ? '#e2e2e2' : '#1d1d1d'
+    // }
+},
   components: {
     ECharts
   },
@@ -86,16 +90,10 @@ export default {
       options: {
         title: {
           text: this.publisherName,
+          // textStyle: {
+          //   color: $q.dark.isActive ? '#e2e2e2' : '#1d1d1d'
+          // }
         },
-        // tooltip: {
-        //   trigger: 'item',
-        //   formatter: '{a} <br/>{b}: {c} ({d}%)'
-        // },
-        // legend: {
-        //   top: 'bottom',
-        //   bottom: '5%',
-        //   left: 'center'
-        // },
         grid: {
           left: '0',
           right: '0',
@@ -117,15 +115,10 @@ export default {
               borderWidth: 2
             },
             label: {
-            //   show: false,
-            //   position: 'center',
               formatter: '{b} months: {@number} ({d}%)',
-              // color: $q.dark.isActive ? '#ffffff' : '#1d1d1d'
+              // color: $q.dark.isActive ? '#e2e2e2' : '#1d1d1d'
               color: '#6e7079'
             },
-            // labelLine: {
-            //   show: false
-            // },
             stillShowZeroSum: false,
             datasetIndex: 0
           }
