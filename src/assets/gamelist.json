@@ -1,5 +1,5 @@
 {
-"lastupdate": "2023-09-04",
+"lastupdate": "2023-09-21",
 "games": [
 	{
 		"id" : 271,
@@ -9,7 +9,8 @@
 		"released" : "2017-03-17",
 		"removed" : "2017-04-19",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 80
 	},
 	{
 		"id" : 272,
@@ -19,7 +20,8 @@
 		"released" : "2016-08-02",
 		"removed" : "2020-12-08",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 87
 	},
 	{
 		"id" : 273,
@@ -28,18 +30,20 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2019-01-31",
 		"removed" : "2021-10-19",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-05-28",
+		"notes" : "",
+		"age" : 57
 	},
 	{
 		"id" : 274,
-		"title" : "Adrift",
+		"title" : "ADR1FT",
 		"developer" : "Three One Zero",
 		"publisher" : "505 Games",
 		"released" : "2016-03-28",
 		"removed" : "2017-09-14",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 92
 	},
 	{
 		"id" : 275,
@@ -48,8 +52,9 @@
 		"publisher" : "Deep Silver",
 		"released" : "2017-08-15",
 		"removed" : "2017-11-10",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-10-11",
+		"notes" : "",
+		"age" : 75
 	},
 	{
 		"id" : 370,
@@ -58,8 +63,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2019-04-16",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-08-23",
+		"notes" : "",
+		"age" : 54
 	},
 	{
 		"id" : 371,
@@ -68,8 +74,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2015-11-03",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2016-10-04",
+		"notes" : "",
+		"age" : 96
 	},
 	{
 		"id" : 372,
@@ -79,7 +86,8 @@
 		"released" : "2023-10-05",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 0
 	},
 	{
 		"id" : 373,
@@ -88,8 +96,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2018-10-05",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-04-24",
+		"notes" : "",
+		"age" : 61
 	},
 	{
 		"id" : 374,
@@ -98,8 +107,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2017-10-27",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-03-13",
+		"notes" : "",
+		"age" : 72
 	},
 	{
 		"id" : 375,
@@ -108,8 +118,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2020-11-10",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-03-11",
+		"notes" : "",
+		"age" : 35
 	},
 	{
 		"id" : 376,
@@ -118,8 +129,9 @@
 		"publisher" : "Focus Entertainment",
 		"released" : "2023-02-20",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-08-02",
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 368,
@@ -128,8 +140,9 @@
 		"publisher" : "Sega",
 		"released" : "2020-08-13",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo, published by Feral Interactive"
+		"last_update" : "2021-12-15",
+		"notes" : "Has Mac version without Denuvo, published by Feral Interactive",
+		"age" : 38
 	},
 	{
 		"id" : 377,
@@ -139,7 +152,8 @@
 		"released" : "2023-12-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : -2
 	},
 	{
 		"id" : 369,
@@ -149,7 +163,8 @@
 		"released" : "2018-03-23",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 67
 	},
 	{
 		"id" : 378,
@@ -158,8 +173,9 @@
 		"publisher" : "Warner Bros. Games",
 		"released" : "2021-10-12",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-12-07",
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 276,
@@ -169,7 +185,8 @@
 		"released" : "2021-03-26",
 		"removed" : "2021-09-22",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 31
 	},
 	{
 		"id" : 277,
@@ -178,8 +195,9 @@
 		"publisher" : "Warner Bros. Games",
 		"released" : "2015-06-23",
 		"removed" : "2020-12-03",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2015-12-23",
+		"notes" : "",
+		"age" : 101
 	},
 	{
 		"id" : 379,
@@ -188,8 +206,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2016-10-21",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-06-12",
+		"notes" : "",
+		"age" : 85
 	},
 	{
 		"id" : 380,
@@ -198,8 +217,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2021-11-19",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-05-27",
+		"notes" : "",
+		"age" : 23
 	},
 	{
 		"id" : 381,
@@ -208,8 +228,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2015-03-17",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-06-12",
+		"notes" : "",
+		"age" : 104
 	},
 	{
 		"id" : 382,
@@ -218,8 +239,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2018-11-20",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-06-12",
+		"notes" : "",
+		"age" : 59
 	},
 	{
 		"id" : 383,
@@ -229,7 +251,8 @@
 		"released" : "2017-05-11",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 78
 	},
 	{
 		"id" : 278,
@@ -238,8 +261,9 @@
 		"publisher" : "2K",
 		"released" : "2019-09-13",
 		"removed" : "2021-01-21",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-11-10",
+		"notes" : "",
+		"age" : 49
 	},
 	{
 		"id" : 279,
@@ -249,7 +273,8 @@
 		"released" : "2021-09-02",
 		"removed" : "2022-02-25",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 25
 	},
 	{
 		"id" : 280,
@@ -259,7 +284,8 @@
 		"released" : "2017-04-07",
 		"removed" : "2017-12-05",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 79
 	},
 	{
 		"id" : 384,
@@ -269,7 +295,8 @@
 		"released" : "2018-08-21",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 62
 	},
 	{
 		"id" : 281,
@@ -278,8 +305,9 @@
 		"publisher" : "astragon Entertainment",
 		"released" : "2018-06-13",
 		"removed" : "2020-03-19",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-05-23",
+		"notes" : "",
+		"age" : 65
 	},
 	{
 		"id" : 282,
@@ -288,8 +316,9 @@
 		"publisher" : "astragon Entertainment",
 		"released" : "2021-09-07",
 		"removed" : "2023-05-16",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-06-23",
+		"notes" : "",
+		"age" : 25
 	},
 	{
 		"id" : 385,
@@ -299,7 +328,8 @@
 		"released" : "2016-08-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 86
 	},
 	{
 		"id" : 386,
@@ -308,8 +338,9 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2019-09-27",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-03-25",
+		"notes" : "",
+		"age" : 49
 	},
 	{
 		"id" : 387,
@@ -319,7 +350,8 @@
 		"released" : "2023-02-23",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 283,
@@ -328,8 +360,9 @@
 		"publisher" : "Funcom",
 		"released" : "2018-05-08",
 		"removed" : "2020-06-16",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-05-08",
+		"notes" : "",
+		"age" : 66
 	},
 	{
 		"id" : 284,
@@ -339,7 +372,8 @@
 		"released" : "2019-05-29",
 		"removed" : "2019-09-19",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 53
 	},
 	{
 		"id" : 388,
@@ -348,18 +382,20 @@
 		"publisher" : "astragon Entertainment",
 		"released" : "2022-09-20",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-07-28",
+		"notes" : "",
+		"age" : 13
 	},
 	{
 		"id" : 285,
-		"title" : "Constructor HD",
+		"title" : "Constructor",
 		"developer" : "System 3",
 		"publisher" : "System 3",
 		"released" : "2017-05-26",
 		"removed" : "2018-11-23",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-07-25",
+		"notes" : "",
+		"age" : 77
 	},
 	{
 		"id" : 389,
@@ -369,7 +405,8 @@
 		"released" : "2023-03-29",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 6
 	},
 	{
 		"id" : 390,
@@ -379,7 +416,8 @@
 		"released" : "2021-10-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 391,
@@ -389,7 +427,8 @@
 		"released" : "2021-10-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 286,
@@ -399,7 +438,8 @@
 		"released" : "2020-09-18",
 		"removed" : "2021-10-20",
 		"last_update" : null,
-		"notes" : "Only Epic Games version used Denuvo"
+		"notes" : "Only Epic Games version used Denuvo",
+		"age" : 37
 	},
 	{
 		"id" : 392,
@@ -409,7 +449,8 @@
 		"released" : "2016-08-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 86
 	},
 	{
 		"id" : 393,
@@ -418,8 +459,9 @@
 		"publisher" : "Deep Silver",
 		"released" : "2023-04-21",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-06-21",
+		"notes" : "",
+		"age" : 6
 	},
 	{
 		"id" : 394,
@@ -428,8 +470,9 @@
 		"publisher" : "Capcom",
 		"released" : "2016-12-06",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-06-21",
+		"notes" : "",
+		"age" : 83
 	},
 	{
 		"id" : 395,
@@ -439,7 +482,8 @@
 		"released" : "2023-01-27",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 396,
@@ -448,8 +492,9 @@
 		"publisher" : "Bethesda Softworks",
 		"released" : "2021-09-14",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-12-15",
+		"notes" : "",
+		"age" : 25
 	},
 	{
 		"id" : 287,
@@ -459,7 +504,8 @@
 		"released" : "2020-07-14",
 		"removed" : "2020-12-17",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 39
 	},
 	{
 		"id" : 397,
@@ -469,7 +515,8 @@
 		"released" : "2023-02-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 398,
@@ -478,8 +525,9 @@
 		"publisher" : "Sega",
 		"released" : "2021-10-15",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-11-16",
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 288,
@@ -489,7 +537,8 @@
 		"released" : "2019-12-12",
 		"removed" : "2020-06-19",
 		"last_update" : null,
-		"notes" : "Only Epic Games version used Denuvo"
+		"notes" : "Only Epic Games version used Denuvo",
+		"age" : 46
 	},
 	{
 		"id" : 399,
@@ -498,8 +547,9 @@
 		"publisher" : "Square Enix",
 		"released" : "2016-08-23",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has GOG version without Denuvo.  Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"last_update" : "2017-02-24",
+		"notes" : "Has GOG version without Denuvo.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 87
 	},
 	{
 		"id" : 289,
@@ -508,8 +558,9 @@
 		"publisher" : "Capcom",
 		"released" : "2019-03-08",
 		"removed" : "2020-02-06",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-03-22",
+		"notes" : "",
+		"age" : 56
 	},
 	{
 		"id" : 400,
@@ -518,8 +569,9 @@
 		"publisher" : "Codemasters",
 		"released" : "2020-11-05",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-09-01",
+		"notes" : "",
+		"age" : 36
 	},
 	{
 		"id" : 401,
@@ -529,7 +581,8 @@
 		"released" : "2018-02-20",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 68
 	},
 	{
 		"id" : 290,
@@ -539,7 +592,8 @@
 		"released" : "2016-11-11",
 		"removed" : "2018-12-14",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 84
 	},
 	{
 		"id" : 291,
@@ -549,7 +603,8 @@
 		"released" : "2017-09-15",
 		"removed" : "2018-12-14",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 292,
@@ -559,7 +614,8 @@
 		"released" : "2016-05-13",
 		"removed" : "2016-12-08",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 90
 	},
 	{
 		"id" : 402,
@@ -567,9 +623,10 @@
 		"developer" : "id Software, Panic Button",
 		"publisher" : "Bethesda Softworks",
 		"released" : "2020-03-20",
-		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"removed" : "2023-09-06",
+		"last_update" : "2021-12-10",
+		"notes" : "",
+		"age" : 43
 	},
 	{
 		"id" : 403,
@@ -579,7 +636,8 @@
 		"released" : "2014-11-18",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 108
 	},
 	{
 		"id" : 404,
@@ -588,8 +646,9 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2018-01-26",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-02-24",
+		"notes" : "",
+		"age" : 69
 	},
 	{
 		"id" : 405,
@@ -599,7 +658,8 @@
 		"released" : "2016-11-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 84
 	},
 	{
 		"id" : 293,
@@ -609,7 +669,8 @@
 		"released" : "2019-12-10",
 		"removed" : "2020-06-02",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 47
 	},
 	{
 		"id" : 406,
@@ -619,7 +680,8 @@
 		"released" : "2017-04-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 79
 	},
 	{
 		"id" : 407,
@@ -629,7 +691,8 @@
 		"released" : "2023-07-14",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 3
 	},
 	{
 		"id" : 408,
@@ -639,7 +702,8 @@
 		"released" : "2018-09-04",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "Delisted 2020-12-04",
+		"age" : 62
 	},
 	{
 		"id" : 295,
@@ -649,7 +713,8 @@
 		"released" : "2020-12-04",
 		"removed" : "2021-05-28",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 35
 	},
 	{
 		"id" : 294,
@@ -659,7 +724,8 @@
 		"released" : "2022-09-15",
 		"removed" : "2023-03-13",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 13
 	},
 	{
 		"id" : 296,
@@ -668,8 +734,9 @@
 		"publisher" : "Techland",
 		"released" : "2022-02-04",
 		"removed" : "2023-01-31",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-12-23",
+		"notes" : "",
+		"age" : 20
 	},
 	{
 		"id" : 410,
@@ -679,7 +746,19 @@
 		"released" : "2016-10-18",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 85
+	},
+	{
+		"id" : 600,
+		"title" : "EA SPORTS FC 24",
+		"developer" : "EA Canada, EA Romania",
+		"publisher" : "Electronic Arts",
+		"released" : "2023-09-29",
+		"removed" : null,
+		"last_update" : null,
+		"notes" : null,
+		"age" : 0
 	},
 	{
 		"id" : 409,
@@ -689,7 +768,8 @@
 		"released" : "2023-04-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 6
 	},
 	{
 		"id" : 411,
@@ -699,37 +779,41 @@
 		"released" : "2016-06-06",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 89
 	},
 	{
 		"id" : 412,
-		"title" : "EFootball 2023",
+		"title" : "eFootball 2024",
 		"developer" : "PES Productions",
 		"publisher" : "Konami",
 		"released" : "2021-09-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 25
 	},
 	{
 		"id" : 413,
-		"title" : "EFootball PES 2020",
+		"title" : "eFootball PES 2020",
 		"developer" : "PES Productions",
 		"publisher" : "Konami",
 		"released" : "2019-09-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2020-11-26?"
+		"notes" : "Delisted 2020-11-26?",
+		"age" : 50
 	},
 	{
 		"id" : 414,
-		"title" : "EFootball PES 2021 Season Update",
+		"title" : "eFootball PES 2021 Season Update",
 		"developer" : "PES Productions",
 		"publisher" : "Konami",
 		"released" : "2020-09-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2021-12-09?"
+		"notes" : "Delisted 2021-12-09?",
+		"age" : 37
 	},
 	{
 		"id" : 415,
@@ -739,27 +823,30 @@
 		"released" : "2023-10-19",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 0
 	},
 	{
 		"id" : 416,
 		"title" : "Etrian Odyssey HD",
 		"developer" : "Mutan, Atlus",
 		"publisher" : "Sega",
-		"released" : "2023-05-31",
+		"released" : "2023-06-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 4
 	},
 	{
 		"id" : 417,
 		"title" : "Etrian Odyssey II HD",
 		"developer" : "Mutan, Atlus",
 		"publisher" : "Sega",
-		"released" : "2023-05-31",
+		"released" : "2023-06-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 4
 	},
 	{
 		"id" : 418,
@@ -769,7 +856,8 @@
 		"released" : "2023-05-31",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 4
 	},
 	{
 		"id" : 419,
@@ -779,7 +867,8 @@
 		"released" : "2016-03-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2022-07-01"
+		"notes" : "Delisted 2022-07-01",
+		"age" : 92
 	},
 	{
 		"id" : 420,
@@ -788,8 +877,9 @@
 		"publisher" : "Rebellion Developments",
 		"released" : "2021-03-30",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-02-09",
+		"notes" : "",
+		"age" : 31
 	},
 	{
 		"id" : 421,
@@ -799,7 +889,8 @@
 		"released" : "2016-08-19",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2022-03-11.  Has Mac version without Denuvo, published by Feral Interactive"
+		"notes" : "Delisted 2022-03-11.  Has Mac version without Denuvo, published by Feral Interactive",
+		"age" : 87
 	},
 	{
 		"id" : 422,
@@ -809,7 +900,8 @@
 		"released" : "2017-08-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2022-03-11.  Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"notes" : "Delisted 2022-03-11.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 74
 	},
 	{
 		"id" : 423,
@@ -819,7 +911,8 @@
 		"released" : "2018-08-24",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2022-03-11"
+		"notes" : "Delisted 2022-03-11",
+		"age" : 62
 	},
 	{
 		"id" : 424,
@@ -829,7 +922,8 @@
 		"released" : "2019-06-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2022-04-18"
+		"notes" : "Delisted 2022-04-18",
+		"age" : 52
 	},
 	{
 		"id" : 297,
@@ -839,7 +933,8 @@
 		"released" : "2020-07-10",
 		"removed" : "2021-09-30",
 		"last_update" : null,
-		"notes" : "Delisted 2023-03-15"
+		"notes" : "Delisted 2023-03-15",
+		"age" : 39
 	},
 	{
 		"id" : 425,
@@ -849,7 +944,8 @@
 		"released" : "2021-07-16",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Delisted 2023-05-03"
+		"notes" : "Delisted 2023-05-03",
+		"age" : 27
 	},
 	{
 		"id" : 426,
@@ -859,7 +955,8 @@
 		"released" : "2022-07-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 15
 	},
 	{
 		"id" : 427,
@@ -869,7 +966,8 @@
 		"released" : "2023-06-16",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 4
 	},
 	{
 		"id" : 428,
@@ -879,7 +977,8 @@
 		"released" : "2022-08-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 13
 	},
 	{
 		"id" : 429,
@@ -889,7 +988,8 @@
 		"released" : "2023-07-31",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 2
 	},
 	{
 		"id" : 434,
@@ -899,7 +999,8 @@
 		"released" : "2022-03-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 19
 	},
 	{
 		"id" : 430,
@@ -908,8 +1009,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2018-03-27",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-08-29",
+		"notes" : "",
+		"age" : 67
 	},
 	{
 		"id" : 431,
@@ -918,8 +1020,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2021-10-07",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-12-07",
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 432,
@@ -928,8 +1031,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2019-02-15",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-03-05",
+		"notes" : "",
+		"age" : 56
 	},
 	{
 		"id" : 433,
@@ -938,8 +1042,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2016-03-01",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2016-03-24",
+		"notes" : "",
+		"age" : 93
 	},
 	{
 		"id" : 435,
@@ -949,7 +1054,8 @@
 		"released" : "2018-02-16",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 69
 	},
 	{
 		"id" : 436,
@@ -958,8 +1064,9 @@
 		"publisher" : "Aerosoft",
 		"released" : "2016-08-25",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-06-26",
+		"notes" : "",
+		"age" : 87
 	},
 	{
 		"id" : 437,
@@ -969,7 +1076,8 @@
 		"released" : "2013-09-27",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 122
 	},
 	{
 		"id" : 438,
@@ -979,7 +1087,8 @@
 		"released" : "2014-09-23",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 110
 	},
 	{
 		"id" : 439,
@@ -989,7 +1098,8 @@
 		"released" : "2015-09-22",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 98
 	},
 	{
 		"id" : 440,
@@ -999,7 +1109,8 @@
 		"released" : "2016-09-29",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 85
 	},
 	{
 		"id" : 441,
@@ -1009,7 +1120,8 @@
 		"released" : "2017-09-29",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 73
 	},
 	{
 		"id" : 442,
@@ -1019,7 +1131,8 @@
 		"released" : "2018-09-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 61
 	},
 	{
 		"id" : 443,
@@ -1029,7 +1142,8 @@
 		"released" : "2019-09-24",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 49
 	},
 	{
 		"id" : 444,
@@ -1039,7 +1153,8 @@
 		"released" : "2020-10-09",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "Delisted 2022-06-23",
+		"age" : 36
 	},
 	{
 		"id" : 445,
@@ -1049,7 +1164,8 @@
 		"released" : "2021-10-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "Delisted 2023-05-16",
+		"age" : 25
 	},
 	{
 		"id" : 446,
@@ -1059,7 +1175,8 @@
 		"released" : "2022-09-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 12
 	},
 	{
 		"id" : 298,
@@ -1069,7 +1186,8 @@
 		"released" : "2018-02-01",
 		"removed" : "2020-04-24",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 69
 	},
 	{
 		"id" : 447,
@@ -1078,8 +1196,9 @@
 		"publisher" : "Square Enix",
 		"released" : "2018-03-06",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-03-26",
+		"notes" : "",
+		"age" : 68
 	},
 	{
 		"id" : 448,
@@ -1089,7 +1208,8 @@
 		"released" : "2020-11-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 35
 	},
 	{
 		"id" : 299,
@@ -1098,8 +1218,9 @@
 		"publisher" : "Planet Entertainment",
 		"released" : "2018-09-18",
 		"removed" : "2023-01-09",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-03-16",
+		"notes" : "",
+		"age" : 61
 	},
 	{
 		"id" : 449,
@@ -1109,7 +1230,8 @@
 		"released" : "2016-11-04",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo"
+		"notes" : "Has Linux & Mac versions without Denuvo",
+		"age" : 84
 	},
 	{
 		"id" : 450,
@@ -1119,7 +1241,8 @@
 		"released" : "2017-11-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo"
+		"notes" : "Has Linux & Mac versions without Denuvo",
+		"age" : 72
 	},
 	{
 		"id" : 451,
@@ -1129,7 +1252,8 @@
 		"released" : "2018-11-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 60
 	},
 	{
 		"id" : 452,
@@ -1139,7 +1263,8 @@
 		"released" : "2019-11-19",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 47
 	},
 	{
 		"id" : 453,
@@ -1149,7 +1274,8 @@
 		"released" : "2019-11-19",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 47
 	},
 	{
 		"id" : 454,
@@ -1159,7 +1285,8 @@
 		"released" : "2020-11-23",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 35
 	},
 	{
 		"id" : 455,
@@ -1169,7 +1296,8 @@
 		"released" : "2021-11-09",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 23
 	},
 	{
 		"id" : 456,
@@ -1179,7 +1307,8 @@
 		"released" : "2022-11-08",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 11
 	},
 	{
 		"id" : 457,
@@ -1189,7 +1318,8 @@
 		"released" : "2016-11-04",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo"
+		"notes" : "Has Linux & Mac versions without Denuvo",
+		"age" : 84
 	},
 	{
 		"id" : 458,
@@ -1199,7 +1329,8 @@
 		"released" : "2017-11-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo"
+		"notes" : "Has Linux & Mac versions without Denuvo",
+		"age" : 72
 	},
 	{
 		"id" : 459,
@@ -1209,7 +1340,8 @@
 		"released" : "2018-11-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo"
+		"notes" : "Has Mac version without Denuvo",
+		"age" : 60
 	},
 	{
 		"id" : 460,
@@ -1218,8 +1350,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2017-02-14",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-09-14",
+		"notes" : "",
+		"age" : 81
 	},
 	{
 		"id" : 300,
@@ -1228,8 +1361,9 @@
 		"publisher" : "Square Enix",
 		"released" : "2023-01-24",
 		"removed" : "2023-07-25",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-05-26",
+		"notes" : "",
+		"age" : 9
 	},
 	{
 		"id" : 461,
@@ -1239,7 +1373,8 @@
 		"released" : "2023-06-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 3
 	},
 	{
 		"id" : 462,
@@ -1248,8 +1383,9 @@
 		"publisher" : "Bethesda Softworks",
 		"released" : "2022-03-25",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-06-09",
+		"notes" : "",
+		"age" : 19
 	},
 	{
 		"id" : 463,
@@ -1259,7 +1395,8 @@
 		"released" : "2016-08-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 86
 	},
 	{
 		"id" : 464,
@@ -1269,7 +1406,8 @@
 		"released" : "2016-08-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 86
 	},
 	{
 		"id" : 465,
@@ -1279,7 +1417,8 @@
 		"released" : "2022-10-21",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 12
 	},
 	{
 		"id" : 466,
@@ -1288,8 +1427,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2022-02-24",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-01-27",
+		"notes" : "",
+		"age" : 20
 	},
 	{
 		"id" : 467,
@@ -1299,7 +1439,8 @@
 		"released" : "2016-11-04",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 84
 	},
 	{
 		"id" : 468,
@@ -1309,7 +1450,8 @@
 		"released" : "2022-05-26",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 17
 	},
 	{
 		"id" : 301,
@@ -1319,7 +1461,8 @@
 		"released" : "2019-06-24",
 		"removed" : "2020-06-24",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 52
 	},
 	{
 		"id" : 469,
@@ -1328,8 +1471,9 @@
 		"publisher" : "Bethesda Softworks",
 		"released" : "2023-01-25",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-07-06",
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 302,
@@ -1339,7 +1483,8 @@
 		"released" : "2016-03-11",
 		"removed" : "2017-06-17",
 		"last_update" : null,
-		"notes" : "IO Interactive became independent on 2017-06-16, shortly before Denuvo was removed"
+		"notes" : "IO Interactive became independent on 2017-06-16, shortly before Denuvo was removed.  Delisted 2023-01-26",
+		"age" : 92
 	},
 	{
 		"id" : 303,
@@ -1349,7 +1494,8 @@
 		"released" : "2018-11-13",
 		"removed" : "2019-01-30",
 		"last_update" : null,
-		"notes" : "IO Interactive self-published the Stadia version"
+		"notes" : "IO Interactive self-published the Stadia version.  Delisted 2023-01-26",
+		"age" : 60
 	},
 	{
 		"id" : 470,
@@ -1359,7 +1505,8 @@
 		"released" : "2023-02-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 304,
@@ -1368,8 +1515,9 @@
 		"publisher" : "Deep Silver",
 		"released" : "2016-05-17",
 		"removed" : "2017-03-06",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2016-11-10",
+		"notes" : "",
+		"age" : 90
 	},
 	{
 		"id" : 471,
@@ -1379,7 +1527,8 @@
 		"released" : "2017-06-09",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 77
 	},
 	{
 		"id" : 472,
@@ -1388,8 +1537,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2020-12-03",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-04-22",
+		"notes" : "",
+		"age" : 35
 	},
 	{
 		"id" : 473,
@@ -1399,7 +1549,8 @@
 		"released" : "2023-08-22",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 2
 	},
 	{
 		"id" : 305,
@@ -1408,8 +1559,9 @@
 		"publisher" : "Warner Bros. Games",
 		"released" : "2017-11-14",
 		"removed" : "2021-11-04",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-03-28",
+		"notes" : "",
+		"age" : 72
 	},
 	{
 		"id" : 306,
@@ -1419,7 +1571,8 @@
 		"released" : "2016-07-07",
 		"removed" : "2016-11-23",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 88
 	},
 	{
 		"id" : 474,
@@ -1429,7 +1582,8 @@
 		"released" : "2022-09-14",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 13
 	},
 	{
 		"id" : 475,
@@ -1438,8 +1592,9 @@
 		"publisher" : "Frontier Developments",
 		"released" : "2018-06-12",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-12-10",
+		"notes" : "",
+		"age" : 65
 	},
 	{
 		"id" : 476,
@@ -1448,8 +1603,9 @@
 		"publisher" : "Frontier Developments",
 		"released" : "2021-11-09",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-08-10",
+		"notes" : "",
+		"age" : 23
 	},
 	{
 		"id" : 477,
@@ -1458,18 +1614,20 @@
 		"publisher" : "Square Enix",
 		"released" : "2015-12-01",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2016-08-19",
+		"notes" : "",
+		"age" : 96
 	},
 	{
 		"id" : 478,
-		"title" : "Just Cause 4",
+		"title" : "Just Cause 4 Reloaded",
 		"developer" : "Avalanche Studios",
 		"publisher" : "Square Enix",
 		"released" : "2018-12-04",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-10-25",
+		"notes" : "",
+		"age" : 59
 	},
 	{
 		"id" : 479,
@@ -1479,7 +1637,8 @@
 		"released" : "2016-10-27",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 85
 	},
 	{
 		"id" : 307,
@@ -1489,7 +1648,8 @@
 		"released" : "2023-05-04",
 		"removed" : "2023-07-26",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 5
 	},
 	{
 		"id" : 308,
@@ -1499,7 +1659,8 @@
 		"released" : "2021-08-24",
 		"removed" : "2022-02-17",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 26
 	},
 	{
 		"id" : 480,
@@ -1509,7 +1670,8 @@
 		"released" : "2019-03-05",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 56
 	},
 	{
 		"id" : 309,
@@ -1519,7 +1681,8 @@
 		"released" : "2021-06-24",
 		"removed" : "2021-12-10",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 28
 	},
 	{
 		"id" : 481,
@@ -1528,8 +1691,20 @@
 		"publisher" : "2K",
 		"released" : "2023-05-19",
 		"removed" : null,
+		"last_update" : "2023-09-14",
+		"notes" : "",
+		"age" : 5
+	},
+	{
+		"id" : 597,
+		"title" : "Lies of P",
+		"developer" : "NEOWIZ",
+		"publisher" : "NEOWIZ",
+		"released" : "2023-09-19",
+		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : null,
+		"age" : 1
 	},
 	{
 		"id" : 482,
@@ -1538,8 +1713,9 @@
 		"publisher" : "Square Enix",
 		"released" : "2018-09-26",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo"
+		"last_update" : "2019-12-04",
+		"notes" : "Has Linux & Mac versions without Denuvo",
+		"age" : 61
 	},
 	{
 		"id" : 310,
@@ -1549,7 +1725,8 @@
 		"released" : "2017-08-31",
 		"removed" : "2017-10-14",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 483,
@@ -1559,7 +1736,19 @@
 		"released" : "2023-11-08",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : -1
+	},
+	{
+		"id" : 598,
+		"title" : "Like a Dragon: Infinite Wealth",
+		"developer" : "Ryu Ga Gotoku Studio",
+		"publisher" : "Sega",
+		"released" : "2024-01-26",
+		"removed" : null,
+		"last_update" : null,
+		"notes" : null,
+		"age" : -4
 	},
 	{
 		"id" : 484,
@@ -1569,7 +1758,8 @@
 		"released" : "2023-02-21",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 485,
@@ -1579,7 +1769,8 @@
 		"released" : "2023-04-27",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 5
 	},
 	{
 		"id" : 311,
@@ -1589,7 +1780,8 @@
 		"released" : "2017-07-20",
 		"removed" : "2018-01-05",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 76
 	},
 	{
 		"id" : 486,
@@ -1598,8 +1790,9 @@
 		"publisher" : "CI Games",
 		"released" : "2014-10-28",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has GOG version without Denuvo"
+		"last_update" : "2015-03-03",
+		"notes" : "Has GOG version without Denuvo",
+		"age" : 109
 	},
 	{
 		"id" : 487,
@@ -1609,7 +1802,8 @@
 		"released" : "2021-09-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 25
 	},
 	{
 		"id" : 488,
@@ -1619,7 +1813,8 @@
 		"released" : "2022-09-14",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 13
 	},
 	{
 		"id" : 490,
@@ -1629,7 +1824,8 @@
 		"released" : "2018-08-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 63
 	},
 	{
 		"id" : 491,
@@ -1639,7 +1835,8 @@
 		"released" : "2019-08-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 51
 	},
 	{
 		"id" : 492,
@@ -1649,7 +1846,8 @@
 		"released" : "2020-08-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "Delisted 2022-02-18",
+		"age" : 38
 	},
 	{
 		"id" : 493,
@@ -1659,7 +1857,8 @@
 		"released" : "2021-08-20",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 26
 	},
 	{
 		"id" : 489,
@@ -1669,7 +1868,8 @@
 		"released" : "2015-09-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has GOG version without Denuvo.  Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"notes" : "Has GOG version without Denuvo.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 99
 	},
 	{
 		"id" : 312,
@@ -1679,7 +1879,8 @@
 		"released" : "2020-09-25",
 		"removed" : "2021-09-23",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 37
 	},
 	{
 		"id" : 494,
@@ -1688,8 +1889,9 @@
 		"publisher" : "Tripwire Interactive",
 		"released" : "2020-05-22",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-09-01",
+		"notes" : "",
+		"age" : 41
 	},
 	{
 		"id" : 314,
@@ -1699,7 +1901,8 @@
 		"released" : "2020-09-04",
 		"removed" : "2021-08-31",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "Delisted 2023-09-30",
+		"age" : 38
 	},
 	{
 		"id" : 495,
@@ -1709,7 +1912,8 @@
 		"released" : "2021-10-26",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 496,
@@ -1718,8 +1922,9 @@
 		"publisher" : "2K",
 		"released" : "2022-12-02",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-05-12",
+		"notes" : "",
+		"age" : 10
 	},
 	{
 		"id" : 313,
@@ -1728,8 +1933,9 @@
 		"publisher" : "Capcom",
 		"released" : "2017-09-19",
 		"removed" : "2018-05-15",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-12-06",
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 316,
@@ -1739,7 +1945,8 @@
 		"released" : "2017-03-21",
 		"removed" : "2017-07-06",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 80
 	},
 	{
 		"id" : 315,
@@ -1749,7 +1956,8 @@
 		"released" : "2021-05-14",
 		"removed" : "2021-06-07",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 29
 	},
 	{
 		"id" : 317,
@@ -1759,7 +1967,8 @@
 		"released" : "2018-10-02",
 		"removed" : "2018-11-19",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 61
 	},
 	{
 		"id" : 497,
@@ -1768,8 +1977,9 @@
 		"publisher" : "Capcom",
 		"released" : "2023-04-14",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-06-27",
+		"notes" : "",
+		"age" : 6
 	},
 	{
 		"id" : 498,
@@ -1778,8 +1988,9 @@
 		"publisher" : "Capcom",
 		"released" : "2023-04-14",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-06-27",
+		"notes" : "",
+		"age" : 6
 	},
 	{
 		"id" : 499,
@@ -1788,8 +1999,9 @@
 		"publisher" : "Konami",
 		"released" : "2015-09-01",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2016-11-25",
+		"notes" : "",
+		"age" : 99
 	},
 	{
 		"id" : 318,
@@ -1798,8 +2010,9 @@
 		"publisher" : "Deep Silver",
 		"released" : "2019-02-15",
 		"removed" : "2020-05-27",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-02-12",
+		"notes" : "",
+		"age" : 56
 	},
 	{
 		"id" : 500,
@@ -1808,8 +2021,9 @@
 		"publisher" : "Warner Bros. Games",
 		"released" : "2017-10-10",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has GOG version without Denuvo"
+		"last_update" : "2018-05-08",
+		"notes" : "Has GOG version without Denuvo",
+		"age" : 73
 	},
 	{
 		"id" : 501,
@@ -1819,7 +2033,8 @@
 		"released" : "2015-09-29",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 98
 	},
 	{
 		"id" : 502,
@@ -1829,7 +2044,8 @@
 		"released" : "2016-06-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 89
 	},
 	{
 		"id" : 503,
@@ -1839,7 +2055,8 @@
 		"released" : "2021-12-09",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 22
 	},
 	{
 		"id" : 504,
@@ -1849,7 +2066,8 @@
 		"released" : "2017-09-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 505,
@@ -1858,8 +2076,9 @@
 		"publisher" : "Capcom",
 		"released" : "2022-01-12",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-04-20",
+		"notes" : "",
+		"age" : 21
 	},
 	{
 		"id" : 319,
@@ -1868,8 +2087,9 @@
 		"publisher" : "Capcom",
 		"released" : "2021-07-09",
 		"removed" : "2022-07-05",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-08-05",
+		"notes" : "",
+		"age" : 27
 	},
 	{
 		"id" : 320,
@@ -1878,8 +2098,9 @@
 		"publisher" : "Capcom",
 		"released" : "2018-08-09",
 		"removed" : "2021-06-02",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-10-16",
+		"notes" : "",
+		"age" : 63
 	},
 	{
 		"id" : 321,
@@ -1889,7 +2110,8 @@
 		"released" : "2019-10-22",
 		"removed" : "2020-04-01",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 48
 	},
 	{
 		"id" : 506,
@@ -1899,7 +2121,8 @@
 		"released" : "2023-09-19",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 1
 	},
 	{
 		"id" : 322,
@@ -1908,8 +2131,9 @@
 		"publisher" : "Warner Bros. Games",
 		"released" : "2019-04-23",
 		"removed" : "2022-03-22",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-11-26",
+		"notes" : "",
+		"age" : 54
 	},
 	{
 		"id" : 323,
@@ -1918,8 +2142,9 @@
 		"publisher" : "Microids",
 		"released" : "2016-11-03",
 		"removed" : "2018-02-20",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-06-28",
+		"notes" : "",
+		"age" : 84
 	},
 	{
 		"id" : 324,
@@ -1929,7 +2154,8 @@
 		"released" : "2018-12-04",
 		"removed" : "2019-02-26",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 59
 	},
 	{
 		"id" : 325,
@@ -1938,8 +2164,20 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2018-08-31",
 		"removed" : "2023-02-02",
+		"last_update" : "2022-12-02",
+		"notes" : "",
+		"age" : 62
+	},
+	{
+		"id" : 602,
+		"title" : "NBA 2K24",
+		"developer" : "Visual Concepts",
+		"publisher" : "2K",
+		"released" : "2023-09-08",
+		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : null,
+		"age" : 1
 	},
 	{
 		"id" : 507,
@@ -1949,7 +2187,8 @@
 		"released" : "2016-03-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 92
 	},
 	{
 		"id" : 508,
@@ -1958,8 +2197,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2019-11-08",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-06-05",
+		"notes" : "",
+		"age" : 48
 	},
 	{
 		"id" : 511,
@@ -1969,7 +2209,8 @@
 		"released" : "2020-11-06",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 35
 	},
 	{
 		"id" : 509,
@@ -1978,8 +2219,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2017-11-10",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-06-19",
+		"notes" : "",
+		"age" : 72
 	},
 	{
 		"id" : 510,
@@ -1988,8 +2230,9 @@
 		"publisher" : "Electronic Arts",
 		"released" : "2022-12-02",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-08-17",
+		"notes" : "",
+		"age" : 10
 	},
 	{
 		"id" : 512,
@@ -1999,7 +2242,8 @@
 		"released" : "2018-09-24",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 61
 	},
 	{
 		"id" : 326,
@@ -2008,8 +2252,9 @@
 		"publisher" : "2K",
 		"released" : "2022-10-21",
 		"removed" : "2023-04-18",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-11-22",
+		"notes" : "",
+		"age" : 12
 	},
 	{
 		"id" : 328,
@@ -2018,8 +2263,9 @@
 		"publisher" : "Square Enix",
 		"released" : "2017-03-17",
 		"removed" : "2021-07-15",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-05-03",
+		"notes" : "",
+		"age" : 80
 	},
 	{
 		"id" : 327,
@@ -2029,7 +2275,8 @@
 		"released" : "2021-04-23",
 		"removed" : "2021-10-20",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 30
 	},
 	{
 		"id" : 329,
@@ -2039,7 +2286,8 @@
 		"released" : "2019-06-07",
 		"removed" : "2019-11-05",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 53
 	},
 	{
 		"id" : 330,
@@ -2049,7 +2297,8 @@
 		"released" : "2023-02-24",
 		"removed" : "2023-08-09",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 7
 	},
 	{
 		"id" : 513,
@@ -2059,7 +2308,8 @@
 		"released" : "2017-10-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 73
 	},
 	{
 		"id" : 514,
@@ -2067,9 +2317,10 @@
 		"developer" : "Starbreeze Studios",
 		"publisher" : "Deep Silver",
 		"released" : "2023-09-21",
-		"removed" : null,
+		"removed" : "2023-09-21",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 1
 	},
 	{
 		"id" : 515,
@@ -2079,7 +2330,8 @@
 		"released" : "2023-01-19",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 9
 	},
 	{
 		"id" : 516,
@@ -2089,7 +2341,8 @@
 		"released" : "2024-02-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : -4
 	},
 	{
 		"id" : 517,
@@ -2099,7 +2352,8 @@
 		"released" : "2022-03-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 19
 	},
 	{
 		"id" : 518,
@@ -2109,7 +2363,8 @@
 		"released" : "2020-06-13",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 40
 	},
 	{
 		"id" : 519,
@@ -2119,7 +2374,8 @@
 		"released" : "2022-10-21",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 12
 	},
 	{
 		"id" : 520,
@@ -2129,7 +2385,8 @@
 		"released" : "2021-02-23",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 32
 	},
 	{
 		"id" : 521,
@@ -2139,7 +2396,8 @@
 		"released" : "2023-11-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : -1
 	},
 	{
 		"id" : 522,
@@ -2148,8 +2406,9 @@
 		"publisher" : "2K",
 		"released" : "2022-10-14",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-08-02",
+		"notes" : "",
+		"age" : 12
 	},
 	{
 		"id" : 523,
@@ -2158,8 +2417,9 @@
 		"publisher" : "Frontier Developments",
 		"released" : "2016-11-17",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Mac version without Denuvo, published by Aspyr"
+		"last_update" : "2019-06-04",
+		"notes" : "Has Mac version without Denuvo, published by Aspyr",
+		"age" : 84
 	},
 	{
 		"id" : 524,
@@ -2168,8 +2428,9 @@
 		"publisher" : "Frontier Developments",
 		"released" : "2019-11-05",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-09-19",
+		"notes" : "",
+		"age" : 48
 	},
 	{
 		"id" : 525,
@@ -2179,7 +2440,8 @@
 		"released" : "2016-02-23",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 93
 	},
 	{
 		"id" : 526,
@@ -2189,7 +2451,8 @@
 		"released" : "2019-06-18",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 52
 	},
 	{
 		"id" : 331,
@@ -2198,8 +2461,9 @@
 		"publisher" : "Bethesda Softworks",
 		"released" : "2017-05-05",
 		"removed" : "2020-07-23",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-06-11",
+		"notes" : "",
+		"age" : 78
 	},
 	{
 		"id" : 332,
@@ -2209,7 +2473,8 @@
 		"released" : "2018-12-11",
 		"removed" : "2020-07-16",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 59
 	},
 	{
 		"id" : 527,
@@ -2219,7 +2484,8 @@
 		"released" : "2016-09-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 86
 	},
 	{
 		"id" : 528,
@@ -2229,7 +2495,8 @@
 		"released" : "2017-09-13",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 529,
@@ -2239,7 +2506,8 @@
 		"released" : "2018-08-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 62
 	},
 	{
 		"id" : 530,
@@ -2249,7 +2517,8 @@
 		"released" : "2018-02-27",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 68
 	},
 	{
 		"id" : 333,
@@ -2259,7 +2528,8 @@
 		"released" : "2019-05-14",
 		"removed" : "2019-05-16",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 54
 	},
 	{
 		"id" : 531,
@@ -2269,7 +2539,8 @@
 		"released" : "2023-05-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 5
 	},
 	{
 		"id" : 334,
@@ -2278,8 +2549,9 @@
 		"publisher" : "Capcom",
 		"released" : "2019-01-25",
 		"removed" : "2019-12-18",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-05-05",
+		"notes" : "",
+		"age" : 57
 	},
 	{
 		"id" : 335,
@@ -2288,8 +2560,9 @@
 		"publisher" : "Capcom",
 		"released" : "2020-04-03",
 		"removed" : "2020-10-01",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-08-06",
+		"notes" : "",
+		"age" : 43
 	},
 	{
 		"id" : 532,
@@ -2298,8 +2571,9 @@
 		"publisher" : "Capcom",
 		"released" : "2023-03-24",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-09-21",
+		"notes" : "",
+		"age" : 7
 	},
 	{
 		"id" : 336,
@@ -2308,8 +2582,9 @@
 		"publisher" : "Capcom",
 		"released" : "2017-01-24",
 		"removed" : "2019-01-28",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-12-12",
+		"notes" : "",
+		"age" : 82
 	},
 	{
 		"id" : 337,
@@ -2319,7 +2594,8 @@
 		"released" : "2020-04-03",
 		"removed" : "2020-10-01",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 43
 	},
 	{
 		"id" : 338,
@@ -2328,8 +2604,9 @@
 		"publisher" : "Capcom",
 		"released" : "2021-05-07",
 		"removed" : "2023-04-10",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-12-16",
+		"notes" : "",
+		"age" : 29
 	},
 	{
 		"id" : 339,
@@ -2339,7 +2616,8 @@
 		"released" : "2017-05-26",
 		"removed" : "2017-06-02",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 77
 	},
 	{
 		"id" : 340,
@@ -2348,8 +2626,9 @@
 		"publisher" : "Square Enix",
 		"released" : "2016-01-28",
 		"removed" : "2021-11-23",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2016-10-12",
+		"notes" : "",
+		"age" : 94
 	},
 	{
 		"id" : 533,
@@ -2359,7 +2638,8 @@
 		"released" : "2017-02-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 81
 	},
 	{
 		"id" : 341,
@@ -2369,7 +2649,8 @@
 		"released" : "2013-10-22",
 		"removed" : "2022-09-10",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 121
 	},
 	{
 		"id" : 534,
@@ -2379,7 +2660,8 @@
 		"released" : "2020-01-31",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 45
 	},
 	{
 		"id" : 535,
@@ -2389,7 +2671,8 @@
 		"released" : "2021-01-14",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 33
 	},
 	{
 		"id" : 536,
@@ -2399,7 +2682,8 @@
 		"released" : "2019-07-05",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 52
 	},
 	{
 		"id" : 342,
@@ -2409,7 +2693,8 @@
 		"released" : "2018-09-14",
 		"removed" : "2021-10-18",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 62
 	},
 	{
 		"id" : 537,
@@ -2419,7 +2704,8 @@
 		"released" : "2016-06-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has GOG version without Denuvo"
+		"notes" : "Has GOG version without Denuvo",
+		"age" : 89
 	},
 	{
 		"id" : 539,
@@ -2429,7 +2715,8 @@
 		"released" : "2018-07-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 64
 	},
 	{
 		"id" : 538,
@@ -2439,7 +2726,8 @@
 		"released" : "2021-05-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 29
 	},
 	{
 		"id" : 540,
@@ -2448,8 +2736,9 @@
 		"publisher" : "Rebellion Developments",
 		"released" : "2017-02-14",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-07-18",
+		"notes" : "",
+		"age" : 81
 	},
 	{
 		"id" : 541,
@@ -2458,8 +2747,9 @@
 		"publisher" : "Rebellion Developments",
 		"released" : "2022-05-26",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-07-06",
+		"notes" : "",
+		"age" : 17
 	},
 	{
 		"id" : 542,
@@ -2469,7 +2759,8 @@
 		"released" : "2021-07-08",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 27
 	},
 	{
 		"id" : 343,
@@ -2478,8 +2769,9 @@
 		"publisher" : "CI Games",
 		"released" : "2017-04-25",
 		"removed" : "2018-01-26",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-09-05",
+		"notes" : "",
+		"age" : 79
 	},
 	{
 		"id" : 543,
@@ -2489,7 +2781,8 @@
 		"released" : "2021-09-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 25
 	},
 	{
 		"id" : 544,
@@ -2499,7 +2792,8 @@
 		"released" : "2017-11-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 72
 	},
 	{
 		"id" : 545,
@@ -2509,7 +2803,8 @@
 		"released" : "2022-11-08",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 11
 	},
 	{
 		"id" : 344,
@@ -2518,8 +2813,9 @@
 		"publisher" : "Sega",
 		"released" : "2017-08-29",
 		"removed" : "2019-03-12",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-07-18",
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 546,
@@ -2528,8 +2824,9 @@
 		"publisher" : "Sega",
 		"released" : "2022-06-23",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-06-23",
+		"notes" : "",
+		"age" : 16
 	},
 	{
 		"id" : 345,
@@ -2538,8 +2835,9 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2018-10-19",
 		"removed" : "2021-11-11",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-12-02",
+		"notes" : "",
+		"age" : 60
 	},
 	{
 		"id" : 547,
@@ -2549,7 +2847,8 @@
 		"released" : "2022-08-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 14
 	},
 	{
 		"id" : 548,
@@ -2558,8 +2857,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2017-10-17",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-08-01",
+		"notes" : "",
+		"age" : 73
 	},
 	{
 		"id" : 346,
@@ -2569,7 +2869,8 @@
 		"released" : "2022-10-27",
 		"removed" : "2023-04-21",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 11
 	},
 	{
 		"id" : 549,
@@ -2579,7 +2880,8 @@
 		"released" : "2017-11-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 71
 	},
 	{
 		"id" : 550,
@@ -2589,7 +2891,8 @@
 		"released" : "2023-11-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : -1
 	},
 	{
 		"id" : 551,
@@ -2599,7 +2902,8 @@
 		"released" : "2015-11-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 96
 	},
 	{
 		"id" : 552,
@@ -2609,7 +2913,8 @@
 		"released" : "2017-11-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 72
 	},
 	{
 		"id" : 347,
@@ -2619,7 +2924,8 @@
 		"released" : "2019-11-15",
 		"removed" : "2021-11-09",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 47
 	},
 	{
 		"id" : 553,
@@ -2629,7 +2935,8 @@
 		"released" : "2023-04-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 5
 	},
 	{
 		"id" : 554,
@@ -2639,7 +2946,8 @@
 		"released" : "2020-10-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 37
 	},
 	{
 		"id" : 555,
@@ -2649,7 +2957,8 @@
 		"released" : "2023-04-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 5
 	},
 	{
 		"id" : 556,
@@ -2658,8 +2967,9 @@
 		"publisher" : "Rebellion Developments",
 		"released" : "2018-08-28",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-11-28",
+		"notes" : "",
+		"age" : 62
 	},
 	{
 		"id" : 557,
@@ -2669,7 +2979,8 @@
 		"released" : "2023-06-02",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 4
 	},
 	{
 		"id" : 558,
@@ -2678,8 +2989,9 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2018-02-23",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2019-01-18",
+		"notes" : "",
+		"age" : 68
 	},
 	{
 		"id" : 348,
@@ -2688,8 +3000,9 @@
 		"publisher" : "Microids",
 		"released" : "2017-04-20",
 		"removed" : "2017-04-27",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-11-10",
+		"notes" : "",
+		"age" : 79
 	},
 	{
 		"id" : 559,
@@ -2698,8 +3011,9 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2017-01-26",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-02-22",
+		"notes" : "",
+		"age" : 81
 	},
 	{
 		"id" : 560,
@@ -2709,7 +3023,8 @@
 		"released" : "2019-05-21",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 53
 	},
 	{
 		"id" : 349,
@@ -2718,8 +3033,9 @@
 		"publisher" : "Bandai Namco Entertainment",
 		"released" : "2017-06-02",
 		"removed" : "2021-10-26",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-03-23",
+		"notes" : "",
+		"age" : 77
 	},
 	{
 		"id" : 561,
@@ -2729,7 +3045,8 @@
 		"released" : "2018-06-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 64
 	},
 	{
 		"id" : 562,
@@ -2738,8 +3055,9 @@
 		"publisher" : "Krafton",
 		"released" : "2022-12-02",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-06-29",
+		"notes" : "",
+		"age" : 10
 	},
 	{
 		"id" : 563,
@@ -2749,7 +3067,8 @@
 		"released" : "2016-04-28",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 91
 	},
 	{
 		"id" : 564,
@@ -2759,7 +3078,8 @@
 		"released" : "2023-09-14",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 1
 	},
 	{
 		"id" : 350,
@@ -2769,7 +3089,8 @@
 		"released" : "2022-09-22",
 		"removed" : "2023-03-05",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 13
 	},
 	{
 		"id" : 565,
@@ -2779,7 +3100,8 @@
 		"released" : "2023-03-30",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 6
 	},
 	{
 		"id" : 351,
@@ -2788,8 +3110,9 @@
 		"publisher" : "2K",
 		"released" : "2022-06-10",
 		"removed" : "2023-01-31",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-11-01",
+		"notes" : "",
+		"age" : 16
 	},
 	{
 		"id" : 566,
@@ -2799,7 +3122,8 @@
 		"released" : "2018-11-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 60
 	},
 	{
 		"id" : 352,
@@ -2809,7 +3133,8 @@
 		"released" : "2019-09-24",
 		"removed" : "2019-09-24",
 		"last_update" : null,
-		"notes" : "Denuvo Anti-Tamper DRM was used to protect the timed closed beta and was removed afterward."
+		"notes" : "Denuvo Anti-Tamper DRM was used to protect the timed closed beta and was removed afterward.",
+		"age" : 49
 	},
 	{
 		"id" : 353,
@@ -2818,8 +3143,9 @@
 		"publisher" : "2K",
 		"released" : "2022-03-25",
 		"removed" : "2023-04-20",
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-08-12",
+		"notes" : "",
+		"age" : 19
 	},
 	{
 		"id" : 354,
@@ -2829,7 +3155,8 @@
 		"released" : "2016-10-28",
 		"removed" : "2017-03-31",
 		"last_update" : null,
-		"notes" : "Exact day of removal unknown, using the end of the month."
+		"notes" : "Exact day of removal unknown, using the end of the month.",
+		"age" : 84
 	},
 	{
 		"id" : 567,
@@ -2839,7 +3166,8 @@
 		"released" : "2019-10-04",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 49
 	},
 	{
 		"id" : 568,
@@ -2848,8 +3176,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2017-03-07",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2018-04-11",
+		"notes" : "",
+		"age" : 80
 	},
 	{
 		"id" : 569,
@@ -2859,7 +3188,8 @@
 		"released" : "2022-01-20",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 21
 	},
 	{
 		"id" : 570,
@@ -2868,8 +3198,9 @@
 		"publisher" : "Activision",
 		"released" : "2020-09-04",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-11-07",
+		"notes" : "",
+		"age" : 38
 	},
 	{
 		"id" : 572,
@@ -2879,7 +3210,8 @@
 		"released" : "2023-10-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 0
 	},
 	{
 		"id" : 571,
@@ -2888,8 +3220,9 @@
 		"publisher" : "Sega",
 		"released" : "2018-05-03",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"last_update" : "2018-08-30",
+		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 66
 	},
 	{
 		"id" : 573,
@@ -2898,8 +3231,9 @@
 		"publisher" : "Sega",
 		"released" : "2019-05-23",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"last_update" : "2021-03-12",
+		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 53
 	},
 	{
 		"id" : 574,
@@ -2908,8 +3242,9 @@
 		"publisher" : "Sega",
 		"released" : "2016-05-24",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"last_update" : "2017-08-11",
+		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 90
 	},
 	{
 		"id" : 575,
@@ -2918,8 +3253,9 @@
 		"publisher" : "Sega",
 		"released" : "2017-09-28",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"last_update" : "2021-07-15",
+		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 73
 	},
 	{
 		"id" : 576,
@@ -2928,8 +3264,9 @@
 		"publisher" : "Sega",
 		"released" : "2022-02-17",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"last_update" : "2023-09-01",
+		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 20
 	},
 	{
 		"id" : 577,
@@ -2938,8 +3275,9 @@
 		"publisher" : "Aerosoft",
 		"released" : "2018-12-06",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-04-11",
+		"notes" : "",
+		"age" : 59
 	},
 	{
 		"id" : 355,
@@ -2949,7 +3287,8 @@
 		"released" : "2017-11-09",
 		"removed" : "2018-08-31",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 72
 	},
 	{
 		"id" : 356,
@@ -2959,7 +3298,8 @@
 		"released" : "2020-04-24",
 		"removed" : "2020-08-26",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 42
 	},
 	{
 		"id" : 578,
@@ -2968,8 +3308,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2019-02-26",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2020-11-25",
+		"notes" : "",
+		"age" : 56
 	},
 	{
 		"id" : 357,
@@ -2979,7 +3320,8 @@
 		"released" : "2022-10-13",
 		"removed" : "2023-04-06",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 12
 	},
 	{
 		"id" : 579,
@@ -2988,8 +3330,9 @@
 		"publisher" : "Sega",
 		"released" : "2022-08-09",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo"
+		"last_update" : "2023-08-18",
+		"notes" : "Has Linux & Mac versions without Denuvo",
+		"age" : 14
 	},
 	{
 		"id" : 358,
@@ -2999,7 +3342,8 @@
 		"released" : "2018-08-30",
 		"removed" : "2018-09-04",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 62
 	},
 	{
 		"id" : 580,
@@ -3009,7 +3353,8 @@
 		"released" : "2023-02-01",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 581,
@@ -3019,7 +3364,8 @@
 		"released" : "2016-02-09",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 93
 	},
 	{
 		"id" : 582,
@@ -3029,7 +3375,8 @@
 		"released" : "2018-06-09",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 65
 	},
 	{
 		"id" : 583,
@@ -3039,7 +3386,8 @@
 		"released" : "2018-09-25",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 61
 	},
 	{
 		"id" : 359,
@@ -3049,7 +3397,8 @@
 		"released" : "2022-11-11",
 		"removed" : "2023-03-30",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 11
 	},
 	{
 		"id" : 360,
@@ -3059,7 +3408,8 @@
 		"released" : "2022-02-17",
 		"removed" : "2023-03-15",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 20
 	},
 	{
 		"id" : 361,
@@ -3069,7 +3419,8 @@
 		"released" : "2021-10-28",
 		"removed" : "2022-04-28",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 24
 	},
 	{
 		"id" : 584,
@@ -3078,8 +3429,9 @@
 		"publisher" : "Frontier Developments",
 		"released" : "2022-05-05",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-07-26",
+		"notes" : "",
+		"age" : 17
 	},
 	{
 		"id" : 585,
@@ -3089,17 +3441,19 @@
 		"released" : "2017-04-27",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive"
+		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
+		"age" : 78
 	},
 	{
 		"id" : 586,
-		"title" : "Watch Dogs 2",
+		"title" : "Watch_Dogs 2",
 		"developer" : "Ubisoft Montreal, Ubisoft Paris, Ubisoft Toronto, Ubisoft Bucharest, Ubisoft Reflections",
 		"publisher" : "Ubisoft",
 		"released" : "2016-11-29",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-05-19",
+		"notes" : "",
+		"age" : 83
 	},
 	{
 		"id" : 587,
@@ -3108,8 +3462,9 @@
 		"publisher" : "Ubisoft",
 		"released" : "2020-10-29",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2021-07-07",
+		"notes" : "",
+		"age" : 36
 	},
 	{
 		"id" : 588,
@@ -3118,8 +3473,9 @@
 		"publisher" : "Rootnstudio",
 		"released" : "2023-02-16",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2023-07-21",
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 589,
@@ -3128,8 +3484,9 @@
 		"publisher" : "PQube Limited",
 		"released" : "2017-08-22",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2017-12-21",
+		"notes" : "",
+		"age" : 75
 	},
 	{
 		"id" : 590,
@@ -3139,7 +3496,8 @@
 		"released" : "2023-02-17",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 8
 	},
 	{
 		"id" : 362,
@@ -3149,7 +3507,19 @@
 		"released" : "2019-07-25",
 		"removed" : "2022-03-08",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 51
+	},
+	{
+		"id" : 601,
+		"title" : "WRC",
+		"developer" : "Codemasters",
+		"publisher" : "Electronic Arts",
+		"released" : "2023-11-03",
+		"removed" : null,
+		"last_update" : null,
+		"notes" : null,
+		"age" : -1
 	},
 	{
 		"id" : 591,
@@ -3159,7 +3529,8 @@
 		"released" : "2016-10-07",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 85
 	},
 	{
 		"id" : 592,
@@ -3169,7 +3540,8 @@
 		"released" : "2017-09-15",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 74
 	},
 	{
 		"id" : 363,
@@ -3179,7 +3551,8 @@
 		"released" : "2018-08-01",
 		"removed" : "2019-03-11",
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 63
 	},
 	{
 		"id" : 593,
@@ -3189,7 +3562,8 @@
 		"released" : "2020-11-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has GOG version without Denuvo"
+		"notes" : "Has GOG version without Denuvo",
+		"age" : 35
 	},
 	{
 		"id" : 594,
@@ -3199,7 +3573,8 @@
 		"released" : "2016-11-10",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : "Has GOG & Mac versions without Denuvo"
+		"notes" : "Has GOG & Mac versions without Denuvo",
+		"age" : 84
 	},
 	{
 		"id" : 595,
@@ -3208,8 +3583,9 @@
 		"publisher" : "Rebellion Developments",
 		"released" : "2020-02-04",
 		"removed" : null,
-		"last_update" : null,
-		"notes" : ""
+		"last_update" : "2022-05-06",
+		"notes" : "",
+		"age" : 45
 	},
 	{
 		"id" : 596,
@@ -3219,6 +3595,7 @@
 		"released" : "2018-09-04",
 		"removed" : null,
 		"last_update" : null,
-		"notes" : ""
+		"notes" : "",
+		"age" : 62
 	}
 ]}
