@@ -108,14 +108,14 @@ export default {
             type: 'pie',
             radius: ['0%', '70%'],
             center: ['50%', '50%'],
-            avoidLabelOverlap: false,
+            avoidLabelOverlap: true,
             itemStyle: {
               borderRadius: 0,
               borderColor: '#fff',
               borderWidth: 2
             },
             label: {
-              formatter: '{b} months: {@number} ({d}%)',
+              formatter: '{b} months:\n{@number} ({d}%)',
               // color: $q.dark.isActive ? '#e2e2e2' : '#1d1d1d'
               color: '#6e7079'
             },

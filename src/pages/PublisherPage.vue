@@ -95,12 +95,17 @@ export default defineComponent({
   },
   
   /* TODO:
-   add last_update dates to db
-    add the option to choose between released and last_update for the start of date ranges
-   possibly calculate lifetime values to display in the table data
+   add the option to choose between released and last_update for the start of date ranges
+   display age/lifetime values in the table data
    move the data loading/processing from PublisherPage to on initial load
     move the bar chart location from PublisherPage to ?
    possibly adjust the BarChart/PieChart imports - https://vue-echarts.dev/#codegen
+   Fix ./publishers only loading via the sidebar and not directly?
+
+   "It can be difficult to determine the date of game updates.  For uniformity, 'last update' is based on the original release date of the last paid DLC that is not a soundtrack or artbook (and before the removal of Denovo, where relevant)"
+
+   Unknown removal date so unlisted:
+   Halo Wars 2, Rock Band VR
    */
 
   methods: {
@@ -184,6 +189,12 @@ export default defineComponent({
           }
         }
       };
+      for(let n = 1; n <= 5; ++n){
+        if(this.dateBuckets.source[n][1] == 0){
+          this.dateBuckets.source[n][1] = null;
+        }
+      }
+
       // console.log(this.dateBuckets);
     },
     // Prepares the data used by q-table
