@@ -72,7 +72,8 @@ export default defineComponent({
         { name: 'released', label: 'Release Date', field: 'released', sortable: true },
         { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true },
         // { name: 'lastupdate', label: 'Last Update', field: 'lastupdate', sortable: true },
-        // { name: 'notes', label: 'Notes', field: 'notes'}
+        // { name: 'notes', label: 'Notes', field: 'notes'},
+        {name: 'age', label: 'Months', field: 'age', sortable: true}
         // { name: 'iron', label: 'Iron (%)', field: 'iron', sortable: true, sort: (a, b) => parseInt(a, 10) - parseInt(b, 10) }
       ],
     }

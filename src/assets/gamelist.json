@@ -1,5 +1,5 @@
 {
-"lastupdate": "2023-09-21",
+"lastupdate": "2023-09-25",
 "games": [
 	{
 		"id" : 271,
@@ -10,7 +10,7 @@
 		"removed" : "2017-04-19",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 80
+		"age" : 2
 	},
 	{
 		"id" : 272,
@@ -21,7 +21,7 @@
 		"removed" : "2020-12-08",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 87
+		"age" : 53
 	},
 	{
 		"id" : 273,
@@ -32,7 +32,7 @@
 		"removed" : "2021-10-19",
 		"last_update" : "2021-05-28",
 		"notes" : "",
-		"age" : 57
+		"age" : 34
 	},
 	{
 		"id" : 274,
@@ -43,7 +43,7 @@
 		"removed" : "2017-09-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 92
+		"age" : 18
 	},
 	{
 		"id" : 275,
@@ -54,7 +54,7 @@
 		"removed" : "2017-11-10",
 		"last_update" : "2017-10-11",
 		"notes" : "",
-		"age" : 75
+		"age" : 3
 	},
 	{
 		"id" : 370,
@@ -65,7 +65,7 @@
 		"removed" : null,
 		"last_update" : "2023-08-23",
 		"notes" : "",
-		"age" : 54
+		"age" : 55
 	},
 	{
 		"id" : 371,
@@ -76,7 +76,7 @@
 		"removed" : null,
 		"last_update" : "2016-10-04",
 		"notes" : "",
-		"age" : 96
+		"age" : 97
 	},
 	{
 		"id" : 372,
@@ -164,7 +164,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 67
+		"age" : 68
 	},
 	{
 		"id" : 378,
@@ -186,7 +186,7 @@
 		"removed" : "2021-09-22",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 31
+		"age" : 6
 	},
 	{
 		"id" : 277,
@@ -197,7 +197,7 @@
 		"removed" : "2020-12-03",
 		"last_update" : "2015-12-23",
 		"notes" : "",
-		"age" : 101
+		"age" : 67
 	},
 	{
 		"id" : 379,
@@ -263,7 +263,7 @@
 		"removed" : "2021-01-21",
 		"last_update" : "2020-11-10",
 		"notes" : "",
-		"age" : 49
+		"age" : 17
 	},
 	{
 		"id" : 279,
@@ -274,7 +274,7 @@
 		"removed" : "2022-02-25",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 25
+		"age" : 6
 	},
 	{
 		"id" : 280,
@@ -285,7 +285,7 @@
 		"removed" : "2017-12-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 79
+		"age" : 9
 	},
 	{
 		"id" : 384,
@@ -296,7 +296,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 62
+		"age" : 63
 	},
 	{
 		"id" : 281,
@@ -307,7 +307,7 @@
 		"removed" : "2020-03-19",
 		"last_update" : "2019-05-23",
 		"notes" : "",
-		"age" : 65
+		"age" : 22
 	},
 	{
 		"id" : 282,
@@ -318,7 +318,7 @@
 		"removed" : "2023-05-16",
 		"last_update" : "2022-06-23",
 		"notes" : "",
-		"age" : 25
+		"age" : 21
 	},
 	{
 		"id" : 385,
@@ -329,7 +329,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 86
+		"age" : 87
 	},
 	{
 		"id" : 386,
@@ -362,7 +362,7 @@
 		"removed" : "2020-06-16",
 		"last_update" : "2020-05-08",
 		"notes" : "",
-		"age" : 66
+		"age" : 26
 	},
 	{
 		"id" : 284,
@@ -373,7 +373,7 @@
 		"removed" : "2019-09-19",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 53
+		"age" : 4
 	},
 	{
 		"id" : 388,
@@ -395,7 +395,7 @@
 		"removed" : "2018-11-23",
 		"last_update" : "2017-07-25",
 		"notes" : "",
-		"age" : 77
+		"age" : 19
 	},
 	{
 		"id" : 389,
@@ -439,7 +439,7 @@
 		"removed" : "2021-10-20",
 		"last_update" : null,
 		"notes" : "Only Epic Games version used Denuvo",
-		"age" : 37
+		"age" : 14
 	},
 	{
 		"id" : 392,
@@ -450,7 +450,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 86
+		"age" : 87
 	},
 	{
 		"id" : 393,
@@ -483,7 +483,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"age" : 9
 	},
 	{
 		"id" : 396,
@@ -505,7 +505,7 @@
 		"removed" : "2020-12-17",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 39
+		"age" : 6
 	},
 	{
 		"id" : 397,
@@ -538,7 +538,7 @@
 		"removed" : "2020-06-19",
 		"last_update" : null,
 		"notes" : "Only Epic Games version used Denuvo",
-		"age" : 46
+		"age" : 7
 	},
 	{
 		"id" : 399,
@@ -560,7 +560,7 @@
 		"removed" : "2020-02-06",
 		"last_update" : "2019-03-22",
 		"notes" : "",
-		"age" : 56
+		"age" : 12
 	},
 	{
 		"id" : 400,
@@ -582,7 +582,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 68
+		"age" : 69
 	},
 	{
 		"id" : 290,
@@ -593,7 +593,7 @@
 		"removed" : "2018-12-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 84
+		"age" : 26
 	},
 	{
 		"id" : 291,
@@ -604,7 +604,7 @@
 		"removed" : "2018-12-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 74
+		"age" : 16
 	},
 	{
 		"id" : 292,
@@ -615,7 +615,7 @@
 		"removed" : "2016-12-08",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 90
+		"age" : 7
 	},
 	{
 		"id" : 402,
@@ -670,7 +670,7 @@
 		"removed" : "2020-06-02",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 47
+		"age" : 6
 	},
 	{
 		"id" : 406,
@@ -714,7 +714,7 @@
 		"removed" : "2021-05-28",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 35
+		"age" : 6
 	},
 	{
 		"id" : 294,
@@ -725,7 +725,7 @@
 		"removed" : "2023-03-13",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"age" : 6
 	},
 	{
 		"id" : 296,
@@ -736,7 +736,7 @@
 		"removed" : "2023-01-31",
 		"last_update" : "2022-12-23",
 		"notes" : "",
-		"age" : 20
+		"age" : 13
 	},
 	{
 		"id" : 410,
@@ -901,7 +901,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-03-11.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 74
+		"age" : 75
 	},
 	{
 		"id" : 423,
@@ -934,7 +934,7 @@
 		"removed" : "2021-09-30",
 		"last_update" : null,
 		"notes" : "Delisted 2023-03-15",
-		"age" : 39
+		"age" : 15
 	},
 	{
 		"id" : 425,
@@ -956,7 +956,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 15
+		"age" : 16
 	},
 	{
 		"id" : 427,
@@ -978,7 +978,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"age" : 14
 	},
 	{
 		"id" : 429,
@@ -1000,7 +1000,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 19
+		"age" : 20
 	},
 	{
 		"id" : 430,
@@ -1033,7 +1033,7 @@
 		"removed" : null,
 		"last_update" : "2019-03-05",
 		"notes" : "",
-		"age" : 56
+		"age" : 57
 	},
 	{
 		"id" : 433,
@@ -1110,7 +1110,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 85
+		"age" : 86
 	},
 	{
 		"id" : 441,
@@ -1154,7 +1154,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-06-23",
-		"age" : 36
+		"age" : 37
 	},
 	{
 		"id" : 445,
@@ -1187,7 +1187,7 @@
 		"removed" : "2020-04-24",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 69
+		"age" : 28
 	},
 	{
 		"id" : 447,
@@ -1220,7 +1220,7 @@
 		"removed" : "2023-01-09",
 		"last_update" : "2021-03-16",
 		"notes" : "",
-		"age" : 61
+		"age" : 53
 	},
 	{
 		"id" : 449,
@@ -1363,7 +1363,7 @@
 		"removed" : "2023-07-25",
 		"last_update" : "2023-05-26",
 		"notes" : "",
-		"age" : 9
+		"age" : 7
 	},
 	{
 		"id" : 461,
@@ -1396,7 +1396,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 86
+		"age" : 87
 	},
 	{
 		"id" : 464,
@@ -1407,7 +1407,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 86
+		"age" : 87
 	},
 	{
 		"id" : 465,
@@ -1462,7 +1462,7 @@
 		"removed" : "2020-06-24",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 52
+		"age" : 13
 	},
 	{
 		"id" : 469,
@@ -1473,7 +1473,7 @@
 		"removed" : null,
 		"last_update" : "2023-07-06",
 		"notes" : "",
-		"age" : 8
+		"age" : 9
 	},
 	{
 		"id" : 302,
@@ -1484,7 +1484,7 @@
 		"removed" : "2017-06-17",
 		"last_update" : null,
 		"notes" : "IO Interactive became independent on 2017-06-16, shortly before Denuvo was removed.  Delisted 2023-01-26",
-		"age" : 92
+		"age" : 16
 	},
 	{
 		"id" : 303,
@@ -1495,7 +1495,7 @@
 		"removed" : "2019-01-30",
 		"last_update" : null,
 		"notes" : "IO Interactive self-published the Stadia version.  Delisted 2023-01-26",
-		"age" : 60
+		"age" : 3
 	},
 	{
 		"id" : 470,
@@ -1517,7 +1517,7 @@
 		"removed" : "2017-03-06",
 		"last_update" : "2016-11-10",
 		"notes" : "",
-		"age" : 90
+		"age" : 10
 	},
 	{
 		"id" : 471,
@@ -1561,7 +1561,7 @@
 		"removed" : "2021-11-04",
 		"last_update" : "2018-03-28",
 		"notes" : "",
-		"age" : 72
+		"age" : 49
 	},
 	{
 		"id" : 306,
@@ -1572,7 +1572,7 @@
 		"removed" : "2016-11-23",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 88
+		"age" : 5
 	},
 	{
 		"id" : 474,
@@ -1649,7 +1649,7 @@
 		"removed" : "2023-07-26",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"age" : 3
 	},
 	{
 		"id" : 308,
@@ -1660,7 +1660,7 @@
 		"removed" : "2022-02-17",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 26
+		"age" : 6
 	},
 	{
 		"id" : 480,
@@ -1682,7 +1682,7 @@
 		"removed" : "2021-12-10",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 28
+		"age" : 6
 	},
 	{
 		"id" : 481,
@@ -1726,7 +1726,7 @@
 		"removed" : "2017-10-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 74
+		"age" : 2
 	},
 	{
 		"id" : 483,
@@ -1770,7 +1770,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"age" : 6
 	},
 	{
 		"id" : 311,
@@ -1781,7 +1781,7 @@
 		"removed" : "2018-01-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 76
+		"age" : 6
 	},
 	{
 		"id" : 486,
@@ -1880,7 +1880,7 @@
 		"removed" : "2021-09-23",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 37
+		"age" : 13
 	},
 	{
 		"id" : 494,
@@ -1902,7 +1902,7 @@
 		"removed" : "2021-08-31",
 		"last_update" : null,
 		"notes" : "Delisted 2023-09-30",
-		"age" : 38
+		"age" : 13
 	},
 	{
 		"id" : 495,
@@ -1935,7 +1935,7 @@
 		"removed" : "2018-05-15",
 		"last_update" : "2017-12-06",
 		"notes" : "",
-		"age" : 74
+		"age" : 8
 	},
 	{
 		"id" : 316,
@@ -1946,7 +1946,7 @@
 		"removed" : "2017-07-06",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 80
+		"age" : 4
 	},
 	{
 		"id" : 315,
@@ -1957,7 +1957,7 @@
 		"removed" : "2021-06-07",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 29
+		"age" : 1
 	},
 	{
 		"id" : 317,
@@ -1968,7 +1968,7 @@
 		"removed" : "2018-11-19",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 61
+		"age" : 2
 	},
 	{
 		"id" : 497,
@@ -2012,7 +2012,7 @@
 		"removed" : "2020-05-27",
 		"last_update" : "2020-02-12",
 		"notes" : "",
-		"age" : 56
+		"age" : 16
 	},
 	{
 		"id" : 500,
@@ -2089,7 +2089,7 @@
 		"removed" : "2022-07-05",
 		"last_update" : "2021-08-05",
 		"notes" : "",
-		"age" : 27
+		"age" : 13
 	},
 	{
 		"id" : 320,
@@ -2100,7 +2100,7 @@
 		"removed" : "2021-06-02",
 		"last_update" : "2020-10-16",
 		"notes" : "",
-		"age" : 63
+		"age" : 35
 	},
 	{
 		"id" : 321,
@@ -2111,7 +2111,7 @@
 		"removed" : "2020-04-01",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 48
+		"age" : 6
 	},
 	{
 		"id" : 506,
@@ -2133,7 +2133,7 @@
 		"removed" : "2022-03-22",
 		"last_update" : "2020-11-26",
 		"notes" : "",
-		"age" : 54
+		"age" : 36
 	},
 	{
 		"id" : 323,
@@ -2144,7 +2144,7 @@
 		"removed" : "2018-02-20",
 		"last_update" : "2017-06-28",
 		"notes" : "",
-		"age" : 84
+		"age" : 16
 	},
 	{
 		"id" : 324,
@@ -2155,7 +2155,7 @@
 		"removed" : "2019-02-26",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 59
+		"age" : 3
 	},
 	{
 		"id" : 325,
@@ -2166,7 +2166,7 @@
 		"removed" : "2023-02-02",
 		"last_update" : "2022-12-02",
 		"notes" : "",
-		"age" : 62
+		"age" : 54
 	},
 	{
 		"id" : 602,
@@ -2210,7 +2210,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 35
+		"age" : 36
 	},
 	{
 		"id" : 509,
@@ -2254,7 +2254,7 @@
 		"removed" : "2023-04-18",
 		"last_update" : "2022-11-22",
 		"notes" : "",
-		"age" : 12
+		"age" : 6
 	},
 	{
 		"id" : 328,
@@ -2265,7 +2265,7 @@
 		"removed" : "2021-07-15",
 		"last_update" : "2017-05-03",
 		"notes" : "",
-		"age" : 80
+		"age" : 53
 	},
 	{
 		"id" : 327,
@@ -2276,7 +2276,7 @@
 		"removed" : "2021-10-20",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 30
+		"age" : 6
 	},
 	{
 		"id" : 329,
@@ -2287,7 +2287,7 @@
 		"removed" : "2019-11-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 53
+		"age" : 6
 	},
 	{
 		"id" : 330,
@@ -2298,7 +2298,7 @@
 		"removed" : "2023-08-09",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 7
+		"age" : 6
 	},
 	{
 		"id" : 513,
@@ -2320,7 +2320,7 @@
 		"removed" : "2023-09-21",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"age" : 0
 	},
 	{
 		"id" : 515,
@@ -2463,7 +2463,7 @@
 		"removed" : "2020-07-23",
 		"last_update" : "2018-06-11",
 		"notes" : "",
-		"age" : 78
+		"age" : 40
 	},
 	{
 		"id" : 332,
@@ -2474,7 +2474,7 @@
 		"removed" : "2020-07-16",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 59
+		"age" : 20
 	},
 	{
 		"id" : 527,
@@ -2529,7 +2529,7 @@
 		"removed" : "2019-05-16",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 54
+		"age" : 1
 	},
 	{
 		"id" : 531,
@@ -2551,7 +2551,7 @@
 		"removed" : "2019-12-18",
 		"last_update" : "2019-05-05",
 		"notes" : "",
-		"age" : 57
+		"age" : 11
 	},
 	{
 		"id" : 335,
@@ -2562,7 +2562,7 @@
 		"removed" : "2020-10-01",
 		"last_update" : "2020-08-06",
 		"notes" : "",
-		"age" : 43
+		"age" : 7
 	},
 	{
 		"id" : 532,
@@ -2584,7 +2584,7 @@
 		"removed" : "2019-01-28",
 		"last_update" : "2017-12-12",
 		"notes" : "",
-		"age" : 82
+		"age" : 25
 	},
 	{
 		"id" : 337,
@@ -2595,7 +2595,7 @@
 		"removed" : "2020-10-01",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 43
+		"age" : 7
 	},
 	{
 		"id" : 338,
@@ -2606,7 +2606,7 @@
 		"removed" : "2023-04-10",
 		"last_update" : "2022-12-16",
 		"notes" : "",
-		"age" : 29
+		"age" : 24
 	},
 	{
 		"id" : 339,
@@ -2617,7 +2617,7 @@
 		"removed" : "2017-06-02",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 77
+		"age" : 1
 	},
 	{
 		"id" : 340,
@@ -2628,7 +2628,7 @@
 		"removed" : "2021-11-23",
 		"last_update" : "2016-10-12",
 		"notes" : "",
-		"age" : 94
+		"age" : 71
 	},
 	{
 		"id" : 533,
@@ -2650,7 +2650,7 @@
 		"removed" : "2022-09-10",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 121
+		"age" : 109
 	},
 	{
 		"id" : 534,
@@ -2694,7 +2694,7 @@
 		"removed" : "2021-10-18",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 62
+		"age" : 38
 	},
 	{
 		"id" : 537,
@@ -2771,7 +2771,7 @@
 		"removed" : "2018-01-26",
 		"last_update" : "2017-09-05",
 		"notes" : "",
-		"age" : 79
+		"age" : 10
 	},
 	{
 		"id" : 543,
@@ -2815,7 +2815,7 @@
 		"removed" : "2019-03-12",
 		"last_update" : "2018-07-18",
 		"notes" : "",
-		"age" : 74
+		"age" : 19
 	},
 	{
 		"id" : 546,
@@ -2837,7 +2837,7 @@
 		"removed" : "2021-11-11",
 		"last_update" : "2020-12-02",
 		"notes" : "",
-		"age" : 60
+		"age" : 38
 	},
 	{
 		"id" : 547,
@@ -2870,7 +2870,7 @@
 		"removed" : "2023-04-21",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 11
+		"age" : 6
 	},
 	{
 		"id" : 549,
@@ -2925,7 +2925,7 @@
 		"removed" : "2021-11-09",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 47
+		"age" : 25
 	},
 	{
 		"id" : 553,
@@ -2958,7 +2958,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"age" : 6
 	},
 	{
 		"id" : 556,
@@ -3002,7 +3002,7 @@
 		"removed" : "2017-04-27",
 		"last_update" : "2017-11-10",
 		"notes" : "",
-		"age" : 79
+		"age" : 1
 	},
 	{
 		"id" : 559,
@@ -3013,7 +3013,7 @@
 		"removed" : null,
 		"last_update" : "2017-02-22",
 		"notes" : "",
-		"age" : 81
+		"age" : 82
 	},
 	{
 		"id" : 560,
@@ -3035,7 +3035,7 @@
 		"removed" : "2021-10-26",
 		"last_update" : "2021-03-23",
 		"notes" : "",
-		"age" : 77
+		"age" : 54
 	},
 	{
 		"id" : 561,
@@ -3090,7 +3090,7 @@
 		"removed" : "2023-03-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"age" : 6
 	},
 	{
 		"id" : 565,
@@ -3112,7 +3112,7 @@
 		"removed" : "2023-01-31",
 		"last_update" : "2022-11-01",
 		"notes" : "",
-		"age" : 16
+		"age" : 8
 	},
 	{
 		"id" : 566,
@@ -3134,7 +3134,7 @@
 		"removed" : "2019-09-24",
 		"last_update" : null,
 		"notes" : "Denuvo Anti-Tamper DRM was used to protect the timed closed beta and was removed afterward.",
-		"age" : 49
+		"age" : 0
 	},
 	{
 		"id" : 353,
@@ -3145,7 +3145,7 @@
 		"removed" : "2023-04-20",
 		"last_update" : "2022-08-12",
 		"notes" : "",
-		"age" : 19
+		"age" : 14
 	},
 	{
 		"id" : 354,
@@ -3156,7 +3156,7 @@
 		"removed" : "2017-03-31",
 		"last_update" : null,
 		"notes" : "Exact day of removal unknown, using the end of the month.",
-		"age" : 84
+		"age" : 6
 	},
 	{
 		"id" : 567,
@@ -3288,7 +3288,7 @@
 		"removed" : "2018-08-31",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 72
+		"age" : 10
 	},
 	{
 		"id" : 356,
@@ -3299,7 +3299,7 @@
 		"removed" : "2020-08-26",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 42
+		"age" : 5
 	},
 	{
 		"id" : 578,
@@ -3321,7 +3321,7 @@
 		"removed" : "2023-04-06",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 12
+		"age" : 6
 	},
 	{
 		"id" : 579,
@@ -3343,7 +3343,7 @@
 		"removed" : "2018-09-04",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 62
+		"age" : 1
 	},
 	{
 		"id" : 580,
@@ -3398,7 +3398,7 @@
 		"removed" : "2023-03-30",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 11
+		"age" : 5
 	},
 	{
 		"id" : 360,
@@ -3409,7 +3409,7 @@
 		"removed" : "2023-03-15",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 20
+		"age" : 14
 	},
 	{
 		"id" : 361,
@@ -3420,7 +3420,7 @@
 		"removed" : "2022-04-28",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 24
+		"age" : 7
 	},
 	{
 		"id" : 584,
@@ -3442,7 +3442,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 78
+		"age" : 79
 	},
 	{
 		"id" : 586,
@@ -3453,7 +3453,7 @@
 		"removed" : null,
 		"last_update" : "2017-05-19",
 		"notes" : "",
-		"age" : 83
+		"age" : 84
 	},
 	{
 		"id" : 587,
@@ -3508,7 +3508,7 @@
 		"removed" : "2022-03-08",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 51
+		"age" : 32
 	},
 	{
 		"id" : 601,
@@ -3552,7 +3552,7 @@
 		"removed" : "2019-03-11",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 63
+		"age" : 8
 	},
 	{
 		"id" : 593,
