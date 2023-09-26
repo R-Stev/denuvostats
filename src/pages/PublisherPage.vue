@@ -4,6 +4,17 @@
         <q-select v-model="pubSelector" :options="publisherList" label="Publisher"
         style="width: 300px" />
         <div class="self-center">
+          Age since:
+          <q-btn-toggle
+            v-model="releaseOrUpdate"
+            toggle-color="primary"
+            :options="[
+              {label: 'Release', value: 'release'},
+              {label: 'Last update', value: 'lastupdate'}
+            ]"
+          />
+        </div>
+        <div class="self-center">
           Denuvo status:
           <q-btn-toggle
             v-model="statusFilter"
@@ -25,9 +36,14 @@
       <div class="col-12">
         <!-- height should be some value of 48n + 104 -->
         <q-table class="my-sticky-header-table"
-          title="Details" style="height: 488px"
-          :rows="tableData" :columns="columns" row-key="index"
-          virtual-scroll :rows-per-page-options="[0]"
+          title="Details"
+          style="height: 488px"
+          :rows="tableData"
+          :columns="columns"
+          row-key="index"
+          :visible-columns="visibleColumns"
+          virtual-scroll
+          :rows-per-page-options="[0]"
         />
       </div>
     </div>
@@ -41,7 +57,7 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import { defineComponent } from 'vue'
 import BarChart from "components/BarChart.vue"
 import PieChart from "components/PieChart.vue"
 import gamelist from 'assets/gamelist.json'
@@ -54,9 +70,8 @@ export default defineComponent({
   },
   data() {
     return {
-      // pubSelector: ref('All publishers'),
-      // statusFilter: ref('all'),
       pubSelector: 'All publishers',
+      releaseOrUpdate: 'release',
       statusFilter: 'all',
       rawList: [],
       dateBuckets: {},
@@ -65,17 +80,17 @@ export default defineComponent({
       percentCounts: [],
       barChartHeight: 'height: 200px;',
       columns: [
-        // { name: 'title', required: true, label: 'Title', align: 'left', field: rawList => rawList.title, format: val => `${val}` },
         { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
-        // { name: 'developer', label: 'Developer', field: 'developer', sortable: true },
+        { name: 'developer', label: 'Developer', field: 'developer', sortable: true },
         { name: 'publisher', label: 'Publisher', field: 'publisher', sortable: true },
         { name: 'released', label: 'Release Date', field: 'released', sortable: true },
+        { name: 'last_update', label: 'Last Update', field: 'last_update', sortable: true },
         { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true },
-        // { name: 'lastupdate', label: 'Last Update', field: 'lastupdate', sortable: true },
-        // { name: 'notes', label: 'Notes', field: 'notes'},
-        {name: 'age', label: 'Months', field: 'age', sortable: true}
-        // { name: 'iron', label: 'Iron (%)', field: 'iron', sortable: true, sort: (a, b) => parseInt(a, 10) - parseInt(b, 10) }
+        { name: 'release_age', label: 'Months', field: 'release_age', sortable: true },
+        { name: 'update_age', label: 'Months', field: 'update_age', sortable: true },
+        { name: 'notes', label: 'Notes', field: 'notes'}
       ],
+      visibleColumns: ['title', 'publisher', 'released', 'removed', 'release_age']
     }
   },
   mounted() {
@@ -89,6 +104,11 @@ export default defineComponent({
       this.makeBuckets();
       this.makeTableData();
     },
+    releaseOrUpdate: function(val){
+      this.makeBuckets();
+      this.visibleColumns = val == 'release' ? ['title', 'publisher', 'released', 'removed', 'release_age']
+                                             : ['title', 'publisher', 'released', 'last_update', 'removed', 'update_age']
+    },
     statusFilter: function(){
       this.makeBuckets();
       this.makeTableData();
@@ -96,12 +116,10 @@ export default defineComponent({
   },
   
   /* TODO:
-   add the option to choose between released and last_update for the start of date ranges
-   display age/lifetime values in the table data
-   move the data loading/processing from PublisherPage to on initial load
+  restructure to SPA
+    move the data loading/processing from PublisherPage to ?
     move the bar chart location from PublisherPage to ?
    possibly adjust the BarChart/PieChart imports - https://vue-echarts.dev/#codegen
-   Fix ./publishers only loading via the sidebar and not directly?
 
    "It can be difficult to determine the date of game updates.  For uniformity, 'last update' is based on the original release date of the last paid DLC that is not a soundtrack or artbook (and before the removal of Denovo, where relevant)"
 
@@ -169,7 +187,12 @@ export default defineComponent({
         }
         if(this.pubSelector == 'All publishers' || this.pubSelector == this.rawList[i].publisher){
           if(this.statusFilter == 'all' || this.statusFilter == comparator){
-            let start = new Date(this.rawList[i].released);
+            let start;
+            if(this.releaseOrUpdate == 'lastupdate' && this.rawList[i].last_update){
+              start = new Date(this.rawList[i].last_update);
+            } else {
+              start = new Date(this.rawList[i].released);
+            }
             let monthNum = Math.ceil((end.getTime() - start.getTime()) / 86400000 / 30);
 
             if(monthNum <= 3){
