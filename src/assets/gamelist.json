@@ -1,5 +1,5 @@
 {
-"lastupdate": "2023-09-25",
+"lastupdate": "2023-09-26",
 "games": [
 	{
 		"id" : 271,
@@ -10,7 +10,8 @@
 		"removed" : "2017-04-19",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 2
+		"release_age" : 2,
+		"update_age" : 2
 	},
 	{
 		"id" : 272,
@@ -21,7 +22,8 @@
 		"removed" : "2020-12-08",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 53
+		"release_age" : 53,
+		"update_age" : 53
 	},
 	{
 		"id" : 273,
@@ -32,7 +34,8 @@
 		"removed" : "2021-10-19",
 		"last_update" : "2021-05-28",
 		"notes" : "",
-		"age" : 34
+		"release_age" : 34,
+		"update_age" : 5
 	},
 	{
 		"id" : 274,
@@ -43,7 +46,8 @@
 		"removed" : "2017-09-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 18
+		"release_age" : 18,
+		"update_age" : 18
 	},
 	{
 		"id" : 275,
@@ -54,7 +58,8 @@
 		"removed" : "2017-11-10",
 		"last_update" : "2017-10-11",
 		"notes" : "",
-		"age" : 3
+		"release_age" : 3,
+		"update_age" : 1
 	},
 	{
 		"id" : 370,
@@ -65,7 +70,8 @@
 		"removed" : null,
 		"last_update" : "2023-08-23",
 		"notes" : "",
-		"age" : 55
+		"release_age" : 55,
+		"update_age" : 2
 	},
 	{
 		"id" : 371,
@@ -76,7 +82,8 @@
 		"removed" : null,
 		"last_update" : "2016-10-04",
 		"notes" : "",
-		"age" : 97
+		"release_age" : 97,
+		"update_age" : 85
 	},
 	{
 		"id" : 372,
@@ -87,7 +94,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 0
+		"release_age" : 0,
+		"update_age" : 0
 	},
 	{
 		"id" : 373,
@@ -98,7 +106,8 @@
 		"removed" : null,
 		"last_update" : "2019-04-24",
 		"notes" : "",
-		"age" : 61
+		"release_age" : 61,
+		"update_age" : 54
 	},
 	{
 		"id" : 374,
@@ -109,7 +118,8 @@
 		"removed" : null,
 		"last_update" : "2018-03-13",
 		"notes" : "",
-		"age" : 72
+		"release_age" : 72,
+		"update_age" : 68
 	},
 	{
 		"id" : 375,
@@ -120,7 +130,8 @@
 		"removed" : null,
 		"last_update" : "2022-03-11",
 		"notes" : "",
-		"age" : 35
+		"release_age" : 35,
+		"update_age" : 19
 	},
 	{
 		"id" : 376,
@@ -131,7 +142,8 @@
 		"removed" : null,
 		"last_update" : "2023-08-02",
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 2
 	},
 	{
 		"id" : 368,
@@ -142,7 +154,8 @@
 		"removed" : null,
 		"last_update" : "2021-12-15",
 		"notes" : "Has Mac version without Denuvo, published by Feral Interactive",
-		"age" : 38
+		"release_age" : 38,
+		"update_age" : 22
 	},
 	{
 		"id" : 377,
@@ -153,7 +166,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : -2
+		"release_age" : -2,
+		"update_age" : -2
 	},
 	{
 		"id" : 369,
@@ -164,7 +178,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 68
+		"release_age" : 68,
+		"update_age" : 68
 	},
 	{
 		"id" : 378,
@@ -175,7 +190,8 @@
 		"removed" : null,
 		"last_update" : "2022-12-07",
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 10
 	},
 	{
 		"id" : 276,
@@ -186,7 +202,8 @@
 		"removed" : "2021-09-22",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 277,
@@ -197,7 +214,8 @@
 		"removed" : "2020-12-03",
 		"last_update" : "2015-12-23",
 		"notes" : "",
-		"age" : 67
+		"release_age" : 67,
+		"update_age" : 61
 	},
 	{
 		"id" : 379,
@@ -208,7 +226,8 @@
 		"removed" : null,
 		"last_update" : "2020-06-12",
 		"notes" : "",
-		"age" : 85
+		"release_age" : 85,
+		"update_age" : 41
 	},
 	{
 		"id" : 380,
@@ -219,7 +238,8 @@
 		"removed" : null,
 		"last_update" : "2023-05-27",
 		"notes" : "",
-		"age" : 23
+		"release_age" : 23,
+		"update_age" : 5
 	},
 	{
 		"id" : 381,
@@ -230,7 +250,8 @@
 		"removed" : null,
 		"last_update" : "2020-06-12",
 		"notes" : "",
-		"age" : 104
+		"release_age" : 104,
+		"update_age" : 41
 	},
 	{
 		"id" : 382,
@@ -241,7 +262,8 @@
 		"removed" : null,
 		"last_update" : "2020-06-12",
 		"notes" : "",
-		"age" : 59
+		"release_age" : 60,
+		"update_age" : 41
 	},
 	{
 		"id" : 383,
@@ -252,7 +274,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 78
+		"release_age" : 78,
+		"update_age" : 78
 	},
 	{
 		"id" : 278,
@@ -263,7 +286,8 @@
 		"removed" : "2021-01-21",
 		"last_update" : "2020-11-10",
 		"notes" : "",
-		"age" : 17
+		"release_age" : 17,
+		"update_age" : 3
 	},
 	{
 		"id" : 279,
@@ -274,7 +298,8 @@
 		"removed" : "2022-02-25",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 280,
@@ -285,7 +310,8 @@
 		"removed" : "2017-12-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 9
+		"release_age" : 9,
+		"update_age" : 9
 	},
 	{
 		"id" : 384,
@@ -296,7 +322,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 63
+		"release_age" : 63,
+		"update_age" : 63
 	},
 	{
 		"id" : 281,
@@ -307,7 +334,8 @@
 		"removed" : "2020-03-19",
 		"last_update" : "2019-05-23",
 		"notes" : "",
-		"age" : 22
+		"release_age" : 22,
+		"update_age" : 11
 	},
 	{
 		"id" : 282,
@@ -318,7 +346,8 @@
 		"removed" : "2023-05-16",
 		"last_update" : "2022-06-23",
 		"notes" : "",
-		"age" : 21
+		"release_age" : 21,
+		"update_age" : 11
 	},
 	{
 		"id" : 385,
@@ -329,7 +358,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 87
 	},
 	{
 		"id" : 386,
@@ -340,7 +370,8 @@
 		"removed" : null,
 		"last_update" : "2020-03-25",
 		"notes" : "",
-		"age" : 49
+		"release_age" : 49,
+		"update_age" : 43
 	},
 	{
 		"id" : 387,
@@ -351,7 +382,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 283,
@@ -362,7 +394,8 @@
 		"removed" : "2020-06-16",
 		"last_update" : "2020-05-08",
 		"notes" : "",
-		"age" : 26
+		"release_age" : 26,
+		"update_age" : 2
 	},
 	{
 		"id" : 284,
@@ -373,7 +406,8 @@
 		"removed" : "2019-09-19",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 388,
@@ -384,7 +418,8 @@
 		"removed" : null,
 		"last_update" : "2023-07-28",
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 2
 	},
 	{
 		"id" : 285,
@@ -395,7 +430,8 @@
 		"removed" : "2018-11-23",
 		"last_update" : "2017-07-25",
 		"notes" : "",
-		"age" : 19
+		"release_age" : 19,
+		"update_age" : 17
 	},
 	{
 		"id" : 389,
@@ -406,7 +442,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 7,
+		"update_age" : 7
 	},
 	{
 		"id" : 390,
@@ -417,7 +454,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 24
 	},
 	{
 		"id" : 391,
@@ -428,7 +466,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 24
 	},
 	{
 		"id" : 286,
@@ -439,7 +478,8 @@
 		"removed" : "2021-10-20",
 		"last_update" : null,
 		"notes" : "Only Epic Games version used Denuvo",
-		"age" : 14
+		"release_age" : 14,
+		"update_age" : 14
 	},
 	{
 		"id" : 392,
@@ -450,7 +490,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 87
 	},
 	{
 		"id" : 393,
@@ -461,7 +502,8 @@
 		"removed" : null,
 		"last_update" : "2023-06-21",
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 4
 	},
 	{
 		"id" : 394,
@@ -472,7 +514,8 @@
 		"removed" : null,
 		"last_update" : "2017-06-21",
 		"notes" : "",
-		"age" : 83
+		"release_age" : 83,
+		"update_age" : 77
 	},
 	{
 		"id" : 395,
@@ -483,7 +526,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 9
+		"release_age" : 9,
+		"update_age" : 9
 	},
 	{
 		"id" : 396,
@@ -494,7 +538,8 @@
 		"removed" : null,
 		"last_update" : "2021-12-15",
 		"notes" : "",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 22
 	},
 	{
 		"id" : 287,
@@ -505,7 +550,8 @@
 		"removed" : "2020-12-17",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 397,
@@ -516,7 +562,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 398,
@@ -527,7 +574,8 @@
 		"removed" : null,
 		"last_update" : "2022-11-16",
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 11
 	},
 	{
 		"id" : 288,
@@ -538,7 +586,8 @@
 		"removed" : "2020-06-19",
 		"last_update" : null,
 		"notes" : "Only Epic Games version used Denuvo",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 7
 	},
 	{
 		"id" : 399,
@@ -549,7 +598,8 @@
 		"removed" : null,
 		"last_update" : "2017-02-24",
 		"notes" : "Has GOG version without Denuvo.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 81
 	},
 	{
 		"id" : 289,
@@ -560,7 +610,8 @@
 		"removed" : "2020-02-06",
 		"last_update" : "2019-03-22",
 		"notes" : "",
-		"age" : 12
+		"release_age" : 12,
+		"update_age" : 11
 	},
 	{
 		"id" : 400,
@@ -571,7 +622,8 @@
 		"removed" : null,
 		"last_update" : "2021-09-01",
 		"notes" : "",
-		"age" : 36
+		"release_age" : 36,
+		"update_age" : 26
 	},
 	{
 		"id" : 401,
@@ -582,7 +634,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 69
+		"release_age" : 69,
+		"update_age" : 69
 	},
 	{
 		"id" : 290,
@@ -593,7 +646,8 @@
 		"removed" : "2018-12-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 26
+		"release_age" : 26,
+		"update_age" : 26
 	},
 	{
 		"id" : 291,
@@ -604,7 +658,8 @@
 		"removed" : "2018-12-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 16
+		"release_age" : 16,
+		"update_age" : 16
 	},
 	{
 		"id" : 292,
@@ -615,7 +670,8 @@
 		"removed" : "2016-12-08",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 7
 	},
 	{
 		"id" : 402,
@@ -626,7 +682,8 @@
 		"removed" : "2023-09-06",
 		"last_update" : "2021-12-10",
 		"notes" : "",
-		"age" : 43
+		"release_age" : 43,
+		"update_age" : 22
 	},
 	{
 		"id" : 403,
@@ -637,7 +694,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 108
+		"release_age" : 108,
+		"update_age" : 108
 	},
 	{
 		"id" : 404,
@@ -648,7 +706,8 @@
 		"removed" : null,
 		"last_update" : "2022-02-24",
 		"notes" : "",
-		"age" : 69
+		"release_age" : 69,
+		"update_age" : 20
 	},
 	{
 		"id" : 405,
@@ -659,7 +718,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 84
 	},
 	{
 		"id" : 293,
@@ -670,7 +730,8 @@
 		"removed" : "2020-06-02",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 406,
@@ -681,7 +742,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 79
+		"release_age" : 79,
+		"update_age" : 79
 	},
 	{
 		"id" : 407,
@@ -692,7 +754,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 3
+		"release_age" : 3,
+		"update_age" : 3
 	},
 	{
 		"id" : 408,
@@ -703,7 +766,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2020-12-04",
-		"age" : 62
+		"release_age" : 62,
+		"update_age" : 62
 	},
 	{
 		"id" : 295,
@@ -714,7 +778,8 @@
 		"removed" : "2021-05-28",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 294,
@@ -725,7 +790,8 @@
 		"removed" : "2023-03-13",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 296,
@@ -736,7 +802,8 @@
 		"removed" : "2023-01-31",
 		"last_update" : "2022-12-23",
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 2
 	},
 	{
 		"id" : 410,
@@ -747,7 +814,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 85
+		"release_age" : 85,
+		"update_age" : 85
 	},
 	{
 		"id" : 600,
@@ -758,7 +826,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : null,
-		"age" : 0
+		"release_age" : 0,
+		"update_age" : 0
 	},
 	{
 		"id" : 409,
@@ -769,7 +838,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 411,
@@ -780,7 +850,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 89
+		"release_age" : 89,
+		"update_age" : 89
 	},
 	{
 		"id" : 412,
@@ -791,7 +862,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 25
 	},
 	{
 		"id" : 413,
@@ -802,7 +874,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2020-11-26?",
-		"age" : 50
+		"release_age" : 50,
+		"update_age" : 50
 	},
 	{
 		"id" : 414,
@@ -813,7 +886,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2021-12-09?",
-		"age" : 37
+		"release_age" : 37,
+		"update_age" : 37
 	},
 	{
 		"id" : 415,
@@ -824,7 +898,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 0
+		"release_age" : 0,
+		"update_age" : 0
 	},
 	{
 		"id" : 416,
@@ -835,7 +910,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 417,
@@ -846,7 +922,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 418,
@@ -857,7 +934,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 419,
@@ -868,7 +946,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-07-01",
-		"age" : 92
+		"release_age" : 92,
+		"update_age" : 92
 	},
 	{
 		"id" : 420,
@@ -879,7 +958,8 @@
 		"removed" : null,
 		"last_update" : "2022-02-09",
 		"notes" : "",
-		"age" : 31
+		"release_age" : 31,
+		"update_age" : 20
 	},
 	{
 		"id" : 421,
@@ -890,7 +970,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-03-11.  Has Mac version without Denuvo, published by Feral Interactive",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 87
 	},
 	{
 		"id" : 422,
@@ -901,7 +982,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-03-11.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 75
+		"release_age" : 75,
+		"update_age" : 75
 	},
 	{
 		"id" : 423,
@@ -912,7 +994,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-03-11",
-		"age" : 62
+		"release_age" : 62,
+		"update_age" : 62
 	},
 	{
 		"id" : 424,
@@ -923,7 +1006,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-04-18",
-		"age" : 52
+		"release_age" : 52,
+		"update_age" : 52
 	},
 	{
 		"id" : 297,
@@ -934,7 +1018,8 @@
 		"removed" : "2021-09-30",
 		"last_update" : null,
 		"notes" : "Delisted 2023-03-15",
-		"age" : 15
+		"release_age" : 15,
+		"update_age" : 15
 	},
 	{
 		"id" : 425,
@@ -945,7 +1030,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2023-05-03",
-		"age" : 27
+		"release_age" : 27,
+		"update_age" : 27
 	},
 	{
 		"id" : 426,
@@ -956,7 +1042,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 16
+		"release_age" : 16,
+		"update_age" : 16
 	},
 	{
 		"id" : 427,
@@ -967,7 +1054,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 428,
@@ -978,7 +1066,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 14
+		"release_age" : 14,
+		"update_age" : 14
 	},
 	{
 		"id" : 429,
@@ -989,7 +1078,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 2
+		"release_age" : 2,
+		"update_age" : 2
 	},
 	{
 		"id" : 434,
@@ -1000,7 +1090,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 20
+		"release_age" : 20,
+		"update_age" : 20
 	},
 	{
 		"id" : 430,
@@ -1011,7 +1102,8 @@
 		"removed" : null,
 		"last_update" : "2018-08-29",
 		"notes" : "",
-		"age" : 67
+		"release_age" : 67,
+		"update_age" : 62
 	},
 	{
 		"id" : 431,
@@ -1022,7 +1114,8 @@
 		"removed" : null,
 		"last_update" : "2022-12-07",
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 10
 	},
 	{
 		"id" : 432,
@@ -1033,7 +1126,8 @@
 		"removed" : null,
 		"last_update" : "2019-03-05",
 		"notes" : "",
-		"age" : 57
+		"release_age" : 57,
+		"update_age" : 56
 	},
 	{
 		"id" : 433,
@@ -1044,7 +1138,8 @@
 		"removed" : null,
 		"last_update" : "2016-03-24",
 		"notes" : "",
-		"age" : 93
+		"release_age" : 93,
+		"update_age" : 92
 	},
 	{
 		"id" : 435,
@@ -1055,7 +1150,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 69
+		"release_age" : 69,
+		"update_age" : 69
 	},
 	{
 		"id" : 436,
@@ -1066,7 +1162,8 @@
 		"removed" : null,
 		"last_update" : "2023-06-26",
 		"notes" : "",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 4
 	},
 	{
 		"id" : 437,
@@ -1077,7 +1174,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 122
+		"release_age" : 122,
+		"update_age" : 122
 	},
 	{
 		"id" : 438,
@@ -1088,7 +1186,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 110
+		"release_age" : 110,
+		"update_age" : 110
 	},
 	{
 		"id" : 439,
@@ -1099,7 +1198,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 98
+		"release_age" : 98,
+		"update_age" : 98
 	},
 	{
 		"id" : 440,
@@ -1110,7 +1210,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 86
+		"release_age" : 86,
+		"update_age" : 86
 	},
 	{
 		"id" : 441,
@@ -1121,7 +1222,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 73
+		"release_age" : 73,
+		"update_age" : 73
 	},
 	{
 		"id" : 442,
@@ -1132,7 +1234,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 61
+		"release_age" : 61,
+		"update_age" : 61
 	},
 	{
 		"id" : 443,
@@ -1143,7 +1246,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 49
+		"release_age" : 49,
+		"update_age" : 49
 	},
 	{
 		"id" : 444,
@@ -1154,7 +1258,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-06-23",
-		"age" : 37
+		"release_age" : 37,
+		"update_age" : 37
 	},
 	{
 		"id" : 445,
@@ -1165,7 +1270,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2023-05-16",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 25
 	},
 	{
 		"id" : 446,
@@ -1176,7 +1282,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 12
+		"release_age" : 13,
+		"update_age" : 13
 	},
 	{
 		"id" : 298,
@@ -1187,7 +1294,8 @@
 		"removed" : "2020-04-24",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 28
+		"release_age" : 28,
+		"update_age" : 28
 	},
 	{
 		"id" : 447,
@@ -1198,7 +1306,8 @@
 		"removed" : null,
 		"last_update" : "2019-03-26",
 		"notes" : "",
-		"age" : 68
+		"release_age" : 68,
+		"update_age" : 55
 	},
 	{
 		"id" : 448,
@@ -1209,7 +1318,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 35
+		"release_age" : 35,
+		"update_age" : 35
 	},
 	{
 		"id" : 299,
@@ -1220,7 +1330,8 @@
 		"removed" : "2023-01-09",
 		"last_update" : "2021-03-16",
 		"notes" : "",
-		"age" : 53
+		"release_age" : 53,
+		"update_age" : 23
 	},
 	{
 		"id" : 449,
@@ -1231,7 +1342,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Linux & Mac versions without Denuvo",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 84
 	},
 	{
 		"id" : 450,
@@ -1242,7 +1354,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Linux & Mac versions without Denuvo",
-		"age" : 72
+		"release_age" : 72,
+		"update_age" : 72
 	},
 	{
 		"id" : 451,
@@ -1253,7 +1366,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 60
+		"release_age" : 60,
+		"update_age" : 60
 	},
 	{
 		"id" : 452,
@@ -1264,7 +1378,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 47
+		"release_age" : 47,
+		"update_age" : 47
 	},
 	{
 		"id" : 453,
@@ -1275,7 +1390,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 47
+		"release_age" : 47,
+		"update_age" : 47
 	},
 	{
 		"id" : 454,
@@ -1286,7 +1402,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 35
+		"release_age" : 35,
+		"update_age" : 35
 	},
 	{
 		"id" : 455,
@@ -1297,7 +1414,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 23
+		"release_age" : 23,
+		"update_age" : 23
 	},
 	{
 		"id" : 456,
@@ -1308,7 +1426,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 11
+		"release_age" : 11,
+		"update_age" : 11
 	},
 	{
 		"id" : 457,
@@ -1319,7 +1438,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Linux & Mac versions without Denuvo",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 84
 	},
 	{
 		"id" : 458,
@@ -1330,7 +1450,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Linux & Mac versions without Denuvo",
-		"age" : 72
+		"release_age" : 72,
+		"update_age" : 72
 	},
 	{
 		"id" : 459,
@@ -1341,7 +1462,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Mac version without Denuvo",
-		"age" : 60
+		"release_age" : 60,
+		"update_age" : 60
 	},
 	{
 		"id" : 460,
@@ -1352,7 +1474,8 @@
 		"removed" : null,
 		"last_update" : "2023-09-14",
 		"notes" : "",
-		"age" : 81
+		"release_age" : 81,
+		"update_age" : 1
 	},
 	{
 		"id" : 300,
@@ -1363,7 +1486,8 @@
 		"removed" : "2023-07-25",
 		"last_update" : "2023-05-26",
 		"notes" : "",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 2
 	},
 	{
 		"id" : 461,
@@ -1374,7 +1498,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 3
+		"release_age" : 3,
+		"update_age" : 3
 	},
 	{
 		"id" : 462,
@@ -1385,7 +1510,8 @@
 		"removed" : null,
 		"last_update" : "2022-06-09",
 		"notes" : "",
-		"age" : 19
+		"release_age" : 19,
+		"update_age" : 16
 	},
 	{
 		"id" : 463,
@@ -1396,7 +1522,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 87
 	},
 	{
 		"id" : 464,
@@ -1407,7 +1534,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 87
+		"release_age" : 87,
+		"update_age" : 87
 	},
 	{
 		"id" : 465,
@@ -1418,7 +1546,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 12
+		"release_age" : 12,
+		"update_age" : 12
 	},
 	{
 		"id" : 466,
@@ -1429,7 +1558,8 @@
 		"removed" : null,
 		"last_update" : "2023-01-27",
 		"notes" : "",
-		"age" : 20
+		"release_age" : 20,
+		"update_age" : 9
 	},
 	{
 		"id" : 467,
@@ -1440,7 +1570,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 84
 	},
 	{
 		"id" : 468,
@@ -1451,7 +1582,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 17
+		"release_age" : 17,
+		"update_age" : 17
 	},
 	{
 		"id" : 301,
@@ -1462,7 +1594,8 @@
 		"removed" : "2020-06-24",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 13
 	},
 	{
 		"id" : 469,
@@ -1473,7 +1606,8 @@
 		"removed" : null,
 		"last_update" : "2023-07-06",
 		"notes" : "",
-		"age" : 9
+		"release_age" : 9,
+		"update_age" : 3
 	},
 	{
 		"id" : 302,
@@ -1484,7 +1618,8 @@
 		"removed" : "2017-06-17",
 		"last_update" : null,
 		"notes" : "IO Interactive became independent on 2017-06-16, shortly before Denuvo was removed.  Delisted 2023-01-26",
-		"age" : 16
+		"release_age" : 16,
+		"update_age" : 16
 	},
 	{
 		"id" : 303,
@@ -1495,7 +1630,8 @@
 		"removed" : "2019-01-30",
 		"last_update" : null,
 		"notes" : "IO Interactive self-published the Stadia version.  Delisted 2023-01-26",
-		"age" : 3
+		"release_age" : 3,
+		"update_age" : 3
 	},
 	{
 		"id" : 470,
@@ -1506,7 +1642,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 304,
@@ -1517,7 +1654,8 @@
 		"removed" : "2017-03-06",
 		"last_update" : "2016-11-10",
 		"notes" : "",
-		"age" : 10
+		"release_age" : 10,
+		"update_age" : 4
 	},
 	{
 		"id" : 471,
@@ -1528,7 +1666,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 77
+		"release_age" : 77,
+		"update_age" : 77
 	},
 	{
 		"id" : 472,
@@ -1539,7 +1678,8 @@
 		"removed" : null,
 		"last_update" : "2021-04-22",
 		"notes" : "",
-		"age" : 35
+		"release_age" : 35,
+		"update_age" : 30
 	},
 	{
 		"id" : 473,
@@ -1550,7 +1690,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 2
+		"release_age" : 2,
+		"update_age" : 2
 	},
 	{
 		"id" : 305,
@@ -1561,7 +1702,8 @@
 		"removed" : "2021-11-04",
 		"last_update" : "2018-03-28",
 		"notes" : "",
-		"age" : 49
+		"release_age" : 49,
+		"update_age" : 44
 	},
 	{
 		"id" : 306,
@@ -1572,7 +1714,8 @@
 		"removed" : "2016-11-23",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"release_age" : 5,
+		"update_age" : 5
 	},
 	{
 		"id" : 474,
@@ -1583,7 +1726,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 13
 	},
 	{
 		"id" : 475,
@@ -1594,7 +1738,8 @@
 		"removed" : null,
 		"last_update" : "2019-12-10",
 		"notes" : "",
-		"age" : 65
+		"release_age" : 65,
+		"update_age" : 47
 	},
 	{
 		"id" : 476,
@@ -1605,7 +1750,8 @@
 		"removed" : null,
 		"last_update" : "2023-08-10",
 		"notes" : "",
-		"age" : 23
+		"release_age" : 23,
+		"update_age" : 2
 	},
 	{
 		"id" : 477,
@@ -1616,7 +1762,8 @@
 		"removed" : null,
 		"last_update" : "2016-08-19",
 		"notes" : "",
-		"age" : 96
+		"release_age" : 96,
+		"update_age" : 87
 	},
 	{
 		"id" : 478,
@@ -1627,7 +1774,8 @@
 		"removed" : null,
 		"last_update" : "2019-10-25",
 		"notes" : "",
-		"age" : 59
+		"release_age" : 59,
+		"update_age" : 48
 	},
 	{
 		"id" : 479,
@@ -1638,7 +1786,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 85
+		"release_age" : 85,
+		"update_age" : 85
 	},
 	{
 		"id" : 307,
@@ -1649,7 +1798,8 @@
 		"removed" : "2023-07-26",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 3
+		"release_age" : 3,
+		"update_age" : 3
 	},
 	{
 		"id" : 308,
@@ -1660,7 +1810,8 @@
 		"removed" : "2022-02-17",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 480,
@@ -1671,7 +1822,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 56
+		"release_age" : 56,
+		"update_age" : 56
 	},
 	{
 		"id" : 309,
@@ -1682,7 +1834,8 @@
 		"removed" : "2021-12-10",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 481,
@@ -1693,7 +1846,8 @@
 		"removed" : null,
 		"last_update" : "2023-09-14",
 		"notes" : "",
-		"age" : 5
+		"release_age" : 5,
+		"update_age" : 1
 	},
 	{
 		"id" : 597,
@@ -1704,7 +1858,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : null,
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 482,
@@ -1715,7 +1870,8 @@
 		"removed" : null,
 		"last_update" : "2019-12-04",
 		"notes" : "Has Linux & Mac versions without Denuvo",
-		"age" : 61
+		"release_age" : 61,
+		"update_age" : 47
 	},
 	{
 		"id" : 310,
@@ -1726,7 +1882,8 @@
 		"removed" : "2017-10-14",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 2
+		"release_age" : 2,
+		"update_age" : 2
 	},
 	{
 		"id" : 483,
@@ -1737,7 +1894,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : -1
+		"release_age" : -1,
+		"update_age" : -1
 	},
 	{
 		"id" : 598,
@@ -1748,7 +1906,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : null,
-		"age" : -4
+		"release_age" : -4,
+		"update_age" : -4
 	},
 	{
 		"id" : 484,
@@ -1759,7 +1918,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 485,
@@ -1770,7 +1930,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 311,
@@ -1781,7 +1942,8 @@
 		"removed" : "2018-01-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 486,
@@ -1792,7 +1954,8 @@
 		"removed" : null,
 		"last_update" : "2015-03-03",
 		"notes" : "Has GOG version without Denuvo",
-		"age" : 109
+		"release_age" : 109,
+		"update_age" : 105
 	},
 	{
 		"id" : 487,
@@ -1803,7 +1966,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 25
 	},
 	{
 		"id" : 488,
@@ -1814,7 +1978,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 13
 	},
 	{
 		"id" : 490,
@@ -1825,7 +1990,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 63
+		"release_age" : 63,
+		"update_age" : 63
 	},
 	{
 		"id" : 491,
@@ -1836,7 +2002,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 51
+		"release_age" : 51,
+		"update_age" : 51
 	},
 	{
 		"id" : 492,
@@ -1847,7 +2014,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Delisted 2022-02-18",
-		"age" : 38
+		"release_age" : 38,
+		"update_age" : 38
 	},
 	{
 		"id" : 493,
@@ -1858,7 +2026,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 26
+		"release_age" : 26,
+		"update_age" : 26
 	},
 	{
 		"id" : 489,
@@ -1869,7 +2038,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has GOG version without Denuvo.  Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 99
+		"release_age" : 99,
+		"update_age" : 99
 	},
 	{
 		"id" : 312,
@@ -1880,7 +2050,8 @@
 		"removed" : "2021-09-23",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 13
 	},
 	{
 		"id" : 494,
@@ -1891,7 +2062,8 @@
 		"removed" : null,
 		"last_update" : "2021-09-01",
 		"notes" : "",
-		"age" : 41
+		"release_age" : 41,
+		"update_age" : 26
 	},
 	{
 		"id" : 314,
@@ -1902,7 +2074,8 @@
 		"removed" : "2021-08-31",
 		"last_update" : null,
 		"notes" : "Delisted 2023-09-30",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 13
 	},
 	{
 		"id" : 495,
@@ -1913,7 +2086,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 24
 	},
 	{
 		"id" : 496,
@@ -1924,7 +2098,8 @@
 		"removed" : null,
 		"last_update" : "2023-05-12",
 		"notes" : "",
-		"age" : 10
+		"release_age" : 10,
+		"update_age" : 5
 	},
 	{
 		"id" : 313,
@@ -1935,7 +2110,8 @@
 		"removed" : "2018-05-15",
 		"last_update" : "2017-12-06",
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 6
 	},
 	{
 		"id" : 316,
@@ -1946,7 +2122,8 @@
 		"removed" : "2017-07-06",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 315,
@@ -1957,7 +2134,8 @@
 		"removed" : "2021-06-07",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 317,
@@ -1968,7 +2146,8 @@
 		"removed" : "2018-11-19",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 2
+		"release_age" : 2,
+		"update_age" : 2
 	},
 	{
 		"id" : 497,
@@ -1979,7 +2158,8 @@
 		"removed" : null,
 		"last_update" : "2023-06-27",
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 4
 	},
 	{
 		"id" : 498,
@@ -1990,7 +2170,8 @@
 		"removed" : null,
 		"last_update" : "2023-06-27",
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 4
 	},
 	{
 		"id" : 499,
@@ -2001,7 +2182,8 @@
 		"removed" : null,
 		"last_update" : "2016-11-25",
 		"notes" : "",
-		"age" : 99
+		"release_age" : 99,
+		"update_age" : 84
 	},
 	{
 		"id" : 318,
@@ -2012,7 +2194,8 @@
 		"removed" : "2020-05-27",
 		"last_update" : "2020-02-12",
 		"notes" : "",
-		"age" : 16
+		"release_age" : 16,
+		"update_age" : 4
 	},
 	{
 		"id" : 500,
@@ -2023,7 +2206,8 @@
 		"removed" : null,
 		"last_update" : "2018-05-08",
 		"notes" : "Has GOG version without Denuvo",
-		"age" : 73
+		"release_age" : 73,
+		"update_age" : 66
 	},
 	{
 		"id" : 501,
@@ -2034,7 +2218,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 98
+		"release_age" : 98,
+		"update_age" : 98
 	},
 	{
 		"id" : 502,
@@ -2045,7 +2230,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 89
+		"release_age" : 89,
+		"update_age" : 89
 	},
 	{
 		"id" : 503,
@@ -2056,7 +2242,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 22
+		"release_age" : 22,
+		"update_age" : 22
 	},
 	{
 		"id" : 504,
@@ -2067,7 +2254,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 74
+		"release_age" : 74,
+		"update_age" : 74
 	},
 	{
 		"id" : 505,
@@ -2078,7 +2266,8 @@
 		"removed" : null,
 		"last_update" : "2023-04-20",
 		"notes" : "",
-		"age" : 21
+		"release_age" : 21,
+		"update_age" : 6
 	},
 	{
 		"id" : 319,
@@ -2089,7 +2278,8 @@
 		"removed" : "2022-07-05",
 		"last_update" : "2021-08-05",
 		"notes" : "",
-		"age" : 13
+		"release_age" : 13,
+		"update_age" : 12
 	},
 	{
 		"id" : 320,
@@ -2100,7 +2290,8 @@
 		"removed" : "2021-06-02",
 		"last_update" : "2020-10-16",
 		"notes" : "",
-		"age" : 35
+		"release_age" : 35,
+		"update_age" : 8
 	},
 	{
 		"id" : 321,
@@ -2111,7 +2302,8 @@
 		"removed" : "2020-04-01",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 506,
@@ -2122,7 +2314,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 322,
@@ -2133,7 +2326,8 @@
 		"removed" : "2022-03-22",
 		"last_update" : "2020-11-26",
 		"notes" : "",
-		"age" : 36
+		"release_age" : 36,
+		"update_age" : 17
 	},
 	{
 		"id" : 323,
@@ -2144,7 +2338,8 @@
 		"removed" : "2018-02-20",
 		"last_update" : "2017-06-28",
 		"notes" : "",
-		"age" : 16
+		"release_age" : 16,
+		"update_age" : 8
 	},
 	{
 		"id" : 324,
@@ -2155,7 +2350,8 @@
 		"removed" : "2019-02-26",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 3
+		"release_age" : 3,
+		"update_age" : 3
 	},
 	{
 		"id" : 325,
@@ -2166,7 +2362,8 @@
 		"removed" : "2023-02-02",
 		"last_update" : "2022-12-02",
 		"notes" : "",
-		"age" : 54
+		"release_age" : 54,
+		"update_age" : 3
 	},
 	{
 		"id" : 602,
@@ -2177,7 +2374,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : null,
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 507,
@@ -2188,7 +2386,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 92
+		"release_age" : 92,
+		"update_age" : 92
 	},
 	{
 		"id" : 508,
@@ -2199,7 +2398,8 @@
 		"removed" : null,
 		"last_update" : "2020-06-05",
 		"notes" : "",
-		"age" : 48
+		"release_age" : 48,
+		"update_age" : 41
 	},
 	{
 		"id" : 511,
@@ -2210,7 +2410,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 36
+		"release_age" : 36,
+		"update_age" : 36
 	},
 	{
 		"id" : 509,
@@ -2221,7 +2422,8 @@
 		"removed" : null,
 		"last_update" : "2020-06-19",
 		"notes" : "",
-		"age" : 72
+		"release_age" : 72,
+		"update_age" : 40
 	},
 	{
 		"id" : 510,
@@ -2232,7 +2434,8 @@
 		"removed" : null,
 		"last_update" : "2023-08-17",
 		"notes" : "",
-		"age" : 10
+		"release_age" : 10,
+		"update_age" : 2
 	},
 	{
 		"id" : 512,
@@ -2243,7 +2446,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 61
+		"release_age" : 61,
+		"update_age" : 61
 	},
 	{
 		"id" : 326,
@@ -2254,7 +2458,8 @@
 		"removed" : "2023-04-18",
 		"last_update" : "2022-11-22",
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 5
 	},
 	{
 		"id" : 328,
@@ -2265,7 +2470,8 @@
 		"removed" : "2021-07-15",
 		"last_update" : "2017-05-03",
 		"notes" : "",
-		"age" : 53
+		"release_age" : 53,
+		"update_age" : 52
 	},
 	{
 		"id" : 327,
@@ -2276,7 +2482,8 @@
 		"removed" : "2021-10-20",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 329,
@@ -2287,7 +2494,8 @@
 		"removed" : "2019-11-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 330,
@@ -2298,7 +2506,8 @@
 		"removed" : "2023-08-09",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 513,
@@ -2309,7 +2518,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 73
+		"release_age" : 73,
+		"update_age" : 73
 	},
 	{
 		"id" : 514,
@@ -2320,7 +2530,8 @@
 		"removed" : "2023-09-21",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 0
+		"release_age" : 0,
+		"update_age" : 0
 	},
 	{
 		"id" : 515,
@@ -2331,7 +2542,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 9
+		"release_age" : 9,
+		"update_age" : 9
 	},
 	{
 		"id" : 516,
@@ -2342,7 +2554,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : -4
+		"release_age" : -4,
+		"update_age" : -4
 	},
 	{
 		"id" : 517,
@@ -2353,7 +2566,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 19
+		"release_age" : 19,
+		"update_age" : 19
 	},
 	{
 		"id" : 518,
@@ -2364,7 +2578,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 40
+		"release_age" : 40,
+		"update_age" : 40
 	},
 	{
 		"id" : 519,
@@ -2375,7 +2590,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 12
+		"release_age" : 12,
+		"update_age" : 12
 	},
 	{
 		"id" : 520,
@@ -2386,7 +2602,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 32
+		"release_age" : 32,
+		"update_age" : 32
 	},
 	{
 		"id" : 521,
@@ -2397,7 +2614,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : -1
+		"release_age" : -1,
+		"update_age" : -1
 	},
 	{
 		"id" : 522,
@@ -2408,7 +2626,8 @@
 		"removed" : null,
 		"last_update" : "2023-08-02",
 		"notes" : "",
-		"age" : 12
+		"release_age" : 12,
+		"update_age" : 2
 	},
 	{
 		"id" : 523,
@@ -2419,7 +2638,8 @@
 		"removed" : null,
 		"last_update" : "2019-06-04",
 		"notes" : "Has Mac version without Denuvo, published by Aspyr",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 53
 	},
 	{
 		"id" : 524,
@@ -2430,7 +2650,8 @@
 		"removed" : null,
 		"last_update" : "2023-09-19",
 		"notes" : "",
-		"age" : 48
+		"release_age" : 48,
+		"update_age" : 1
 	},
 	{
 		"id" : 525,
@@ -2441,7 +2662,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 93
+		"release_age" : 93,
+		"update_age" : 93
 	},
 	{
 		"id" : 526,
@@ -2452,7 +2674,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 52
+		"release_age" : 53,
+		"update_age" : 53
 	},
 	{
 		"id" : 331,
@@ -2463,7 +2686,8 @@
 		"removed" : "2020-07-23",
 		"last_update" : "2018-06-11",
 		"notes" : "",
-		"age" : 40
+		"release_age" : 40,
+		"update_age" : 26
 	},
 	{
 		"id" : 332,
@@ -2474,7 +2698,8 @@
 		"removed" : "2020-07-16",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 20
+		"release_age" : 20,
+		"update_age" : 20
 	},
 	{
 		"id" : 527,
@@ -2485,7 +2710,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 86
+		"release_age" : 86,
+		"update_age" : 86
 	},
 	{
 		"id" : 528,
@@ -2496,7 +2722,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 74
+		"release_age" : 74,
+		"update_age" : 74
 	},
 	{
 		"id" : 529,
@@ -2507,7 +2734,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 62
+		"release_age" : 62,
+		"update_age" : 62
 	},
 	{
 		"id" : 530,
@@ -2518,7 +2746,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 68
+		"release_age" : 68,
+		"update_age" : 68
 	},
 	{
 		"id" : 333,
@@ -2529,7 +2758,8 @@
 		"removed" : "2019-05-16",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 531,
@@ -2540,7 +2770,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"release_age" : 5,
+		"update_age" : 5
 	},
 	{
 		"id" : 334,
@@ -2551,7 +2782,8 @@
 		"removed" : "2019-12-18",
 		"last_update" : "2019-05-05",
 		"notes" : "",
-		"age" : 11
+		"release_age" : 11,
+		"update_age" : 8
 	},
 	{
 		"id" : 335,
@@ -2562,7 +2794,8 @@
 		"removed" : "2020-10-01",
 		"last_update" : "2020-08-06",
 		"notes" : "",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 2
 	},
 	{
 		"id" : 532,
@@ -2573,7 +2806,8 @@
 		"removed" : null,
 		"last_update" : "2023-09-21",
 		"notes" : "",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 1
 	},
 	{
 		"id" : 336,
@@ -2584,7 +2818,8 @@
 		"removed" : "2019-01-28",
 		"last_update" : "2017-12-12",
 		"notes" : "",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 14
 	},
 	{
 		"id" : 337,
@@ -2595,7 +2830,8 @@
 		"removed" : "2020-10-01",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 7
 	},
 	{
 		"id" : 338,
@@ -2606,7 +2842,8 @@
 		"removed" : "2023-04-10",
 		"last_update" : "2022-12-16",
 		"notes" : "",
-		"age" : 24
+		"release_age" : 24,
+		"update_age" : 4
 	},
 	{
 		"id" : 339,
@@ -2617,7 +2854,8 @@
 		"removed" : "2017-06-02",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 340,
@@ -2628,7 +2866,8 @@
 		"removed" : "2021-11-23",
 		"last_update" : "2016-10-12",
 		"notes" : "",
-		"age" : 71
+		"release_age" : 71,
+		"update_age" : 63
 	},
 	{
 		"id" : 533,
@@ -2639,7 +2878,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 81
+		"release_age" : 81,
+		"update_age" : 81
 	},
 	{
 		"id" : 341,
@@ -2650,7 +2890,8 @@
 		"removed" : "2022-09-10",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 109
+		"release_age" : 109,
+		"update_age" : 109
 	},
 	{
 		"id" : 534,
@@ -2661,7 +2902,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 45
+		"release_age" : 45,
+		"update_age" : 45
 	},
 	{
 		"id" : 535,
@@ -2672,7 +2914,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 33
+		"release_age" : 33,
+		"update_age" : 33
 	},
 	{
 		"id" : 536,
@@ -2683,7 +2926,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 52
+		"release_age" : 52,
+		"update_age" : 52
 	},
 	{
 		"id" : 342,
@@ -2694,7 +2938,8 @@
 		"removed" : "2021-10-18",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 38
+		"release_age" : 38,
+		"update_age" : 38
 	},
 	{
 		"id" : 537,
@@ -2705,7 +2950,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has GOG version without Denuvo",
-		"age" : 89
+		"release_age" : 89,
+		"update_age" : 89
 	},
 	{
 		"id" : 539,
@@ -2716,7 +2962,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 64
+		"release_age" : 64,
+		"update_age" : 64
 	},
 	{
 		"id" : 538,
@@ -2727,7 +2974,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 29
+		"release_age" : 29,
+		"update_age" : 29
 	},
 	{
 		"id" : 540,
@@ -2738,7 +2986,8 @@
 		"removed" : null,
 		"last_update" : "2017-07-18",
 		"notes" : "",
-		"age" : 81
+		"release_age" : 81,
+		"update_age" : 76
 	},
 	{
 		"id" : 541,
@@ -2749,7 +2998,8 @@
 		"removed" : null,
 		"last_update" : "2023-07-06",
 		"notes" : "",
-		"age" : 17
+		"release_age" : 17,
+		"update_age" : 3
 	},
 	{
 		"id" : 542,
@@ -2760,7 +3010,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 27
+		"release_age" : 27,
+		"update_age" : 27
 	},
 	{
 		"id" : 343,
@@ -2771,7 +3022,8 @@
 		"removed" : "2018-01-26",
 		"last_update" : "2017-09-05",
 		"notes" : "",
-		"age" : 10
+		"release_age" : 10,
+		"update_age" : 5
 	},
 	{
 		"id" : 543,
@@ -2782,7 +3034,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 25
 	},
 	{
 		"id" : 544,
@@ -2793,7 +3046,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 72
+		"release_age" : 72,
+		"update_age" : 72
 	},
 	{
 		"id" : 545,
@@ -2804,7 +3058,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 11
+		"release_age" : 11,
+		"update_age" : 11
 	},
 	{
 		"id" : 344,
@@ -2815,7 +3070,8 @@
 		"removed" : "2019-03-12",
 		"last_update" : "2018-07-18",
 		"notes" : "",
-		"age" : 19
+		"release_age" : 19,
+		"update_age" : 8
 	},
 	{
 		"id" : 546,
@@ -2826,7 +3082,8 @@
 		"removed" : null,
 		"last_update" : "2023-06-23",
 		"notes" : "",
-		"age" : 16
+		"release_age" : 16,
+		"update_age" : 4
 	},
 	{
 		"id" : 345,
@@ -2837,7 +3094,8 @@
 		"removed" : "2021-11-11",
 		"last_update" : "2020-12-02",
 		"notes" : "",
-		"age" : 38
+		"release_age" : 38,
+		"update_age" : 12
 	},
 	{
 		"id" : 547,
@@ -2848,7 +3106,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 14
+		"release_age" : 14,
+		"update_age" : 14
 	},
 	{
 		"id" : 548,
@@ -2859,7 +3118,8 @@
 		"removed" : null,
 		"last_update" : "2018-08-01",
 		"notes" : "",
-		"age" : 73
+		"release_age" : 73,
+		"update_age" : 63
 	},
 	{
 		"id" : 346,
@@ -2870,7 +3130,8 @@
 		"removed" : "2023-04-21",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 549,
@@ -2881,7 +3142,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 71
+		"release_age" : 71,
+		"update_age" : 71
 	},
 	{
 		"id" : 550,
@@ -2892,7 +3154,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : -1
+		"release_age" : -1,
+		"update_age" : -1
 	},
 	{
 		"id" : 551,
@@ -2903,7 +3166,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 96
+		"release_age" : 96,
+		"update_age" : 96
 	},
 	{
 		"id" : 552,
@@ -2914,7 +3178,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 72
+		"release_age" : 72,
+		"update_age" : 72
 	},
 	{
 		"id" : 347,
@@ -2925,7 +3190,8 @@
 		"removed" : "2021-11-09",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 25
+		"release_age" : 25,
+		"update_age" : 25
 	},
 	{
 		"id" : 553,
@@ -2936,7 +3202,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 554,
@@ -2947,7 +3214,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 37
+		"release_age" : 37,
+		"update_age" : 37
 	},
 	{
 		"id" : 555,
@@ -2958,7 +3226,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 556,
@@ -2969,7 +3238,8 @@
 		"removed" : null,
 		"last_update" : "2018-11-28",
 		"notes" : "",
-		"age" : 62
+		"release_age" : 62,
+		"update_age" : 59
 	},
 	{
 		"id" : 557,
@@ -2980,7 +3250,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 4
+		"release_age" : 4,
+		"update_age" : 4
 	},
 	{
 		"id" : 558,
@@ -2991,7 +3262,8 @@
 		"removed" : null,
 		"last_update" : "2019-01-18",
 		"notes" : "",
-		"age" : 68
+		"release_age" : 69,
+		"update_age" : 58
 	},
 	{
 		"id" : 348,
@@ -3002,7 +3274,8 @@
 		"removed" : "2017-04-27",
 		"last_update" : "2017-11-10",
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : -6
 	},
 	{
 		"id" : 559,
@@ -3013,7 +3286,8 @@
 		"removed" : null,
 		"last_update" : "2017-02-22",
 		"notes" : "",
-		"age" : 82
+		"release_age" : 82,
+		"update_age" : 81
 	},
 	{
 		"id" : 560,
@@ -3024,7 +3298,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 53
+		"release_age" : 53,
+		"update_age" : 53
 	},
 	{
 		"id" : 349,
@@ -3035,7 +3310,8 @@
 		"removed" : "2021-10-26",
 		"last_update" : "2021-03-23",
 		"notes" : "",
-		"age" : 54
+		"release_age" : 54,
+		"update_age" : 8
 	},
 	{
 		"id" : 561,
@@ -3046,7 +3322,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 64
+		"release_age" : 64,
+		"update_age" : 64
 	},
 	{
 		"id" : 562,
@@ -3057,7 +3334,8 @@
 		"removed" : null,
 		"last_update" : "2023-06-29",
 		"notes" : "",
-		"age" : 10
+		"release_age" : 10,
+		"update_age" : 3
 	},
 	{
 		"id" : 563,
@@ -3068,7 +3346,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 91
+		"release_age" : 91,
+		"update_age" : 91
 	},
 	{
 		"id" : 564,
@@ -3079,7 +3358,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 350,
@@ -3090,7 +3370,8 @@
 		"removed" : "2023-03-05",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 565,
@@ -3101,7 +3382,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 351,
@@ -3112,7 +3394,8 @@
 		"removed" : "2023-01-31",
 		"last_update" : "2022-11-01",
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 4
 	},
 	{
 		"id" : 566,
@@ -3123,7 +3406,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 60
+		"release_age" : 60,
+		"update_age" : 60
 	},
 	{
 		"id" : 352,
@@ -3134,7 +3418,8 @@
 		"removed" : "2019-09-24",
 		"last_update" : null,
 		"notes" : "Denuvo Anti-Tamper DRM was used to protect the timed closed beta and was removed afterward.",
-		"age" : 0
+		"release_age" : 0,
+		"update_age" : 0
 	},
 	{
 		"id" : 353,
@@ -3145,7 +3430,8 @@
 		"removed" : "2023-04-20",
 		"last_update" : "2022-08-12",
 		"notes" : "",
-		"age" : 14
+		"release_age" : 14,
+		"update_age" : 9
 	},
 	{
 		"id" : 354,
@@ -3156,7 +3442,8 @@
 		"removed" : "2017-03-31",
 		"last_update" : null,
 		"notes" : "Exact day of removal unknown, using the end of the month.",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 567,
@@ -3167,7 +3454,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 49
+		"release_age" : 49,
+		"update_age" : 49
 	},
 	{
 		"id" : 568,
@@ -3178,7 +3466,8 @@
 		"removed" : null,
 		"last_update" : "2018-04-11",
 		"notes" : "",
-		"age" : 80
+		"release_age" : 80,
+		"update_age" : 67
 	},
 	{
 		"id" : 569,
@@ -3189,7 +3478,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 21
+		"release_age" : 21,
+		"update_age" : 21
 	},
 	{
 		"id" : 570,
@@ -3200,7 +3490,8 @@
 		"removed" : null,
 		"last_update" : "2020-11-07",
 		"notes" : "",
-		"age" : 38
+		"release_age" : 38,
+		"update_age" : 36
 	},
 	{
 		"id" : 572,
@@ -3211,7 +3502,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 0
+		"release_age" : 0,
+		"update_age" : 0
 	},
 	{
 		"id" : 571,
@@ -3222,7 +3514,8 @@
 		"removed" : null,
 		"last_update" : "2018-08-30",
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 66
+		"release_age" : 66,
+		"update_age" : 62
 	},
 	{
 		"id" : 573,
@@ -3233,7 +3526,8 @@
 		"removed" : null,
 		"last_update" : "2021-03-12",
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 53
+		"release_age" : 53,
+		"update_age" : 31
 	},
 	{
 		"id" : 574,
@@ -3244,7 +3538,8 @@
 		"removed" : null,
 		"last_update" : "2017-08-11",
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 90
+		"release_age" : 90,
+		"update_age" : 75
 	},
 	{
 		"id" : 575,
@@ -3255,7 +3550,8 @@
 		"removed" : null,
 		"last_update" : "2021-07-15",
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 73
+		"release_age" : 73,
+		"update_age" : 27
 	},
 	{
 		"id" : 576,
@@ -3266,7 +3562,8 @@
 		"removed" : null,
 		"last_update" : "2023-09-01",
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 20
+		"release_age" : 20,
+		"update_age" : 1
 	},
 	{
 		"id" : 577,
@@ -3277,7 +3574,8 @@
 		"removed" : null,
 		"last_update" : "2021-04-11",
 		"notes" : "",
-		"age" : 59
+		"release_age" : 59,
+		"update_age" : 30
 	},
 	{
 		"id" : 355,
@@ -3288,7 +3586,8 @@
 		"removed" : "2018-08-31",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 10
+		"release_age" : 10,
+		"update_age" : 10
 	},
 	{
 		"id" : 356,
@@ -3299,7 +3598,8 @@
 		"removed" : "2020-08-26",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"release_age" : 5,
+		"update_age" : 5
 	},
 	{
 		"id" : 578,
@@ -3310,7 +3610,8 @@
 		"removed" : null,
 		"last_update" : "2020-11-25",
 		"notes" : "",
-		"age" : 56
+		"release_age" : 56,
+		"update_age" : 35
 	},
 	{
 		"id" : 357,
@@ -3321,7 +3622,8 @@
 		"removed" : "2023-04-06",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 6
+		"release_age" : 6,
+		"update_age" : 6
 	},
 	{
 		"id" : 579,
@@ -3332,7 +3634,8 @@
 		"removed" : null,
 		"last_update" : "2023-08-18",
 		"notes" : "Has Linux & Mac versions without Denuvo",
-		"age" : 14
+		"release_age" : 14,
+		"update_age" : 2
 	},
 	{
 		"id" : 358,
@@ -3343,7 +3646,8 @@
 		"removed" : "2018-09-04",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 1
+		"release_age" : 1,
+		"update_age" : 1
 	},
 	{
 		"id" : 580,
@@ -3354,7 +3658,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 581,
@@ -3365,7 +3670,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 93
+		"release_age" : 93,
+		"update_age" : 93
 	},
 	{
 		"id" : 582,
@@ -3376,7 +3682,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 65
+		"release_age" : 65,
+		"update_age" : 65
 	},
 	{
 		"id" : 583,
@@ -3387,7 +3694,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 61
+		"release_age" : 61,
+		"update_age" : 61
 	},
 	{
 		"id" : 359,
@@ -3398,7 +3706,8 @@
 		"removed" : "2023-03-30",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 5
+		"release_age" : 5,
+		"update_age" : 5
 	},
 	{
 		"id" : 360,
@@ -3409,7 +3718,8 @@
 		"removed" : "2023-03-15",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 14
+		"release_age" : 14,
+		"update_age" : 14
 	},
 	{
 		"id" : 361,
@@ -3420,7 +3730,8 @@
 		"removed" : "2022-04-28",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 7
+		"release_age" : 7,
+		"update_age" : 7
 	},
 	{
 		"id" : 584,
@@ -3431,7 +3742,8 @@
 		"removed" : null,
 		"last_update" : "2023-07-26",
 		"notes" : "",
-		"age" : 17
+		"release_age" : 17,
+		"update_age" : 3
 	},
 	{
 		"id" : 585,
@@ -3442,7 +3754,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has Linux & Mac versions without Denuvo, published by Feral Interactive",
-		"age" : 79
+		"release_age" : 79,
+		"update_age" : 79
 	},
 	{
 		"id" : 586,
@@ -3453,7 +3766,8 @@
 		"removed" : null,
 		"last_update" : "2017-05-19",
 		"notes" : "",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 78
 	},
 	{
 		"id" : 587,
@@ -3464,7 +3778,8 @@
 		"removed" : null,
 		"last_update" : "2021-07-07",
 		"notes" : "",
-		"age" : 36
+		"release_age" : 36,
+		"update_age" : 28
 	},
 	{
 		"id" : 588,
@@ -3475,7 +3790,8 @@
 		"removed" : null,
 		"last_update" : "2023-07-21",
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 3
 	},
 	{
 		"id" : 589,
@@ -3486,7 +3802,8 @@
 		"removed" : null,
 		"last_update" : "2017-12-21",
 		"notes" : "",
-		"age" : 75
+		"release_age" : 75,
+		"update_age" : 71
 	},
 	{
 		"id" : 590,
@@ -3497,7 +3814,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 362,
@@ -3508,7 +3826,8 @@
 		"removed" : "2022-03-08",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 32
+		"release_age" : 32,
+		"update_age" : 32
 	},
 	{
 		"id" : 601,
@@ -3519,7 +3838,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : null,
-		"age" : -1
+		"release_age" : -1,
+		"update_age" : -1
 	},
 	{
 		"id" : 591,
@@ -3530,7 +3850,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 85
+		"release_age" : 85,
+		"update_age" : 85
 	},
 	{
 		"id" : 592,
@@ -3541,7 +3862,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 74
+		"release_age" : 74,
+		"update_age" : 74
 	},
 	{
 		"id" : 363,
@@ -3552,7 +3874,8 @@
 		"removed" : "2019-03-11",
 		"last_update" : null,
 		"notes" : "",
-		"age" : 8
+		"release_age" : 8,
+		"update_age" : 8
 	},
 	{
 		"id" : 593,
@@ -3563,7 +3886,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has GOG version without Denuvo",
-		"age" : 35
+		"release_age" : 35,
+		"update_age" : 35
 	},
 	{
 		"id" : 594,
@@ -3574,7 +3898,8 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "Has GOG & Mac versions without Denuvo",
-		"age" : 84
+		"release_age" : 84,
+		"update_age" : 84
 	},
 	{
 		"id" : 595,
@@ -3585,7 +3910,8 @@
 		"removed" : null,
 		"last_update" : "2022-05-06",
 		"notes" : "",
-		"age" : 45
+		"release_age" : 45,
+		"update_age" : 17
 	},
 	{
 		"id" : 596,
@@ -3596,6 +3922,7 @@
 		"removed" : null,
 		"last_update" : null,
 		"notes" : "",
-		"age" : 62
+		"release_age" : 62,
+		"update_age" : 62
 	}
 ]}
