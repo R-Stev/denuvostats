@@ -2,8 +2,8 @@
   <q-page class="q-mx-xl q-my-md">
     <div v-show="displayedSection == 'publishers'">
       <header><h1>Publisher Details</h1></header>
-      <div style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);">
-        <div class="row" id="publisherControls">
+      <q-card class="q-px-md q-pb-sm">
+        <div class="row q-py-xs" id="publisherControls">
           <div>
             <q-select v-model="pubSelector"
               :options="publisherList"
@@ -67,7 +67,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row q-mb-sm">
           <div class="col-12">
             <pie-chart :chart-data="[this.dateBuckets]"
             :publisher-name="this.pubSelector"
@@ -87,7 +87,17 @@
             />
           </div>
         </div>
-      </div>
+        <q-separator />
+        <div>
+          <h2>Notes</h2>
+          <p>It can be difficult to determine the date of game updates.  For uniformity, 'last update' is based on the original release date of the last paid DLC that is not a soundtrack or artbook (and before the removal of Denovo, where relevant).</p>
+          <p>The following games have allegedly had Denuvo Anti-Tamper removed, but the removal date is unknown.  As a result they are not included above.</p>
+          <ul>
+            <li>Halo Wars 2, published by Microsoft Studios and THQ Nordic</li>
+            <li>Rock Band VR, published by Oculus Studios</li>
+          </ul>
+        </div>
+      </q-card>
     </div>
 
     <div class="row" v-show="displayedSection == 'percentages'">
@@ -190,11 +200,6 @@ export default defineComponent({
   /* TODO:
    possibly adjust the BarChart/PieChart imports - https://vue-echarts.dev/#codegen
    look again at improving contrast in dark mode
-
-   "It can be difficult to determine the date of game updates.  For uniformity, 'last update' is based on the original release date of the last paid DLC that is not a soundtrack or artbook (and before the removal of Denovo, where relevant)"
-
-   Unknown removal date so unlisted:
-   Halo Wars 2, Rock Band VR
    */
 
   methods: {

@@ -2,6 +2,12 @@
   <div>
     <q-card :class="$q.dark.isActive?'bg-dark':''">
       <q-card-section class="text-h6">
+        <q-btn icon="help" class="float-right" flat dense>
+          <q-popup-proxy style="width: 75%">
+            <q-banner>This bar chart displays the percentage of titles using Denuvo Anti-Tamber that have since removed it.  Tooltips for each publisher include the number of released titles, and exact percentage removed. </q-banner>
+          </q-popup-proxy>
+          <q-tooltip>Info</q-tooltip>
+        </q-btn>
         <q-btn icon="download" class="float-right" @click="SaveImage" flat dense>
           <q-tooltip>Download SVG</q-tooltip>
         </q-btn>
@@ -59,6 +65,8 @@ export default {
           containLabel: true,
         },
         xAxis: {
+          name: '%',
+          nameLocation: 'center',
           type: 'value',
           // axisLabel: {
           //   color: '#00aa00'

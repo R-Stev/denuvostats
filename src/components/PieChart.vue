@@ -3,6 +3,12 @@
     <q-card class="no-box-shadow" :class="$q.dark.isActive?'bg-dark':''">
       <q-card-section class="text-h6">
         <!-- {{ publisherName }} -->
+        <q-btn icon="help" class="float-right" flat dense>
+          <q-popup-proxy style="width: 75%">
+            <q-banner>This pie chart displays the amount (and percentage) of released titles that have used Denuvo Anti-Tamper for the selected publisher, grouped into various lifetime ranges.  The lifetime of Denuvo can be based on date of release or date of last update, and titles can be filtered to only those currently or formerly using Denuvo.</q-banner>
+          </q-popup-proxy>
+          <q-tooltip>Info</q-tooltip>
+        </q-btn>
         <q-btn icon="download" class="float-right" @click="SaveImage" flat dense>
           <q-tooltip>Download SVG</q-tooltip>
         </q-btn>
