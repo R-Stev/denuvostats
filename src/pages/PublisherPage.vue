@@ -1,57 +1,126 @@
 <template>
-  <q-page class="q-pa-md q-col-gutter-md">
-    <div class="row justify-between">
-        <q-select v-model="pubSelector" :options="publisherList" label="Publisher"
-        style="width: 300px" />
-        <div class="self-center">
-          Age since:
-          <q-btn-toggle
-            v-model="releaseOrUpdate"
-            toggle-color="primary"
-            :options="[
-              {label: 'Release', value: 'release'},
-              {label: 'Last update', value: 'lastupdate'}
-            ]"
-          />
+  <q-page class="q-mx-xl q-my-md">
+    <div v-show="displayedSection == 'publishers'">
+      <header><h1>Publisher Details</h1></header>
+      <div style="box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);">
+        <div class="row" id="publisherControls">
+          <div>
+            <q-select v-model="pubSelector"
+              :options="publisherList"
+              label="Publisher"
+              style="width: 250px" />
+          </div>
+          <q-space />
+          <div class="mobileButtons">
+            <div style="width: 125px" v-show="releaseOrUpdate == 'release'">
+              <q-btn class="full-width" label="Release" color="primary" outline
+              @click="releaseOrUpdate = 'lastupdate'" />
+            </div>
+            <div style="width: 125px" v-show="releaseOrUpdate == 'lastupdate'">
+              <q-btn class="full-width" label="Last update" color="primary" outline
+              @click="releaseOrUpdate = 'release'" />
+            </div>
+            <div style="width: 125px" v-show="statusFilter == 'all'">
+              <q-btn class="full-width" label="All" color="primary" outline 
+              @click="statusFilter = 'present'"/>
+            </div>
+            <div style="width: 125px" v-show="statusFilter == 'present'">
+              <q-btn class="full-width" label="Present" color="primary" outline 
+              @click="statusFilter = 'removed'"/>
+            </div>
+            <div style="width: 125px" v-show="statusFilter == 'removed'">
+              <q-btn class="full-width" label="Removed" color="primary" outline 
+              @click="statusFilter = 'all'"/>
+            </div>
+          </div>
+          <div class="desktopButtons">
+            <div class="row">
+              <div style="width: 100px; display: grid; align-items: center">Age since:</div>
+              <div style="width: 250px">
+                <q-btn-toggle
+                  spread
+                  v-model="releaseOrUpdate"
+                  outline
+                  toggle-color="primary"
+                  :options="[
+                    {label: 'Release', value: 'release'},
+                    {label: 'Last update', value: 'lastupdate'}
+                  ]"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div style="width: 100px; display: grid; align-items: center">Denuvo status:</div>
+              <div style="width: 250px">
+                <q-btn-toggle
+                  spread
+                  v-model="statusFilter"
+                  outline
+                  toggle-color="primary"
+                  :options="[
+                    {label: 'All', value: 'all'},
+                    {label: 'Present', value: 'present'},
+                    {label: 'Removed', value: 'removed'}
+                  ]"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="self-center">
-          Denuvo status:
-          <q-btn-toggle
-            v-model="statusFilter"
-            toggle-color="primary"
-            :options="[
-              {label: 'All', value: 'all'},
-              {label: 'Present', value: 'present'},
-              {label: 'Removed', value: 'removed'}
-            ]"
-          />
+        <div class="row">
+          <div class="col-12">
+            <pie-chart :chart-data="[this.dateBuckets]"
+            :publisher-name="this.pubSelector"
+            :denuvo-status="this.statusFilter" />
+          </div>
+          <div class="col-12">
+            <!-- height should be some value of 48n + 104 -->
+            <q-table class="my-sticky-header-table no-box-shadow"
+              title="Details"
+              style="height: 488px"
+              :rows="tableData"
+              :columns="columns"
+              row-key="index"
+              :visible-columns="visibleColumns"
+              virtual-scroll
+              :rows-per-page-options="[0]"
+            />
+          </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <pie-chart :chart-data="[this.dateBuckets]"
-        :publisher-name="this.pubSelector"
-        :denuvo-status="this.statusFilter" />
-      </div>
-      <div class="col-12">
-        <!-- height should be some value of 48n + 104 -->
-        <q-table class="my-sticky-header-table"
-          title="Details"
-          style="height: 488px"
-          :rows="tableData"
-          :columns="columns"
-          row-key="index"
-          :visible-columns="visibleColumns"
-          virtual-scroll
-          :rows-per-page-options="[0]"
-        />
       </div>
     </div>
-    <div class="row">
+
+    <div class="row" v-show="displayedSection == 'percentages'">
+      <header><h1>Removal Percentages</h1></header>
       <div class="col-12">
         <bar-chart :chart-data="this.percentCounts"
         :chart-height="this.barChartHeight"/>
       </div>
+    </div>
+
+    <div v-show="displayedSection == 'description'">
+      <header><h1>What is Denuvo?</h1></header>
+      <q-card>
+        <q-card-section horizontal>
+          <q-card-section class="q-pt-xs">
+            <p>Denuvo Anti-Tamper is an anti-tamper technology and digital rights management (DRM) system developed by Austrian software company Denuvo Software Solutions GmbH, a subsidiary of Irdeto; itself a subsidiary of the MultiChoice group. It is generally what any mention of Denuvo is referring to, although there also exists Denuvo Anti-Cheat and Denuvo SecureDLC products.</p>
+            <p>Games protected by Denuvo Anti-Tamper require periodic online activation which, while not the same as needing a persistent online connection, can and has prevented play due to server outages.  There is also the potential of performance impacts due to the obfuscation techniques used to deter piracy.</p>
+            <q-separator />
+            <h2>See also</h2>
+            <ul>
+              <li><a href="https://irdeto.com/denuvo/">Official website</a></li>
+              <li><a href="https://www.pcgamingwiki.com/wiki/Denuvo">PCGamingWiki</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Denuvo">Wikipedia</a></li>
+            </ul>
+          </q-card-section>
+          <q-card-section class="col-5 flex flex-center">
+            <q-img
+              class="rounded-borders"
+              src="~assets/Denuvo_Logo_2021.svg"
+            />
+          </q-card-section>
+        </q-card-section>
+      </q-card>
     </div>
   </q-page>
 </template>
@@ -67,6 +136,9 @@ export default defineComponent({
   components: {
     BarChart,
     PieChart
+  },
+  props: {
+    displayedSection: String
   },
   data() {
     return {
@@ -116,10 +188,8 @@ export default defineComponent({
   },
   
   /* TODO:
-  restructure to SPA
-    move the data loading/processing from PublisherPage to ?
-    move the bar chart location from PublisherPage to ?
    possibly adjust the BarChart/PieChart imports - https://vue-echarts.dev/#codegen
+   look again at improving contrast in dark mode
 
    "It can be difficult to determine the date of game updates.  For uniformity, 'last update' is based on the original release date of the last paid DLC that is not a soundtrack or artbook (and before the removal of Denovo, where relevant)"
 
@@ -243,6 +313,18 @@ export default defineComponent({
 </script>
 
 <style lang="sass">
+header h1
+  font-size: 2em
+  margin: 0
+
+h2
+  font-size: 1.5em
+  margin: 0
+
+#publisherControls
+  margin: 0 0 1em 0
+  border-bottom: 1px solid #dddddd
+
 .my-sticky-header-table
   /* height or max-height is important */
   height: 310px
@@ -268,4 +350,18 @@ export default defineComponent({
   tbody
     /* height of all previous header rows */
     scroll-margin-top: 48px
+</style>
+
+<style>
+  @media only screen and (min-width: 701px) {
+    .mobileButtons {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .desktopButtons {
+      display: none;
+    }
+  }
+
 </style>

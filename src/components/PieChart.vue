@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-card :class="$q.dark.isActive?'bg-dark':''">
+    <q-card class="no-box-shadow" :class="$q.dark.isActive?'bg-dark':''">
       <q-card-section class="text-h6">
         <!-- {{ publisherName }} -->
         <q-btn icon="download" class="float-right" @click="SaveImage" flat dense>

@@ -38,7 +38,7 @@ export default {
       model: false,
       options: {
         title: {
-          text: 'Bar Chart',
+          // text: 'Bar Chart',
           // textStyle: {color: '#1d1d1d'}
         },
         tooltip: {
