@@ -327,15 +327,18 @@ export default defineComponent({
 
 <style lang="sass">
 header h1
-  font-size: 2em
+  font-size: 2rem
   margin: 0
 
 h2
-  font-size: 1.5em
-  margin: 0
+  font-size: 1.25rem
+  line-height: 1.25rem
+  margin: 12px 0 0 0
+
+p
+  margin: 6px 0
 
 #publisherControls
-  margin: 0 0 1em 0
   border-bottom: 1px solid #dddddd
 
 .my-sticky-header-table

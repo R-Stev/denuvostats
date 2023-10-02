@@ -3,7 +3,7 @@
     <q-header>
       <q-toolbar>
         <q-toolbar-title>
-          Quasar App
+          Denuvo Stats
         </q-toolbar-title>
         <q-btn-toggle
         v-model="model"

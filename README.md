@@ -1,4 +1,4 @@
-# Denuvo Stats (denuvostats-front)
+# Denuvo Stats (denuvostats)
 
 Makes use of ECharts for displaying various data from a json file.
 
