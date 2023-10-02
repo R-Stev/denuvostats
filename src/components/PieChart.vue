@@ -16,9 +16,9 @@
       <q-card-section>
         <ECharts ref="piechart"
           :option="options"
-          class="q-mt-md"
+          class="q-mt-md pieChart"
           :resizable="true"
-          autoresize style="height: 250px;"
+          autoresize
         />
       </q-card-section>
     </q-card>
@@ -136,5 +136,15 @@ export default {
 </script>
 
 <style scoped>
-
+  @media only screen and (min-width: 701px) {
+    .pieChart {
+      height: 250px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .pieChart {
+      height: 40vw;
+      max-height: 250px;
+    }
+  }
 </style>

@@ -1,14 +1,14 @@
 <template>
-  <q-page class="q-mx-xl q-my-md">
+  <q-page class="q-mx-xl q-my-md" id="mainPage">
     <div v-show="displayedSection == 'publishers'">
       <header><h1>Publisher Details</h1></header>
       <q-card class="q-px-md q-pb-sm">
         <div class="row q-py-xs" id="publisherControls">
           <div>
             <q-select v-model="pubSelector"
+              id="pubSelector"
               :options="publisherList"
-              label="Publisher"
-              style="width: 250px" />
+              label="Publisher" />
           </div>
           <q-space />
           <div class="mobileButtons">
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="row q-mb-sm">
-          <div class="col-12">
+          <div style="width: 100%; max-width: 600px; margin: auto">
             <pie-chart :chart-data="[this.dateBuckets]"
             :publisher-name="this.pubSelector"
             :denuvo-status="this.statusFilter" />
@@ -100,9 +100,9 @@
       </q-card>
     </div>
 
-    <div class="row" v-show="displayedSection == 'percentages'">
+    <div v-show="displayedSection == 'percentages'">
       <header><h1>Removal Percentages</h1></header>
-      <div class="col-12">
+      <div style="width: 100%; max-width: 850px; margin: auto">
         <bar-chart :chart-data="this.percentCounts"
         :chart-height="this.barChartHeight"/>
       </div>
@@ -113,8 +113,15 @@
       <q-card>
         <q-card-section horizontal>
           <q-card-section class="q-pt-xs">
+            <q-card-section class="flex flex-center mobileButtons">
+              <q-img
+                class="rounded-borders"
+                width="50%" :ratio="8/5"
+                src="~assets/Denuvo_Logo_2021.svg"
+              />
+            </q-card-section>
             <p>Denuvo Anti-Tamper is an anti-tamper technology and digital rights management (DRM) system developed by Austrian software company Denuvo Software Solutions GmbH, a subsidiary of Irdeto; itself a subsidiary of the MultiChoice group. It is generally what any mention of Denuvo is referring to, although there also exists Denuvo Anti-Cheat and Denuvo SecureDLC products.</p>
-            <p>Games protected by Denuvo Anti-Tamper require periodic online activation which, while not the same as needing a persistent online connection, can and has prevented play due to server outages.  There is also the potential of performance impacts due to the obfuscation techniques used to deter piracy.</p>
+            <p>Games protected by Denuvo Anti-Tamper require periodic online activation which, while not the same as needing a persistent online connection and having an overall negligible impact, can and has prevented play due to server outages.  There is also the potential of performance impacts due to the obfuscation techniques used to deter piracy.</p>
             <q-separator />
             <h2>See also</h2>
             <ul>
@@ -123,9 +130,10 @@
               <li><a href="https://en.wikipedia.org/wiki/Denuvo">Wikipedia</a></li>
             </ul>
           </q-card-section>
-          <q-card-section class="col-5 flex flex-center">
+          <q-card-section class="col-5 flex flex-center desktopButtons">
             <q-img
               class="rounded-borders"
+              width="100%" :ratio="8/5"
               src="~assets/Denuvo_Logo_2021.svg"
             />
           </q-card-section>
@@ -338,7 +346,7 @@ h2
   .q-table__bottom,
   thead tr:first-child th
     /* bg color is important for th; just specify one */
-    background-color: #00b4ff
+    background-color: $primary
 
   thead tr th
     position: sticky
@@ -362,10 +370,20 @@ h2
     .mobileButtons {
       display: none;
     }
+    #pubSelector {
+      width: 250px;
+    }
   }
   @media only screen and (max-width: 700px) {
+    #mainPage {
+      margin-left: 0;
+      margin-right: 0;
+    }
     .desktopButtons {
       display: none;
+    }
+    #pubSelector {
+      width: 150px;
     }
   }
 

@@ -58,10 +58,10 @@ export default {
           source: this.chartData,
         },
         grid: {
-          left: '10',
-          right: '20',
+          left: '0',
+          right: '10',
           bottom: '10',
-          top: '31',
+          top: '0',
           containLabel: true,
         },
         xAxis: {
