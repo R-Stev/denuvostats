@@ -1,0 +1,64 @@
+{
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de"
+    ],
+    "title": {
+        "textStyle": {
+            "color": "#1d1d1d"
+        },
+        "subtextStyle": {
+            "color": "#1d1d1d"
+        }
+    },
+    "pie": {
+        "label": {
+            "color": "#1d1d1d"
+        }
+    },
+    "categoryAxis": {
+        "axisLine": {
+            "show": true,
+            "lineStyle": {
+                "color": "#1d1d1d"
+            }
+        },
+        "axisTick": {
+            "show": true,
+            "lineStyle": {
+                "color": "#1d1d1d"
+            }
+        },
+        "axisLabel": {
+            "show": true,
+            "color": "#1d1d1d"
+        }
+    },
+    "valueAxis": {
+        "axisLine": {
+            "show": true,
+            "lineStyle": {
+                "color": "#1d1d1d"
+            }
+        },
+        "axisTick": {
+            "show": true,
+            "lineStyle": {
+                "color": "#1d1d1d"
+            }
+        },
+        "axisLabel": {
+            "show": true,
+            "color": "#1d1d1d"
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "color": "#1d1d1d"
+            }
+        }
+    }
+}

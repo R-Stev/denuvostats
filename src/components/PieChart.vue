@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-card class="no-box-shadow" :class="$q.dark.isActive?'bg-dark':''">
+    <q-card class="no-box-shadow">
       <q-card-section class="text-h6">
         <!-- {{ publisherName }} -->
         <q-btn icon="help" class="float-right" flat dense>
@@ -18,6 +18,7 @@
           :option="options"
           class="q-mt-md pieChart"
           :resizable="true"
+          :theme="$q.dark.isActive?'customdark':'customlight'"
           autoresize
         />
       </q-card-section>
@@ -38,6 +39,8 @@ import {
 } from 'echarts/components';
 import { LabelLayout, UniversalTransition } from 'echarts/features';
 import { SVGRenderer } from 'echarts/renderers';
+import customdark from 'src/assets/customdark';
+import customlight from 'src/assets/customlight';
 
 echarts.use([
   BarChart,
@@ -67,14 +70,14 @@ export default {
     },
     publisherName: function(newOne){
       this.options.title.text = newOne;
-    },
-    // '$q.dark.isActive': function (val) {
-    //   this.options.series[0].label.color = val ? '#e2e2e2' : '#1d1d1d'
-    //   this.options.title.textStyle.color = val ? '#e2e2e2' : '#1d1d1d'
-    // }
+    }
 },
   components: {
     ECharts
+  },
+  mounted() {
+    echarts.registerTheme('customdark', customdark);
+    echarts.registerTheme('customlight', customlight);
   },
   methods: {
     SaveImage() {
@@ -96,9 +99,6 @@ export default {
       options: {
         title: {
           text: this.publisherName,
-          // textStyle: {
-          //   color: $q.dark.isActive ? '#e2e2e2' : '#1d1d1d'
-          // }
         },
         grid: {
           left: '0',
@@ -121,9 +121,7 @@ export default {
               borderWidth: 2
             },
             label: {
-              formatter: '{b} months:\n{@number} ({d}%)',
-              // color: $q.dark.isActive ? '#e2e2e2' : '#1d1d1d'
-              color: '#6e7079'
+              formatter: '{b} months:\n{@number} ({d}%)'
             },
             stillShowZeroSum: false,
             datasetIndex: 0

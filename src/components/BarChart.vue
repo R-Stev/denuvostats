@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-card :class="$q.dark.isActive?'bg-dark':''">
+    <q-card>
       <q-card-section class="text-h6">
         <q-btn icon="help" class="float-right" flat dense>
           <q-popup-proxy style="width: 75%">
@@ -17,6 +17,7 @@
           :option="options"
           class="q-mt-md"
           :resizable="true"
+          :theme="$q.dark.isActive?'customdark':'customlight'"
           autoresize :style="chartHeight"
         />
       </q-card-section>
@@ -27,6 +28,8 @@
 <script>
 import ECharts from 'vue-echarts'
 import {useQuasar} from "quasar";
+import customdark from 'src/assets/customdark';
+import customlight from 'src/assets/customlight';
 
 export default {
   name: "BarChart",
@@ -43,10 +46,6 @@ export default {
       $q,
       model: false,
       options: {
-        title: {
-          // text: 'Bar Chart',
-          // textStyle: {color: '#1d1d1d'}
-        },
         tooltip: {
           trigger: 'item',
           formatter(params) {
@@ -62,22 +61,16 @@ export default {
           right: '10',
           bottom: '10',
           top: '0',
-          containLabel: true,
+          containLabel: true
         },
         xAxis: {
           name: '%',
           nameLocation: 'center',
-          type: 'value',
-          // axisLabel: {
-          //   color: '#00aa00'
-          // }
+          type: 'value'
         },
         yAxis: {
           type: 'category',
-          inverse: true,
-          // axisLabel: {
-          //   color: '#00aa00'
-          // }
+          inverse: true
         },
         series: [
           {
@@ -93,15 +86,6 @@ export default {
       bar_chart: null
     }
   },
-  // watch: {
-  //   '$q.dark.isActive': function (val) {
-  //     // For reasons unknown, changing axisLabel.color in the watcher causes a CSS error
-  //     // in parsing value for 'fill' - causing the color change to be dropped.
-  //     // this.options.xAxis.axisLabel.color = val ? '$aa0000' : '#00aa00';
-  //     // this.options.yAxis.axisLabel.color = val ? '$aa0000' : '#00aa00';
-  //     this.options.title.textStyle.color = val ? '#e2e2e2' : '#1d1d1d';
-  //   }
-  // },
   methods: {
     SaveImage() {
       const linkSource = this.$refs.barchart.getDataURL();
