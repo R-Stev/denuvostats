@@ -28,30 +28,25 @@
 
 <script>
 import ECharts from 'vue-echarts'
-import * as echarts from 'echarts/core';
+import { use, registerTheme } from 'echarts/core';
 import { BarChart, PieChart } from 'echarts/charts';
 import {
   TitleComponent,
   TooltipComponent,
   GridComponent,
-  DatasetComponent,
-  TransformComponent
+  DatasetComponent
 } from 'echarts/components';
-import { LabelLayout, UniversalTransition } from 'echarts/features';
 import { SVGRenderer } from 'echarts/renderers';
 import customdark from 'src/assets/customdark';
 import customlight from 'src/assets/customlight';
 
-echarts.use([
+use([
   BarChart,
   PieChart,
   TitleComponent,
   TooltipComponent,
   GridComponent,
   DatasetComponent,
-  TransformComponent,
-  LabelLayout,
-  UniversalTransition,
   SVGRenderer
 ]);
 
@@ -76,8 +71,8 @@ export default {
     ECharts
   },
   mounted() {
-    echarts.registerTheme('customdark', customdark);
-    echarts.registerTheme('customlight', customlight);
+    registerTheme('customdark', customdark);
+    registerTheme('customlight', customlight);
   },
   methods: {
     SaveImage() {

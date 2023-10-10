@@ -67,6 +67,7 @@
             </div>
           </div>
         </div>
+        <div>Last update: <b>{{ updateDate }}</b></div>
         <div class="row q-mb-sm">
           <div style="width: 100%; max-width: 600px; margin: auto">
             <pie-chart :chart-data="[this.dateBuckets]"
@@ -163,6 +164,7 @@ export default defineComponent({
       pubSelector: 'All publishers',
       releaseOrUpdate: 'release',
       statusFilter: 'all',
+      updateDate: '',
       rawList: [],
       dateBuckets: {},
       publisherList: [],
@@ -213,6 +215,7 @@ export default defineComponent({
   methods: {
     async loadData() {
       try {
+        this.updateDate = gamelist.lastupdate;
         // Filters out any titles that are not yet released
         this.rawList = gamelist.games.filter((item) => item.released <= gamelist.lastupdate);
         this.tableData = this.rawList;
