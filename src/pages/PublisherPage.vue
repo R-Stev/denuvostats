@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-mx-xl q-my-md" id="mainPage">
-    <div v-show="displayedSection == 'publishers'">
+    <div v-if="displayedSection == 'publishers'">
       <header><h1>Publisher Details</h1></header>
       <q-card class="q-px-md q-pb-sm">
         <div class="row q-py-xs" id="publisherControls">
@@ -101,7 +101,7 @@
       </q-card>
     </div>
 
-    <div v-show="displayedSection == 'percentages'">
+    <div v-if="displayedSection == 'percentages'">
       <header><h1>Removal Percentages</h1></header>
       <div style="width: 100%; max-width: 850px; margin: auto">
         <bar-chart :chart-data="this.percentCounts"
@@ -109,7 +109,7 @@
       </div>
     </div>
 
-    <div v-show="displayedSection == 'description'">
+    <div v-if="displayedSection == 'description'">
       <header><h1>What is Denuvo?</h1></header>
       <q-card>
         <q-card-section horizontal>
@@ -145,16 +145,16 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-import BarChart from "components/BarChart.vue"
-import PieChart from "components/PieChart.vue"
+import { defineComponent, defineAsyncComponent } from 'vue'
+// import BarChart from "components/BarChart.vue"
+// import PieChart from "components/PieChart.vue"
 import gamelist from 'assets/gamelist.json'
 
 export default defineComponent({
   name: 'PublisherPage',
   components: {
-    BarChart,
-    PieChart
+    BarChart: defineAsyncComponent(() => import('components/BarChart.vue')),
+    PieChart: defineAsyncComponent(() => import('components/PieChart.vue'))
   },
   props: {
     displayedSection: String

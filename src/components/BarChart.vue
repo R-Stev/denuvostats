@@ -26,10 +26,28 @@
 </template>
 
 <script>
-import ECharts from 'vue-echarts'
 import {useQuasar} from "quasar";
+import ECharts from 'vue-echarts'
+import { use, registerTheme } from 'echarts/core';
+import { BarChart } from 'echarts/charts'
+import {
+  TooltipComponent,
+  DatasetComponent,
+  GridComponent
+} from 'echarts/components'
+import { SVGRenderer } from 'echarts/renderers'
+
 import customdark from 'src/assets/customdark';
 import customlight from 'src/assets/customlight';
+
+use([
+  TooltipComponent,
+  DatasetComponent,
+  GridComponent,
+  BarChart,
+  SVGRenderer
+])
+
 
 export default {
   name: "BarChart",
@@ -39,6 +57,10 @@ export default {
   },
   components: {
     ECharts
+  },
+  mounted() {
+    registerTheme('customdark', customdark);
+    registerTheme('customlight', customlight);
   },
   data() {
     const $q = useQuasar()

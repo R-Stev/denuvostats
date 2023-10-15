@@ -27,30 +27,29 @@
 </template>
 
 <script>
+import {useQuasar} from "quasar"
 import ECharts from 'vue-echarts'
 import { use, registerTheme } from 'echarts/core';
-import { BarChart, PieChart } from 'echarts/charts';
+import { PieChart } from 'echarts/charts';
 import {
   TitleComponent,
-  TooltipComponent,
   GridComponent,
   DatasetComponent
 } from 'echarts/components';
 import { SVGRenderer } from 'echarts/renderers';
+
 import customdark from 'src/assets/customdark';
 import customlight from 'src/assets/customlight';
 
 use([
-  BarChart,
   PieChart,
   TitleComponent,
-  TooltipComponent,
   GridComponent,
   DatasetComponent,
   SVGRenderer
 ]);
 
-import {useQuasar} from "quasar"
+
 
 export default {
   name: "PieChart",
