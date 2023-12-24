@@ -128,12 +128,12 @@ export default {
 </script>
 
 <style scoped>
-  @media only screen and (min-width: 701px) {
+  @media only screen and (min-width: 721px) {
     .pieChart {
       height: 250px;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 720px) {
     .pieChart {
       height: 40vw;
       max-height: 250px;

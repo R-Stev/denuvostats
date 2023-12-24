@@ -1,11 +1,11 @@
 <template>
-  <q-page class="q-mx-xl q-my-md" id="mainPage">
+  <q-page class="q-my-md" id="mainPage">
     <div v-if="displayedSection == 'publishers'">
       <header><h1>Publisher Details</h1></header>
       <q-card class="q-px-md q-pb-sm">
         <div class="row q-py-xs" id="publisherControls">
           <div>
-            <q-select v-model="pubSelector"
+            <q-select v-model="pubSelector" style="width: 245px"
               id="pubSelector"
               :options="publisherList"
               label="Publisher" />
@@ -69,7 +69,7 @@
         </div>
         <div>Last update: <b>{{ updateDate }}</b></div>
         <div class="row q-mb-sm">
-          <div style="width: 100%; max-width: 600px; margin: auto">
+          <div style="width: 100%; max-width: 600px; min-height: 270px; margin: auto">
             <pie-chart :chart-data="[this.dateBuckets]"
             :publisher-name="this.pubSelector"
             :denuvo-status="this.statusFilter" />
@@ -377,24 +377,22 @@ p
 </style>
 
 <style>
-  @media only screen and (min-width: 701px) {
+  @media only screen and (min-width: 721px) {
+    #mainPage {
+      margin-left: min(calc(10vw - 48px), 48px);
+      margin-right: min(calc(10vw - 48px), 48px);
+    }
     .mobileButtons {
       display: none;
     }
-    #pubSelector {
-      width: 250px;
-    }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 720px) {
     #mainPage {
       margin-left: 0;
       margin-right: 0;
     }
     .desktopButtons {
       display: none;
-    }
-    #pubSelector {
-      width: 150px;
     }
   }
 
