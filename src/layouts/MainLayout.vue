@@ -31,7 +31,7 @@ export default defineComponent({
   },
   setup () {
     return {
-      model: ref('description'),
+      model: ref('publishers'),
       options: [
         { label: 'Publisher Details', value: 'publishers' },
         { label: 'Removal Percentages', value: 'percentages' },
