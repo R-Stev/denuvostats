@@ -175,9 +175,9 @@ export default defineComponent({
         { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
         { name: 'developer', label: 'Developer', field: 'developer', sortable: true },
         { name: 'publisher', label: 'Publisher', field: 'publisher', sortable: true },
-        { name: 'released', label: 'Release Date', field: 'released', sortable: true },
-        { name: 'last_update', label: 'Last Update', field: 'last_update', sortable: true },
-        { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true },
+        { name: 'released', label: 'Release Date', field: 'released', sortable: true, format: (val, row) => this.makeLocaleString(val) },
+        { name: 'last_update', label: 'Last Update', field: 'last_update', sortable: true, format: (val, row) => this.makeLocaleString(val) },
+        { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true, format: (val, row) => this.makeLocaleString(val) },
         { name: 'release_age', label: 'Months', field: 'release_age', sortable: true },
         { name: 'update_age', label: 'Months', field: 'update_age', sortable: true },
         { name: 'notes', label: 'Notes', field: 'notes'}
@@ -209,15 +209,19 @@ export default defineComponent({
   
   /* TODO:
    possibly adjust the BarChart/PieChart imports - https://vue-echarts.dev/#codegen
-   look again at improving contrast in dark mode
    */
 
   methods: {
     async loadData() {
       try {
-        this.updateDate = gamelist.lastupdate;
+        this.updateDate = new Date(gamelist.lastupdate).toLocaleDateString();
         // Filters out any titles that are not yet released
         this.rawList = gamelist.games.filter((item) => item.released <= gamelist.lastupdate);
+        for(let i in this.rawList){
+          this.rawList[i].released = this.makeEpoch(this.rawList[i].released);
+          this.rawList[i].removed = this.makeEpoch(this.rawList[i].removed);
+          this.rawList[i].last_update = this.makeEpoch(this.rawList[i].last_update);
+        }
         this.tableData = this.rawList;
 
         this.publisherList = this.rawList.map(item => item.publisher).filter((value, index, self) => self.indexOf(value) === index).sort(Intl.Collator().compare);
@@ -227,6 +231,12 @@ export default defineComponent({
       } catch (err) {
         console.error('Failed to load game JSON data:', err);
       }
+    },
+    makeLocaleString(epoch){
+      return epoch ? new Date(epoch).toLocaleDateString() : null;
+    },
+    makeEpoch(dateStr){
+      return dateStr ?  new Date(dateStr).getTime() : null;
     },
     // Prepares the data used by the bar chart
     makeRemovalProportions() {
@@ -253,47 +263,42 @@ export default defineComponent({
       this.dateBuckets = {
         source: [
           ['bucket', 'number'],
-          ['0-3', 0],
-          ['3-6', 0],
-          ['6-12', 0],
-          ['12-24', 0],
+          ['0-2', 0],
+          ['3-5', 0],
+          ['6-11', 0],
+          ['12-23', 0],
           ['24+', 0],
         ]
       };
 
       for(let i in this.rawList){
         let end;
-        let comparator;
-        if(this.rawList[i].removed){
-          end = new Date(this.rawList[i].removed);
-          comparator = 'removed';
-        } else {
-          end = new Date(gamelist.lastupdate);
-          comparator = 'present';
-        }
+        let comparator = this.rawList[i].removed ? 'removed' : 'present';
         if(this.pubSelector == 'All publishers' || this.pubSelector == this.rawList[i].publisher){
           if(this.statusFilter == 'all' || this.statusFilter == comparator){
-            let start;
-            if(this.releaseOrUpdate == 'lastupdate' && this.rawList[i].last_update){
-              start = new Date(this.rawList[i].last_update);
-            } else {
-              start = new Date(this.rawList[i].released);
-            }
-            let monthNum = Math.ceil((end.getTime() - start.getTime()) / 86400000 / 30);
+            // let start;
+            // if(this.releaseOrUpdate == 'lastupdate' && this.rawList[i].last_update){
+            //   start = this.rawList[i].last_update;
+            // } else {
+            //   start = this.rawList[i].released;
+            // }
+            // console.log(`start: ${start}, end: ${end}, ${typeof start}`)
+            // let monthNum = Math.ceil((end - start) / 86400000 / 30);
+            let monthNum = (this.releaseOrUpdate == 'lastupdate') ? this.rawList[i].update_age : this.rawList[i].release_age;
 
-            if(monthNum <= 3){
+            if(monthNum < 3){
               ++this.dateBuckets.source[1][1];
             }
-            else if(monthNum <= 6){
+            else if(monthNum < 6){
               ++this.dateBuckets.source[2][1];
             }
-            else if(monthNum <= 12){
+            else if(monthNum < 12){
               ++this.dateBuckets.source[3][1];
             }
-            else if(monthNum <= 24){
+            else if(monthNum < 24){
               ++this.dateBuckets.source[4][1];
             }
-            else if(monthNum > 24){
+            else if(monthNum >= 24){
               ++this.dateBuckets.source[5][1];
             }
           }
