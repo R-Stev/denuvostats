@@ -18,7 +18,7 @@
           :option="options"
           class="q-mt-md pieChart"
           :resizable="true"
-          :theme="$q.dark.isActive?'customdark':'customlight'"
+          :theme="this.darkMode?'customdark':'customlight'"
           autoresize
         />
       </q-card-section>
@@ -56,7 +56,8 @@ export default {
   props: {
     chartData: Array,
     publisherName: String,
-    denuvoStatus: String
+    denuvoStatus: String,
+    darkMode: Boolean
   },
   watch: {
     chartData: function(newOne){
@@ -69,7 +70,7 @@ export default {
   components: {
     ECharts
   },
-  mounted() {
+  beforeMount() {
     registerTheme('customdark', customdark);
     registerTheme('customlight', customlight);
   },
@@ -86,10 +87,7 @@ export default {
     }
   },
   data() {
-    const $q = useQuasar()
-
     return {
-    $q,
       options: {
         title: {
           text: this.publisherName,

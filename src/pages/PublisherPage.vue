@@ -72,7 +72,8 @@
           <div style="width: 100%; max-width: 600px; min-height: 270px; margin: auto">
             <pie-chart :chart-data="[this.dateBuckets]"
             :publisher-name="this.pubSelector"
-            :denuvo-status="this.statusFilter" />
+            :denuvo-status="this.statusFilter" 
+            :dark-mode="this.darkMode"/>
           </div>
           <div class="col-12">
             <!-- height should be some value of 48n + 104 -->
@@ -105,7 +106,8 @@
       <header><h1>Removal Percentages</h1></header>
       <div style="width: 100%; max-width: 850px; margin: auto">
         <bar-chart :chart-data="this.percentCounts"
-        :chart-height="this.barChartHeight"/>
+        :chart-height="this.barChartHeight"
+        :dark-mode="this.darkMode"/>
       </div>
     </div>
 
@@ -157,7 +159,8 @@ export default defineComponent({
     PieChart: defineAsyncComponent(() => import('components/PieChart.vue'))
   },
   props: {
-    displayedSection: String
+    displayedSection: String,
+    darkMode: Boolean
   },
   data() {
     return {

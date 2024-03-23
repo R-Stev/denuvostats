@@ -17,7 +17,7 @@
           :option="options"
           class="q-mt-md"
           :resizable="true"
-          :theme="$q.dark.isActive?'customdark':'customlight'"
+          :theme="this.darkMode?'customdark':'customlight'"
           autoresize :style="chartHeight"
         />
       </q-card-section>
@@ -53,19 +53,18 @@ export default {
   name: "BarChart",
   props: {
     chartData: Array,
-    chartHeight: String
+    chartHeight: String,
+    darkMode: Boolean
   },
   components: {
     ECharts
   },
-  mounted() {
+  beforeMount() {
     registerTheme('customdark', customdark);
     registerTheme('customlight', customlight);
   },
   data() {
-    const $q = useQuasar()
     return {
-      $q,
       model: false,
       options: {
         tooltip: {
