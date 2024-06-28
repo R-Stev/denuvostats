@@ -70,7 +70,9 @@ export default {
         tooltip: {
           trigger: 'item',
           formatter(params) {
-            return `${params.marker}${params.name}<span style="float: right; margin-left: 20px">${params.data.removed + params.data.remain} titles, ${params.data.percent}% removed</span>`;
+            let total = params.data.removed + params.data.remain;
+            let totalString = total > 1 ? `${total} titles` : `${total} title`;
+            return `${params.marker}${params.name}<span style="float: right; margin-left: 20px">${totalString}, ${params.data.percent}% removed</span>`;
           }
         },
         dataset: {
