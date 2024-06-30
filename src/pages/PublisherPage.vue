@@ -93,6 +93,7 @@
         <div>
           <h2>Notes</h2>
           <p>It can be difficult to determine the date of game updates.  For uniformity, 'last update' is based on the original release date of the last paid DLC that is not a soundtrack or artbook (and before the removal of Denovo, where relevant).</p>
+          <p>The titles coloured red are those that have been delisted and are no longer available for purchase. </p>
           <p>The following games have allegedly had Denuvo Anti-Tamper removed, but the removal date is unknown.  As a result they are not included above.</p>
           <ul>
             <li>Halo Wars 2, published by Microsoft Studios and THQ Nordic</li>
@@ -175,15 +176,16 @@ export default defineComponent({
       percentCounts: [],
       barChartHeight: 'height: 200px;',
       columns: [
-        { name: 'title', required: true, label: 'Title', align: 'left', field: 'title' },
+        { name: 'title', required: true, label: 'Title', align: 'left', field: 'title', classes: row => row.delisted ? 'text-red' : '' },
         { name: 'developer', label: 'Developer', field: 'developer', sortable: true },
-        { name: 'publisher', label: 'Publisher', field: 'publisher', sortable: true },
-        { name: 'released', label: 'Release Date', field: 'released', sortable: true, format: (val, row) => this.makeLocaleString(val) },
-        { name: 'last_update', label: 'Last Update', field: 'last_update', sortable: true, format: (val, row) => this.makeLocaleString(val) },
-        { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true, format: (val, row) => this.makeLocaleString(val) },
-        { name: 'release_age', label: 'Months', field: 'release_age', sortable: true },
-        { name: 'update_age', label: 'Months', field: 'update_age', sortable: true },
-        { name: 'notes', label: 'Notes', field: 'notes'}
+        { name: 'publisher', label: 'Publisher', field: 'publisher', sortable: true, classes: row => row.delisted ? 'text-red' : '' },
+        { name: 'released', label: 'Release Date', field: 'released', sortable: true, format: (val, row) => this.makeLocaleString(val), classes: row => row.delisted ? 'text-red' : '' },
+        { name: 'last_update', label: 'Last Update', field: 'last_update', sortable: true, format: (val, row) => this.makeLocaleString(val), classes: row => row.delisted ? 'text-red' : '' },
+        { name: 'removed', label: 'Removal Date', field: 'removed', sortable: true, format: (val, row) => this.makeLocaleString(val), classes: row => row.delisted ? 'text-red' : '' },
+        { name: 'release_age', label: 'Months', field: 'release_age', sortable: true, classes: row => row.delisted ? 'text-red' : '' },
+        { name: 'update_age', label: 'Months', field: 'update_age', sortable: true, classes: row => row.delisted ? 'text-red' : '' },
+        { name: 'notes', label: 'Notes', field: 'notes'},
+        { name: 'delisted', label: 'Delisted', field: 'delisted'}
       ],
       visibleColumns: ['title', 'publisher', 'released', 'removed', 'release_age']
     }
