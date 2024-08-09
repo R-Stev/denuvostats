@@ -1,5 +1,5 @@
 <template>
-  <q-page class="q-my-md" id="mainPage">
+  <q-page id="mainPage">
     <div v-if="displayedSection == 'publishers'">
       <header><h1>Publisher Details</h1></header>
       <q-card class="q-px-md q-pb-sm">
@@ -69,7 +69,7 @@
         </div>
         <div>Last update: <b>{{ updateDate }}</b></div>
         <div class="row q-mb-sm">
-          <div style="width: 100%; max-width: 600px; min-height: 270px; margin: auto">
+          <div style="width: 100%; max-width: 600px; min-height: 210px; margin: auto">
             <pie-chart :chart-data="[this.dateBuckets]"
             :publisher-name="this.pubSelector"
             :denuvo-status="this.statusFilter" 

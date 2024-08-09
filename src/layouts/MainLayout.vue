@@ -2,12 +2,10 @@
   <q-layout view="lHh Lpr lFf">
     <q-header>
       <q-toolbar>
-        <q-toolbar-title>
-          Denuvo Stats
-        </q-toolbar-title>
+        <q-toolbar-title class="headerTitle"><span>Denuvo Stats</span></q-toolbar-title>
         <q-btn-toggle
-        v-model="model"
-        flat stretch
+        v-model="model" class="headerBtns"
+        flat
         toggle-color="yellow"
         :options="options" />
         <q-btn flat round @click="this.darkModeToggle()" :icon="$q.dark.isActive ? 'nights_stay' : 'wb_sunny'"/>
@@ -51,11 +49,29 @@ export default defineComponent({
     return {
       model: ref('publishers'),
       options: [
-        { label: 'Publisher Details', value: 'publishers' },
-        { label: 'Removal Percentages', value: 'percentages' },
+        { label: 'Details', value: 'publishers' },
+        { label: 'Removal %', value: 'percentages' },
         { label: 'What is Denuvo?', value: 'description' }
       ]
     }
   }
 })
 </script>
+
+<style>
+@media only screen and (max-width: 720px) {
+  header h1 {
+    line-height: 4rem;
+  }
+  .headerTitle span {
+    display: none;
+  }
+  .headerTitle::after{
+    content: "DS";
+  }
+  .headerBtns button {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+</style>

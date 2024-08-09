@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-card class="no-box-shadow">
-      <q-card-section class="text-h6">
+      <q-card-section class="no-padding">
         <!-- {{ publisherName }} -->
         <q-btn icon="help" class="float-right" flat dense>
           <q-popup-proxy style="width: 75%">
